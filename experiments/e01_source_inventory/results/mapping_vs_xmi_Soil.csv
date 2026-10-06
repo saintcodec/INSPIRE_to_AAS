@@ -1,0 +1,131 @@
+type,prop,kind,origin,xmi_mult,xmi_voidable,xls_name,xls_mult,xls_voidcol,status
+DerivedSoilProfile,beginLifespanVersion,attr,SoilProfile,1,True,begin Lifespan Version  - SoilProfile,1,lifeCycleInfo,VOID_DIFF
+DerivedSoilProfile,endLifespanVersion,attr,SoilProfile,0..1,True,end Lifespan Version  - SoilProfile,0..1,lifeCycleInfo,VOID_DIFF
+DerivedSoilProfile,inspireId,attr,SoilProfile,0..1,False,inspire Id  - SoilProfile,0..1,,OK
+DerivedSoilProfile,localIdentifier,attr,SoilProfile,0..1,True,local Identifier  - SoilProfile,0..1,voidable,OK
+DerivedSoilProfile,otherSoilName,attr,SoilProfile,0..*,True,other Soil Name  - SoilProfile,0..*,voidable,OK
+DerivedSoilProfile,validFrom,attr,SoilProfile,1,True,valid From  - SoilProfile,1,voidable,OK
+DerivedSoilProfile,validTo,attr,SoilProfile,0..1,True,valid To  - SoilProfile,0..1,voidable,OK
+DerivedSoilProfile,WRBSoilName,attr,SoilProfile,1,True,W R B Soil Name  - SoilProfile,1,voidable,OK
+DerivedSoilProfile,soilProfileObservation,role,SoilProfile,0..*,True,,,,MISSING_IN_XLS
+DerivedSoilProfile,isDescribedBy,role,SoilProfile,1..*,True,,,,MISSING_IN_XLS
+DerivedSoilProfile,isDerivedFrom,role,DerivedSoilProfile,0..*,True,"is Derived From 
+ - from Derived Soil Profile",0..*,voidable,OK
+FAOHorizonNotationType,FAOHorizonDiscontinuity,attr,FAOHorizonNotationType,0..1,False,F A O Horizon Discontinuity,0..1,,OK
+FAOHorizonNotationType,FAOHorizonMaster,attr,FAOHorizonNotationType,1,False,F A O Horizon Master,1,,OK
+FAOHorizonNotationType,FAOHorizonSubordinate,attr,FAOHorizonNotationType,0..*,False,F A O Horizon Subordinate,0..*,,OK
+FAOHorizonNotationType,FAOHorizonVertical,attr,FAOHorizonNotationType,0..1,False,F A O Horizon Vertical,0..1,,OK
+FAOHorizonNotationType,FAOPrime,attr,FAOHorizonNotationType,1,False,F A O Prime,1,,OK
+FAOHorizonNotationType,isOriginalClassification,attr,FAOHorizonNotationType,1,False,is Original Classification,1,,OK
+ObservedSoilProfile,beginLifespanVersion,attr,SoilProfile,1,True,begin Lifespan Version  - SoilProfile,1,lifeCycleInfo,VOID_DIFF
+ObservedSoilProfile,endLifespanVersion,attr,SoilProfile,0..1,True,end Lifespan Version  - SoilProfile,0..1,lifeCycleInfo,VOID_DIFF
+ObservedSoilProfile,inspireId,attr,SoilProfile,0..1,False,inspire Id  - SoilProfile,0..1,,OK
+ObservedSoilProfile,localIdentifier,attr,SoilProfile,0..1,True,local Identifier  - SoilProfile,0..1,voidable,OK
+ObservedSoilProfile,otherSoilName,attr,SoilProfile,0..*,True,other Soil Name  - SoilProfile,0..*,voidable,OK
+ObservedSoilProfile,validFrom,attr,SoilProfile,1,True,valid From  - SoilProfile,1,voidable,OK
+ObservedSoilProfile,validTo,attr,SoilProfile,0..1,True,valid To  - SoilProfile,0..1,voidable,OK
+ObservedSoilProfile,WRBSoilName,attr,SoilProfile,1,True,W R B Soil Name  - SoilProfile,1,voidable,OK
+ObservedSoilProfile,soilProfileObservation,role,SoilProfile,0..*,True,,,,MISSING_IN_XLS
+ObservedSoilProfile,isDescribedBy,role,SoilProfile,1..*,True,,,,MISSING_IN_XLS
+ObservedSoilProfile,location,role,ObservedSoilProfile,1,False,"location 
+ - from Observed Soil Profile",1,,OK
+OtherHorizonNotationType,horizonNotation,attr,OtherHorizonNotationType,1,False,horizon Notation,1,,OK
+OtherHorizonNotationType,isOriginalClassification,attr,OtherHorizonNotationType,1,False,is Original Classification,1,,OK
+OtherSoilNameType,isOriginalClassification,attr,OtherSoilNameType,1,False,is Original Classification,1,,OK
+OtherSoilNameType,soilName,attr,OtherSoilNameType,1,False,soil Name,1,,OK
+ParticleSizeFractionType,fractionContent,attr,ParticleSizeFractionType,1,False,fraction Content,1,,OK
+ParticleSizeFractionType,fractionParticleSizeRange,attr,ParticleSizeFractionType,1,False,fraction Particle Size Range,1,,OK
+RangeType,lowerValue,attr,RangeType,0..1,False,lower Value,0..1,,OK
+RangeType,uom,attr,RangeType,0..1,False,uom,0..1,,OK
+RangeType,upperValue,attr,RangeType,0..1,False,upper Value,0..1,,OK
+SoilBody,beginLifespanVersion,attr,SoilBody,1,True,begin Lifespan Version,1,lifeCycleInfo,VOID_DIFF
+SoilBody,endLifespanVersion,attr,SoilBody,0..1,True,end Lifespan Version,0..1,lifeCycleInfo,VOID_DIFF
+SoilBody,geometry,attr,SoilBody,1,False,geometry,1,,OK
+SoilBody,inspireId,attr,SoilBody,0..1,False,inspire Id,0..1,,OK
+SoilBody,soilBodyLabel,attr,SoilBody,1,True,soil Body Label,1,voidable,OK
+SoilBody,isDescribedBy,role,SoilBody,1..*,True,"is Described By 
+ - from Soil Body",1..*,voidable,OK
+SoilDerivedObject,geometry,attr,SoilDerivedObject,1,False,geometry,1,,OK
+SoilDerivedObject,inspireId,attr,SoilDerivedObject,0..1,False,inspire Id,0..1,,OK
+SoilDerivedObject,isBasedOnSoilDerivedObject,role,SoilDerivedObject,0..*,True,"is Based On Soil Derived Object 
+ - from Soil Derived Object",0..*,voidable,OK
+SoilDerivedObject,isBasedOnObservedSoilProfile,role,SoilDerivedObject,0..*,True,"is Based On Observed Soil Profile 
+ - from Soil Derived Object",0..*,voidable,OK
+SoilDerivedObject,isBasedOnSoilBody,role,SoilDerivedObject,0..*,True,"is Based On Soil Body 
+ - from Soil Derived Object",0..*,voidable,OK
+SoilDerivedObject,soilDerivedObjectObservation,role,SoilDerivedObject,1..*,True,,,,MISSING_IN_XLS
+SoilHorizon,beginLifespanVersion,attr,ProfileElement,1,True,begin Lifespan Version  - ProfileElement,1,lifeCycleInfo,VOID_DIFF
+SoilHorizon,endLifespanVersion,attr,ProfileElement,0..1,True,end Lifespan Version  - ProfileElement,0..1,lifeCycleInfo,VOID_DIFF
+SoilHorizon,inspireId,attr,ProfileElement,0..1,False,inspire Id  - ProfileElement,0..1,,OK
+SoilHorizon,particleSizeFraction,attr,ProfileElement,1..*,True,particle Size Fraction  - ProfileElement,1..*,voidable,OK
+SoilHorizon,profileElementDepthRange,attr,ProfileElement,1,False,profile Element Depth Range  - ProfileElement,1,,OK
+SoilHorizon,profileElementObservation,role,ProfileElement,0..*,True,,,,MISSING_IN_XLS
+SoilHorizon,isPartOf,role,ProfileElement,1,False,"is Part Of 
+ - from Profile Element",1,,OK
+SoilHorizon,FAOHorizonNotation,attr,SoilHorizon,1,True,F A O Horizon Notation,1,voidable,OK
+SoilHorizon,otherHorizonNotation,attr,SoilHorizon,0..*,True,other Horizon Notation,0..*,voidable,OK
+SoilLayer,beginLifespanVersion,attr,ProfileElement,1,True,begin Lifespan Version  - ProfileElement,1,lifeCycleInfo,VOID_DIFF
+SoilLayer,endLifespanVersion,attr,ProfileElement,0..1,True,end Lifespan Version  - ProfileElement,0..1,lifeCycleInfo,VOID_DIFF
+SoilLayer,inspireId,attr,ProfileElement,0..1,False,inspire Id  - ProfileElement,0..1,,OK
+SoilLayer,particleSizeFraction,attr,ProfileElement,1..*,True,particle Size Fraction  - ProfileElement,1..*,voidable,OK
+SoilLayer,profileElementDepthRange,attr,ProfileElement,1,False,profile Element Depth Range  - ProfileElement,1,,OK
+SoilLayer,profileElementObservation,role,ProfileElement,0..*,True,,,,MISSING_IN_XLS
+SoilLayer,isPartOf,role,ProfileElement,1,False,"is Part Of 
+ - from Profile Element",1,,OK
+SoilLayer,layerGenesisEnvironment,attr,SoilLayer,0..1,True,layer Genesis Environment,0..1,voidable,OK
+SoilLayer,layerGenesisProcess,attr,SoilLayer,0..1,True,layer Genesis Process,0..1,voidable,OK
+SoilLayer,layerGenesisProcessState,attr,SoilLayer,0..1,True,layer Genesis Process State,0..1,voidable,OK
+SoilLayer,layerRockType,attr,SoilLayer,0..*,True,layer Rock Type,0..*,voidable,OK
+SoilLayer,layerType,attr,SoilLayer,1,False,layer Type,1,,OK
+SoilPlot,beginLifespanVersion,attr,SoilPlot,1,True,begin Lifespan Version,1,lifeCycleInfo,VOID_DIFF
+SoilPlot,endLifespanVersion,attr,SoilPlot,0..1,True,end Lifespan Version,0..1,lifeCycleInfo,VOID_DIFF
+SoilPlot,inspireId,attr,SoilPlot,0..1,False,inspire Id,0..1,,OK
+SoilPlot,soilPlotLocation,attr,SoilPlot,1,False,soil Plot Location,1,,OK
+SoilPlot,soilPlotType,attr,SoilPlot,1,False,soil Plot Type,1,,OK
+SoilPlot,locatedOn,role,SoilPlot,0..1,True,,,,MISSING_IN_XLS
+SoilPlot,observedProfile,role,SoilPlot,1,True,,,,MISSING_IN_XLS
+SoilSite,beginLifespanVersion,attr,SoilSite,1,True,begin Lifespan Version,1,lifeCycleInfo,VOID_DIFF
+SoilSite,endLifespanVersion,attr,SoilSite,0..1,True,end Lifespan Version,0..1,lifeCycleInfo,VOID_DIFF
+SoilSite,geometry,attr,SoilSite,1,False,geometry,1,,OK
+SoilSite,inspireId,attr,SoilSite,0..1,False,inspire Id,0..1,,OK
+SoilSite,soilInvestigationPurpose,attr,SoilSite,1,False,soil Investigation Purpose,1,,OK
+SoilSite,validFrom,attr,SoilSite,1,True,valid From,1,voidable,OK
+SoilSite,validTo,attr,SoilSite,0..1,True,valid To,0..1,voidable,OK
+SoilSite,soilSiteObservation,role,SoilSite,0..*,True,,,,MISSING_IN_XLS
+SoilSite,isObservedOnLocation,role,SoilSite,1..*,True,"is Observed On Location 
+ - from Soil Site",1..*,voidable,OK
+SoilThemeCoverage,metadata,attr,Coverage,0..*,False,metadata  - Coverage,0..*,,OK
+SoilThemeCoverage,rangeType,attr,Coverage,1,False,range Type  - Coverage,1,,OK
+SoilThemeCoverage,coverageFunction,attr,CoverageByDomainAndRange,0..1,False,coverage Function  - CoverageByDomainAndRange,0..1,,OK
+SoilThemeCoverage,domainSet,attr,CoverageByDomainAndRange,1,False,domain Set  - CoverageByDomainAndRange,1,,OK
+SoilThemeCoverage,rangeSet,attr,CoverageByDomainAndRange,0..*,False,range Set  - CoverageByDomainAndRange,0..*,,OK
+SoilThemeCoverage,beginLifespanVersion,attr,SoilThemeCoverage,1,False,begin Lifespan Version,1,lifeCycleInfo,OK
+SoilThemeCoverage,domainExtent,attr,SoilThemeCoverage,1..*,False,domain Extent,1..*,,OK
+SoilThemeCoverage,endLifespanVersion,attr,SoilThemeCoverage,0..1,False,end Lifespan Version,0..1,lifeCycleInfo,OK
+SoilThemeCoverage,soilThemeParameter,attr,SoilThemeCoverage,1,False,soil Theme Parameter,1,,OK
+SoilThemeCoverage,validTimeFrom,attr,SoilThemeCoverage,1,True,valid Time From,1,voidable,OK
+SoilThemeCoverage,validTimeTo,attr,SoilThemeCoverage,0..1,True,valid Time To,0..1,voidable,OK
+SoilThemeCoverage,isDescribedBy,role,SoilThemeCoverage,0..*,True,"is Described By 
+ - from Soil Theme Coverage",0..*,voidable,OK
+SoilThemeDescriptiveCoverage,metadata,attr,Coverage,0..*,False,metadata  - Coverage,0..*,,OK
+SoilThemeDescriptiveCoverage,rangeType,attr,Coverage,1,False,range Type  - Coverage,1,,OK
+SoilThemeDescriptiveCoverage,coverageFunction,attr,CoverageByDomainAndRange,0..1,False,coverage Function  - CoverageByDomainAndRange,0..1,,OK
+SoilThemeDescriptiveCoverage,domainSet,attr,CoverageByDomainAndRange,1,False,domain Set  - CoverageByDomainAndRange,1,,OK
+SoilThemeDescriptiveCoverage,rangeSet,attr,CoverageByDomainAndRange,0..*,False,range Set  - CoverageByDomainAndRange,0..*,,OK
+SoilThemeDescriptiveCoverage,beginLifespanVersion,attr,SoilThemeDescriptiveCoverage,1,False,begin Lifespan Version,1,lifeCycleInfo,OK
+SoilThemeDescriptiveCoverage,domainExtent,attr,SoilThemeDescriptiveCoverage,1..*,False,domain Extent,1..*,,OK
+SoilThemeDescriptiveCoverage,endLifespanVersion,attr,SoilThemeDescriptiveCoverage,0..1,False,end Lifespan Version,0..1,lifeCycleInfo,OK
+SoilThemeDescriptiveCoverage,soilThemeDescriptiveParameter,attr,SoilThemeDescriptiveCoverage,1,False,soil Theme Descriptive Parameter,1,,OK
+SoilThemeDescriptiveCoverage,isDescribing,role,SoilThemeDescriptiveCoverage,1,True,,,,MISSING_IN_XLS
+SoilThemeDescriptiveParameterType,soilThemeDescriptiveParameterName,attr,SoilThemeDescriptiveParameterType,1,False,soil Theme Descriptive Parameter Name,1,,OK
+SoilThemeDescriptiveParameterType,uom,attr,SoilThemeDescriptiveParameterType,0..1,False,uom,0..1,,OK
+SoilThemeParameterType,soilThemeParameterName,attr,SoilThemeParameterType,1,False,soil Theme Parameter Name,1,,OK
+SoilThemeParameterType,uom,attr,SoilThemeParameterType,0..1,False,uom,0..1,,OK
+WRBQualifierGroupType,qualifierPlace,attr,WRBQualifierGroupType,1,False,qualifier Place,1,,OK
+WRBQualifierGroupType,qualifierPosition,attr,WRBQualifierGroupType,1,False,qualifier Position,1,,OK
+WRBQualifierGroupType,WRBqualifier,attr,WRBQualifierGroupType,1,False,WRB qualifier,1,,OK
+WRBQualifierGroupType,WRBspecifier,attr,WRBQualifierGroupType,0..2,False,WRB specifier,0..2,,OK
+WRBSoilNameType,isOriginalClassification,attr,WRBSoilNameType,1,False,is Original Classification,1,,OK
+WRBSoilNameType,WRBQualifierGroup,attr,WRBSoilNameType,0..*,False,W R B Qualifier Group,0..*,,OK
+WRBSoilNameType,WRBReferenceSoilGroup,attr,WRBSoilNameType,1,False,W R B Reference Soil Group,1,,OK
+WRBSoilNameType,over,role,WRBSoilNameType,0..1,False,,,,MISSING_IN_XLS

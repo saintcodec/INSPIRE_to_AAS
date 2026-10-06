@@ -1,0 +1,37 @@
+type,prop,kind,origin,xmi_mult,xmi_voidable,xls_name,xls_mult,xls_voidcol,status
+AdministrativeBoundary,beginLifespanVersion,attr,AdministrativeBoundary,1,True,begin Lifespan Version,1,voidable,OK
+AdministrativeBoundary,country,attr,AdministrativeBoundary,1,False,country,1,,OK
+AdministrativeBoundary,endLifespanVersion,attr,AdministrativeBoundary,0..1,True,end Lifespan Version,0..1,voidable,OK
+AdministrativeBoundary,geometry,attr,AdministrativeBoundary,1,False,geometry,1,,OK
+AdministrativeBoundary,inspireId,attr,AdministrativeBoundary,1,False,inspire Id,1,,OK
+AdministrativeBoundary,legalStatus,attr,AdministrativeBoundary,1,True,legal Status,1,voidable,OK
+AdministrativeBoundary,nationalLevel,attr,AdministrativeBoundary,1..6,False,national Level,1..6,,OK
+AdministrativeBoundary,technicalStatus,attr,AdministrativeBoundary,1,True,technical Status,1,voidable,OK
+AdministrativeBoundary,admUnit,role,AdministrativeBoundary,1..*,True,,,,MISSING_IN_XLS
+AdministrativeUnit,beginLifespanVersion,attr,AdministrativeUnit,1,True,begin Lifespan Version,1,voidable,OK
+AdministrativeUnit,country,attr,AdministrativeUnit,1,False,country,1,,OK
+AdministrativeUnit,endLifespanVersion,attr,AdministrativeUnit,0..1,True,end Lifespan Version,0..1,voidable,OK
+AdministrativeUnit,geometry,attr,AdministrativeUnit,1,False,geometry,1,,OK
+AdministrativeUnit,inspireId,attr,AdministrativeUnit,1,False,inspire Id,1,,OK
+AdministrativeUnit,name,attr,AdministrativeUnit,1..*,False,name,1..*,,OK
+AdministrativeUnit,nationalCode,attr,AdministrativeUnit,1,False,national Code,1,,OK
+AdministrativeUnit,nationalLevel,attr,AdministrativeUnit,1,False,national Level,1,,OK
+AdministrativeUnit,nationalLevelName,attr,AdministrativeUnit,1..*,True,national Level Name,1..*,voidable,OK
+AdministrativeUnit,residenceOfAuthority,attr,AdministrativeUnit,1..*,True,residence Of Authority,1..*,voidable,OK
+AdministrativeUnit,coAdminister,role,AdministrativeUnit,0..*,True,,,,MISSING_IN_XLS
+AdministrativeUnit,boundary,role,AdministrativeUnit,1..*,True,"boundary 
+ - from Administrative Unit",1..*,voidable,OK
+AdministrativeUnit,upperLevelUnit,role,AdministrativeUnit,0..1,True,"upper Level Unit 
+ - from Administrative Unit",0..1,voidable,OK
+AdministrativeUnit,administeredBy,role,AdministrativeUnit,0..*,True,,,,MISSING_IN_XLS
+AdministrativeUnit,condominium,role,AdministrativeUnit,0..*,True,,,,MISSING_IN_XLS
+AdministrativeUnit,lowerLevelUnit,role,AdministrativeUnit,0..*,True,,,,MISSING_IN_XLS
+Condominium,beginLifespanVersion,attr,Condominium,1,True,begin Lifespan Version,1,voidable,OK
+Condominium,endLifespanVersion,attr,Condominium,0..1,True,end Lifespan Version,0..1,voidable,OK
+Condominium,geometry,attr,Condominium,1,False,geometry,1,,OK
+Condominium,inspireId,attr,Condominium,1,False,inspire Id,1,,OK
+Condominium,name,attr,Condominium,0..*,True,name,0..*,voidable,OK
+Condominium,admUnit,role,Condominium,1..*,True,"adm Unit 
+ - from Condominium",1..*,voidable,OK
+ResidenceOfAuthority,geometry,attr,ResidenceOfAuthority,1,True,geometry,1,voidable,OK
+ResidenceOfAuthority,name,attr,ResidenceOfAuthority,1,False,name,1,,OK

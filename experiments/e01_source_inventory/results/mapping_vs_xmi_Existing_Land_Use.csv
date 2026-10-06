@@ -1,0 +1,22 @@
+type,prop,kind,origin,xmi_mult,xmi_voidable,xls_name,xls_mult,xls_voidcol,status
+ExistingLandUseDataSet,beginLifespanVersion,attr,ExistingLandUseDataSet,1,True,begin Lifespan Version,1,lifeCycleInfo,VOID_DIFF
+ExistingLandUseDataSet,endLifespanVersion,attr,ExistingLandUseDataSet,0..1,True,end Lifespan Version,0..1,lifeCycleInfo,VOID_DIFF
+ExistingLandUseDataSet,extent,attr,ExistingLandUseDataSet,1,False,extent,1,,OK
+ExistingLandUseDataSet,inspireId,attr,ExistingLandUseDataSet,1,False,inspire Id,1,,OK
+ExistingLandUseDataSet,name,attr,ExistingLandUseDataSet,1,False,name,1,,OK
+ExistingLandUseDataSet,validFrom,attr,ExistingLandUseDataSet,0..1,True,valid From,0..1,voidable,OK
+ExistingLandUseDataSet,validTo,attr,ExistingLandUseDataSet,0..1,True,valid To,0..1,voidable,OK
+ExistingLandUseDataSet,member,role,ExistingLandUseDataSet,0..*,False,"member 
+ - from Existing Land Use Data Set",0..*,,OK
+ExistingLandUseObject,beginLifespanVersion,attr,ExistingLandUseObject,1,True,begin Lifespan Version,1,lifeCycleInfo,VOID_DIFF
+ExistingLandUseObject,endLifespanVersion,attr,ExistingLandUseObject,0..1,True,end Lifespan Version,0..1,lifeCycleInfo,VOID_DIFF
+ExistingLandUseObject,geometry,attr,ExistingLandUseObject,1,False,geometry,1,,OK
+ExistingLandUseObject,hilucsLandUse,attr,ExistingLandUseObject,1..*,False,hilucs Land Use,1..*,,OK
+ExistingLandUseObject,hilucsPresence,attr,ExistingLandUseObject,1,True,hilucs Presence,1,voidable,OK
+ExistingLandUseObject,inspireId,attr,ExistingLandUseObject,1,False,inspire Id,1,,OK
+ExistingLandUseObject,observationDate,attr,ExistingLandUseObject,1,True,observation Date,1,voidable,OK
+ExistingLandUseObject,specificLandUse,attr,ExistingLandUseObject,1..*,True,specific Land Use,1..*,voidable,OK
+ExistingLandUseObject,specificPresence,attr,ExistingLandUseObject,1,True,specific Presence,1,voidable,OK
+ExistingLandUseObject,validFrom,attr,ExistingLandUseObject,0..1,True,valid From,0..1,voidable,OK
+ExistingLandUseObject,validTo,attr,ExistingLandUseObject,0..1,True,valid To,0..1,voidable,OK
+ExistingLandUseObject,dataset,role,ExistingLandUseObject,1,False,,,,MISSING_IN_XLS

@@ -1,0 +1,51 @@
+type,prop,kind,origin,xmi_mult,xmi_voidable,xls_name,xls_mult,xls_voidcol,status
+BasicPropertyUnit,areaValue,attr,BasicPropertyUnit,0..1,True,area Value,0..1,voidable,OK
+BasicPropertyUnit,beginLifespanVersion,attr,BasicPropertyUnit,1,True,begin Lifespan Version,1,lifeCycleInfo,VOID_DIFF
+BasicPropertyUnit,endLifespanVersion,attr,BasicPropertyUnit,0..1,True,end Lifespan Version,0..1,lifeCycleInfo,VOID_DIFF
+BasicPropertyUnit,inspireId,attr,BasicPropertyUnit,1,False,inspire Id,1,,OK
+BasicPropertyUnit,nationalCadastralReference,attr,BasicPropertyUnit,1,False,national Cadastral Reference,1,,OK
+BasicPropertyUnit,validFrom,attr,BasicPropertyUnit,1,True,valid From,1,voidable,OK
+BasicPropertyUnit,validTo,attr,BasicPropertyUnit,0..1,True,valid To,0..1,voidable,OK
+BasicPropertyUnit,administrativeUnit,role,BasicPropertyUnit,1,True,"administrative Unit 
+ - from Basic Property Unit",1,voidable,OK
+CadastralBoundary,beginLifespanVersion,attr,CadastralBoundary,1,True,begin Lifespan Version,1,lifeCycleInfo,VOID_DIFF
+CadastralBoundary,endLifespanVersion,attr,CadastralBoundary,0..1,True,end Lifespan Version,0..1,lifeCycleInfo,VOID_DIFF
+CadastralBoundary,estimatedAccuracy,attr,CadastralBoundary,0..1,True,estimated Accuracy,0..1,voidable,OK
+CadastralBoundary,geometry,attr,CadastralBoundary,1,False,geometry,1,,OK
+CadastralBoundary,inspireId,attr,CadastralBoundary,0..1,False,inspire Id,0..1,,OK
+CadastralBoundary,validFrom,attr,CadastralBoundary,0..1,True,valid From,0..1,voidable,OK
+CadastralBoundary,validTo,attr,CadastralBoundary,0..1,True,valid To,0..1,voidable,OK
+CadastralBoundary,parcel,role,CadastralBoundary,1..2,True,"parcel 
+ - from Cadastral Boundary",1..2,voidable,OK
+CadastralParcel,areaValue,attr,CadastralParcel,0..1,True,area Value,0..1,voidable,OK
+CadastralParcel,beginLifespanVersion,attr,CadastralParcel,1,True,begin Lifespan Version,1,lifeCycleInfo,VOID_DIFF
+CadastralParcel,endLifespanVersion,attr,CadastralParcel,0..1,True,end Lifespan Version,0..1,lifeCycleInfo,VOID_DIFF
+CadastralParcel,geometry,attr,CadastralParcel,1,False,geometry,1,,OK
+CadastralParcel,inspireId,attr,CadastralParcel,1,False,inspire Id,1,,OK
+CadastralParcel,label,attr,CadastralParcel,1,False,label,1,,OK
+CadastralParcel,nationalCadastralReference,attr,CadastralParcel,1,False,national Cadastral Reference,1,,OK
+CadastralParcel,referencePoint,attr,CadastralParcel,0..1,True,reference Point,0..1,voidable,OK
+CadastralParcel,validFrom,attr,CadastralParcel,0..1,True,valid From,0..1,voidable,OK
+CadastralParcel,validTo,attr,CadastralParcel,0..1,True,valid To,0..1,voidable,OK
+CadastralParcel,zoning,role,CadastralParcel,0..1,True,"zoning 
+ - from Cadastral Parcel",0..1,voidable,OK
+CadastralParcel,basicPropertyUnit,role,CadastralParcel,0..*,True,"basic Property Unit 
+ - from Cadastral Parcel",0..*,voidable,OK
+CadastralParcel,administrativeUnit,role,CadastralParcel,0..1,True,"administrative Unit 
+ - from Cadastral Parcel",0..1,voidable,OK
+CadastralZoning,beginLifespanVersion,attr,CadastralZoning,1,True,begin Lifespan Version,1,lifeCycleInfo,VOID_DIFF
+CadastralZoning,endLifespanVersion,attr,CadastralZoning,0..1,True,end Lifespan Version,0..1,lifeCycleInfo,VOID_DIFF
+CadastralZoning,estimatedAccuracy,attr,CadastralZoning,0..1,True,estimated Accuracy,0..1,voidable,OK
+CadastralZoning,geometry,attr,CadastralZoning,1,False,geometry,1,,OK
+CadastralZoning,inspireId,attr,CadastralZoning,0..1,False,inspire Id,0..1,,OK
+CadastralZoning,label,attr,CadastralZoning,1,False,label,1,,OK
+CadastralZoning,level,attr,CadastralZoning,1,True,level,1,voidable,OK
+CadastralZoning,levelName,attr,CadastralZoning,1..*,True,level Name,1..*,voidable,OK
+CadastralZoning,name,attr,CadastralZoning,0..*,True,name,0..*,voidable,OK
+CadastralZoning,nationalCadastalZoningReference,attr,CadastralZoning,1,False,national Cadastal Zoning Reference,1,,OK
+CadastralZoning,originalMapScaleDenominator,attr,CadastralZoning,0..1,True,original Map Scale Denominator,0..1,voidable,OK
+CadastralZoning,referencePoint,attr,CadastralZoning,0..1,True,reference Point,0..1,voidable,OK
+CadastralZoning,validFrom,attr,CadastralZoning,0..1,True,valid From,0..1,voidable,OK
+CadastralZoning,validTo,attr,CadastralZoning,0..1,True,valid To,0..1,voidable,OK
+CadastralZoning,upperLevelUnit,role,CadastralZoning,0..1,True,"upper Level Unit 
+ - from Cadastral Zoning",0..1,voidable,OK

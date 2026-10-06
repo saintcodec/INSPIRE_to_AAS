@@ -1,0 +1,23 @@
+type,prop,kind,origin,xmi_mult,xmi_voidable,xls_name,xls_mult,xls_voidcol,status
+LandCoverDataset,beginLifespanVersion,attr,LandCoverDataset,1,True,begin Lifespan Version,1,voidable,OK
+LandCoverDataset,endLifespanVersion,attr,LandCoverDataset,0..1,True,end Lifespan Version,0..1,voidable,OK
+LandCoverDataset,extent,attr,LandCoverDataset,1,False,extent,1,,OK
+LandCoverDataset,inspireId,attr,LandCoverDataset,1,False,inspire Id,1,,OK
+LandCoverDataset,name,attr,LandCoverDataset,1,False,name,1,,OK
+LandCoverDataset,nomenclatureDocumentation,attr,LandCoverDataset,1,False,nomenclature Documentation,1,,OK
+LandCoverDataset,validFrom,attr,LandCoverDataset,1,True,valid From,1,voidable,OK
+LandCoverDataset,validTo,attr,LandCoverDataset,1,True,valid To,1,voidable,OK
+LandCoverDataset,member,role,LandCoverDataset,1..*,False,"member 
+ - from Land Cover Dataset",1..*,,OK
+LandCoverObservation,class,attr,LandCoverObservation,1,False,class,1,,OK
+LandCoverObservation,mosaic,attr,LandCoverObservation,1..*,True,mosaic,1..*,voidable,OK
+LandCoverObservation,observationDate,attr,LandCoverObservation,1,True,observation Date,1,voidable,OK
+LandCoverUnit,beginLifespanVersion,attr,LandCoverUnit,1,True,begin Lifespan Version,1,voidable,OK
+LandCoverUnit,endLifespanVersion,attr,LandCoverUnit,0..1,True,end Lifespan Version,0..1,voidable,OK
+LandCoverUnit,geometry,attr,LandCoverUnit,1,False,geometry,1,,OK
+LandCoverUnit,inspireId,attr,LandCoverUnit,1,False,inspire Id,1,,OK
+LandCoverUnit,landCoverObservation,attr,LandCoverUnit,1..*,False,land Cover Observation,1..*,,OK
+LandCoverUnit,dataset,role,LandCoverUnit,1,False,"dataset 
+ - from Land Cover Unit",1,,OK
+LandCoverValue,class,attr,LandCoverValue,1,False,class,1,,OK
+LandCoverValue,coveredPercentage,attr,LandCoverValue,1,True,covered Percentage,1,voidable,OK
