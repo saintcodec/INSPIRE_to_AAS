@@ -9,6 +9,10 @@ venv/
 # Downloaded source models / large artifacts (fetch via scripts, don't commit)
 data/raw/
 
+# Third-party tools (download separately)
+ShapeChange-*/
+ShapeChange-*.zip
+
 # Editors / OS
 .vscode/
 .idea/
