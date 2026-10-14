@@ -1,0 +1,18 @@
+EA role ends by navigability flags: {('modifiers.isNavigable=false', 'style.Navigable=True'): 375, ('modifiers.isNavigable=false', 'style.Navigable=False'): 7, ('modifiers.isNavigable=true', 'style.Navigable=True'): 3}
+property name clashes (schema, class, property, kept type, other type): [('WaterML2.0', 'WML_DomainObject', 'collection', 'AnnotationCoverage', 'AnnotationCoverage'), ('WaterML2.0', 'AnnotationCoverage', 'domainElement', 'WML_DomainObject', 'WML_DomainObject'), ('WaterML2.0', 'WML_DomainObject', 'collection', 'AnnotationCoverage', 'TimeseriesDomainRange'), ('WaterML2.0', 'WML_DomainObject', 'collection', 'AnnotationCoverage', 'AnnotationCoverage'), ('WaterML2.0', 'AnnotationCoverage', 'domainElement', 'WML_DomainObject', 'WML_DomainObject'), ('MaritimeUnits', 'MaritimeZone', 'baseline', 'Baseline', 'Shoreline'), ('MineralResources', 'Commodity', 'source', 'EarthResource', 'EarthResource'), ('MineralResources', 'EarthResource', 'commodityDescription', 'Commodity', 'Commodity'), ('MineralResources', 'EarthResource', 'explorationHistory', 'ExplorationActivity', 'ExplorationActivity'), ('MineralResources', 'EarthResource', 'resourceExtraction', 'MiningActivity', 'MiningActivity'), ('MineralResources', 'MiningActivity', 'deposit', 'EarthResource', 'EarthResource'), ('MineralResources', 'Mine', 'relatedActivity', 'MiningActivity', 'MiningActivity'), ('MineralResources', 'MiningActivity', 'associatedMine', 'Mine', 'Mine'), ('MineralResources', 'MiningFeatureOccurrence', 'specification', 'MiningFeature', 'MiningFeature')]
+  prop.diff:mult                           1
+  prop.diff:voidable                       1
+  prop.diff:vtype                          1
+  prop:attr:OK                             2220
+  prop:role:DIFF                           1
+  prop:role:OK                             202
+  prop:role:ONLY_FC                        1
+  prop:role:ONLY_XMI                       3
+  schema:OK                                70
+  schema:ONLY_FC                           1
+  schema:ONLY_XMI                          20
+  schema:VERSION_DIFF                      1
+  type.diff:category                       7
+  type.diff:supers                         30
+  type:DIFF                                37
+  type:OK                                  726

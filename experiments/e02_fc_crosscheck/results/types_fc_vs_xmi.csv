@@ -1,0 +1,764 @@
+schema,type,status,xmi_category,fc_category,xmi_abstract,fc_abstract,xmi_supers,fc_supers
+Activity Complex,ActivityComplex,OK,Spatial Object Type,Spatial Object Type,False,False,,
+Activity Complex,ActivityComplexDescription,OK,Data Type,Data Type,False,False,,
+Activity Complex,Capacity,OK,Data Type,Data Type,False,False,,
+Activity Complex,EconomicActivityNACEValue,OK,Code List Type,Code List Type,False,False,EconomicActivityValue,EconomicActivityValue
+Activity Complex,EconomicActivityValue,OK,Code List Type,Code List Type,False,False,,
+Activity Complex,EconomicActivityWasteStatisticsValue,OK,Code List Type,Code List Type,False,False,EconomicActivityValue,EconomicActivityValue
+Activity Complex,Function,OK,Data Type,Data Type,False,False,,
+Activity Complex,InputOutputAmount,OK,Data Type,Data Type,False,False,,
+Activity Complex,InputOutputValue,OK,Code List Type,Code List Type,False,False,,
+Activity Complex,Permission,OK,Data Type,Data Type,False,False,,
+Activity Complex,ProductCPAValue,OK,Code List Type,Code List Type,False,False,InputOutputValue,InputOutputValue
+Activity Complex,WasteRecoveryDisposalValue,OK,Code List Type,Code List Type,False,False,EconomicActivityValue,EconomicActivityValue
+Activity Complex,WasteValue,OK,Code List Type,Code List Type,False,False,InputOutputValue,InputOutputValue
+Addresses,Address,OK,Spatial Object Type,Spatial Object Type,False,False,,
+Addresses,AddressAreaName,OK,Spatial Object Type,Spatial Object Type,False,False,AddressComponent,AddressComponent
+Addresses,AddressComponent,OK,Spatial Object Type,Spatial Object Type,True,True,,
+Addresses,AddressLocator,OK,Data Type,Data Type,False,False,,
+Addresses,AddressRepresentation,OK,Data Type,Data Type,False,False,,
+Addresses,AdminUnitName,OK,Spatial Object Type,Spatial Object Type,False,False,AddressComponent,AddressComponent
+Addresses,GeographicPosition,OK,Data Type,Data Type,False,False,,
+Addresses,GeometryMethodValue,OK,Code List Type,Code List Type,False,False,,
+Addresses,GeometrySpecificationValue,OK,Code List Type,Code List Type,False,False,,
+Addresses,LocatorDesignator,OK,Data Type,Data Type,False,False,,
+Addresses,LocatorDesignatorTypeValue,OK,Code List Type,Code List Type,False,False,,
+Addresses,LocatorLevelValue,OK,Code List Type,Code List Type,False,False,,
+Addresses,LocatorName,OK,Data Type,Data Type,False,False,,
+Addresses,LocatorNameTypeValue,OK,Code List Type,Code List Type,False,False,,
+Addresses,PartOfName,OK,Data Type,Data Type,False,False,,
+Addresses,PartTypeValue,OK,Code List Type,Code List Type,False,False,,
+Addresses,PostalDescriptor,OK,Spatial Object Type,Spatial Object Type,False,False,AddressComponent,AddressComponent
+Addresses,StatusValue,OK,Code List Type,Code List Type,False,False,,
+Addresses,ThoroughfareName,OK,Spatial Object Type,Spatial Object Type,False,False,AddressComponent,AddressComponent
+Addresses,ThoroughfareNameValue,OK,Data Type,Data Type,False,False,,
+AdministrativeAndSocialGovernmentalServices,AreaOfResponsibilityType,OK,Union Data Type,Union Data Type,False,False,,
+AdministrativeAndSocialGovernmentalServices,GovernmentalService,OK,Spatial Object Type,Spatial Object Type,False,False,,
+AdministrativeAndSocialGovernmentalServices,ServiceLocationType,OK,Union Data Type,Union Data Type,False,False,,
+AdministrativeAndSocialGovernmentalServices,ServiceTypeValue,OK,Code List Type,Code List Type,False,False,,
+AdministrativeUnits,AdministrativeBoundary,OK,Spatial Object Type,Spatial Object Type,False,False,,
+AdministrativeUnits,AdministrativeHierarchyLevel,OK,Code List Type,Code List Type,False,False,,
+AdministrativeUnits,AdministrativeUnit,OK,Spatial Object Type,Spatial Object Type,False,False,,
+AdministrativeUnits,Condominium,OK,Spatial Object Type,Spatial Object Type,False,False,,
+AdministrativeUnits,LegalStatusValue,OK,Code List Type,Code List Type,False,False,,
+AdministrativeUnits,ResidenceOfAuthority,OK,Data Type,Data Type,False,False,,
+AdministrativeUnits,TechnicalStatusValue,OK,Code List Type,Code List Type,False,False,,
+Agricultural and Aquaculture Facilities Model,AquacultureSpeciesValue,OK,Code List Type,Code List Type,False,False,,
+Agricultural and Aquaculture Facilities Model,FarmAnimalSpecies,OK,Data Type,Data Type,False,False,,
+Agricultural and Aquaculture Facilities Model,Holding,OK,Spatial Object Type,Spatial Object Type,False,False,ActivityComplex,ActivityComplex
+Agricultural and Aquaculture Facilities Model,LivestockSpeciesValue,OK,Code List Type,Code List Type,False,False,,
+Agricultural and Aquaculture Facilities Model,Site,OK,Spatial Object Type,Spatial Object Type,False,False,,
+Air Transport Network,AerodromeArea,OK,Spatial Object Type,Spatial Object Type,False,False,TransportArea,TransportArea
+Air Transport Network,AerodromeCategory,OK,Spatial Object Type,Spatial Object Type,False,False,TransportProperty,TransportProperty
+Air Transport Network,AerodromeCategoryValue,OK,Code List Type,Code List Type,False,False,,
+Air Transport Network,AerodromeNode,OK,Spatial Object Type,Spatial Object Type,False,False,AirNode,AirNode
+Air Transport Network,AerodromeType,OK,Spatial Object Type,Spatial Object Type,False,False,TransportProperty,TransportProperty
+Air Transport Network,AerodromeTypeValue,OK,Code List Type,Code List Type,False,False,,
+Air Transport Network,AirLink,OK,Spatial Object Type,Spatial Object Type,True,True,TransportLink,TransportLink
+Air Transport Network,AirLinkSequence,OK,Spatial Object Type,Spatial Object Type,False,False,TransportLinkSequence,TransportLinkSequence
+Air Transport Network,AirNode,OK,Spatial Object Type,Spatial Object Type,True,True,TransportNode,TransportNode
+Air Transport Network,AirRoute,OK,Spatial Object Type,Spatial Object Type,False,False,TransportLinkSet,TransportLinkSet
+Air Transport Network,AirRouteLink,OK,Spatial Object Type,Spatial Object Type,False,False,AirLink,AirLink
+Air Transport Network,AirRouteLinkClassValue,OK,Code List Type,Code List Type,False,False,,
+Air Transport Network,AirRouteTypeValue,OK,Code List Type,Code List Type,False,False,,
+Air Transport Network,AirUseRestrictionValue,OK,Code List Type,Code List Type,False,False,,
+Air Transport Network,AirspaceArea,OK,Spatial Object Type,Spatial Object Type,False,False,TransportArea,TransportArea
+Air Transport Network,AirspaceAreaTypeValue,OK,Code List Type,Code List Type,False,False,,
+Air Transport Network,ApronArea,OK,Spatial Object Type,Spatial Object Type,False,False,TransportArea,TransportArea
+Air Transport Network,ConditionOfAirFacility,OK,Spatial Object Type,Spatial Object Type,False,False,ConditionOfFacility,ConditionOfFacility
+Air Transport Network,DesignatedPoint,OK,Spatial Object Type,Spatial Object Type,False,False,AirNode,AirNode
+Air Transport Network,ElementLength,OK,Spatial Object Type,Spatial Object Type,False,False,TransportProperty,TransportProperty
+Air Transport Network,ElementWidth,OK,Spatial Object Type,Spatial Object Type,False,False,TransportProperty,TransportProperty
+Air Transport Network,FieldElevation,OK,Spatial Object Type,Spatial Object Type,False,False,TransportProperty,TransportProperty
+Air Transport Network,InstrumentApproachProcedure,OK,Spatial Object Type,Spatial Object Type,False,False,ProcedureLink,ProcedureLink
+Air Transport Network,LowerAltitudeLimit,OK,Spatial Object Type,Spatial Object Type,False,False,TransportProperty,TransportProperty
+Air Transport Network,Navaid,OK,Spatial Object Type,Spatial Object Type,False,False,AirNode,AirNode
+Air Transport Network,NavaidTypeValue,OK,Code List Type,Code List Type,False,False,,
+Air Transport Network,PointRoleValue,OK,Code List Type,Code List Type,False,False,,
+Air Transport Network,ProcedureLink,OK,Spatial Object Type,Spatial Object Type,False,False,AirLink,AirLink
+Air Transport Network,RunwayArea,OK,Spatial Object Type,Spatial Object Type,False,False,TransportArea,TransportArea
+Air Transport Network,RunwayCentrelinePoint,OK,Spatial Object Type,Spatial Object Type,False,False,AirNode,AirNode
+Air Transport Network,RunwayTypeValue,OK,Code List Type,Code List Type,False,False,,
+Air Transport Network,StandardInstrumentArrival,OK,Spatial Object Type,Spatial Object Type,False,False,ProcedureLink,ProcedureLink
+Air Transport Network,StandardInstrumentDeparture,OK,Spatial Object Type,Spatial Object Type,False,False,ProcedureLink,ProcedureLink
+Air Transport Network,SurfaceComposition,OK,Spatial Object Type,Spatial Object Type,False,False,TransportProperty,TransportProperty
+Air Transport Network,SurfaceCompositionValue,OK,Code List Type,Code List Type,False,False,,
+Air Transport Network,TaxiwayArea,OK,Spatial Object Type,Spatial Object Type,False,False,TransportArea,TransportArea
+Air Transport Network,TouchDownLiftOff,OK,Spatial Object Type,Spatial Object Type,False,False,AirNode,AirNode
+Air Transport Network,UpperAltitudeLimit,OK,Spatial Object Type,Spatial Object Type,False,False,TransportProperty,TransportProperty
+Air Transport Network,UseRestriction,OK,Spatial Object Type,Spatial Object Type,False,False,TransportProperty,TransportProperty
+Area Management Restriction and Regulation Zones,EnvironmentalDomain,OK,Code List Type,Code List Type,False,False,,
+Area Management Restriction and Regulation Zones,ManagementRestrictionOrRegulationZone,OK,Spatial Object Type,Spatial Object Type,False,False,,
+Area Management Restriction and Regulation Zones,SpecialisedZoneTypeCode,OK,Code List Type,Code List Type,True,True,,
+Area Management Restriction and Regulation Zones,ZoneTypeCode,OK,Code List Type,Code List Type,False,False,,
+Atmospheric Conditions and Meteorological Geographical Features,EU_AirQualityReferenceComponentValue,OK,Code List Type,Code List Type,False,False,PhenomenonTypeValue,PhenomenonTypeValue
+Atmospheric Conditions and Meteorological Geographical Features,GRIB_CodeTable4_2Value,OK,Code List Type,Code List Type,False,False,PhenomenonTypeValue,PhenomenonTypeValue
+Base Types,ConditionOfFacilityValue,OK,Code List Type,Code List Type,False,False,,
+Base Types,Identifier,OK,Data Type,Data Type,False,False,,
+Base Types,SpatialDataSet,OK,Spatial Object Type,Spatial Object Type,False,False,,
+Base Types,VerticalPositionValue,OK,Code List Type,Code List Type,False,False,,
+Base Types,VoidReasonValue,OK,Code List Type,Code List Type,False,False,,
+Base Types 2,ApplicationSchemaValue,OK,Code List Type,Code List Type,False,False,,
+Base Types 2,CFStandardNamesValue,OK,Code List Type,Code List Type,False,False,PhenomenonTypeValue,PhenomenonTypeValue
+Base Types 2,Contact,OK,Data Type,Data Type,False,False,,
+Base Types 2,CountryCode,OK,Code List Type,Code List Type,False,False,,
+Base Types 2,DocumentCitation,DIFF:category,<none>,Object Type,False,False,,
+Base Types 2,GenderValue,OK,Code List Type,Code List Type,False,False,,
+Base Types 2,LegislationCitation,DIFF:category,<none>,Object Type,False,False,DocumentCitation,DocumentCitation
+Base Types 2,LegislationLevelValue,OK,Code List Type,Code List Type,False,False,,
+Base Types 2,OfficialJournalInformation,OK,Data Type,Data Type,False,False,,
+Base Types 2,PartyRoleValue,OK,Code List Type,Code List Type,False,False,,
+Base Types 2,RelatedParty,OK,Data Type,Data Type,False,False,,
+Base Types 2,RelatedPartyRoleValue,OK,Code List Type,Code List Type,False,False,PartyRoleValue,PartyRoleValue
+Base Types 2,ThematicIdentifier,OK,Data Type,Data Type,False,False,,
+Base Types 2,ThemeValue,OK,Code List Type,Code List Type,False,False,,
+Bio-geographicalRegions,Bio-geographicalRegion,OK,Spatial Object Type,Spatial Object Type,False,False,,
+Bio-geographicalRegions,EnvironmentalStratificationClassificationValue,OK,Code List Type,Code List Type,False,False,RegionClassificationValue,RegionClassificationValue
+Bio-geographicalRegions,MarineStrategyFrameworkDirectiveClassificationValue,OK,Code List Type,Code List Type,False,False,RegionClassificationValue,RegionClassificationValue
+Bio-geographicalRegions,Natura2000AndEmeraldBio-geographicalRegionClassificationValue,OK,Code List Type,Code List Type,False,False,RegionClassificationValue,RegionClassificationValue
+Bio-geographicalRegions,NaturalVegetationClassificationValue,OK,Code List Type,Code List Type,False,False,RegionClassificationValue,RegionClassificationValue
+Bio-geographicalRegions,RegionClassificationLevelValue,OK,Code List Type,Code List Type,False,False,,
+Bio-geographicalRegions,RegionClassificationSchemeValue,OK,Code List Type,Code List Type,False,False,,
+Bio-geographicalRegions,RegionClassificationValue,OK,Code List Type,Code List Type,False,False,,
+Buildings2D,Building,OK,Spatial Object Type,Spatial Object Type,False,False,Building,Building
+Buildings2D,BuildingPart,OK,Spatial Object Type,Spatial Object Type,False,False,BuildingPart,BuildingPart
+Buildings3D,Building,OK,Spatial Object Type,Spatial Object Type,False,False,Building,Building
+Buildings3D,BuildingGeometry3DLoD,OK,Data Type,Data Type,False,False,,
+Buildings3D,BuildingGeometry3DLoD1,OK,Data Type,Data Type,False,False,BuildingGeometry3DLoD,BuildingGeometry3DLoD
+Buildings3D,BuildingGeometry3DLoD2,OK,Data Type,Data Type,False,False,BuildingGeometry3DLoD,BuildingGeometry3DLoD
+Buildings3D,BuildingPart,OK,Spatial Object Type,Spatial Object Type,False,False,BuildingPart,BuildingPart
+BuildingsBase,AbstractBuilding,OK,Spatial Object Type,Spatial Object Type,True,True,AbstractConstruction,AbstractConstruction
+BuildingsBase,AbstractConstruction,OK,Spatial Object Type,Spatial Object Type,True,True,,
+BuildingsBase,Building,OK,Spatial Object Type,Spatial Object Type,True,True,AbstractBuilding,AbstractBuilding
+BuildingsBase,BuildingGeometry2D,OK,Data Type,Data Type,False,False,,
+BuildingsBase,BuildingNatureValue,OK,Code List Type,Code List Type,False,False,,
+BuildingsBase,BuildingPart,OK,Spatial Object Type,Spatial Object Type,True,True,AbstractBuilding,AbstractBuilding
+BuildingsBase,ConditionOfConstructionValue,OK,Code List Type,Code List Type,False,False,,
+BuildingsBase,CurrentUse,OK,Data Type,Data Type,False,False,,
+BuildingsBase,CurrentUseValue,OK,Code List Type,Code List Type,False,False,,
+BuildingsBase,DateOfEvent,OK,Data Type,Data Type,False,False,,
+BuildingsBase,Elevation,OK,Data Type,Data Type,False,False,,
+BuildingsBase,ElevationReferenceValue,OK,Code List Type,Code List Type,False,False,,
+BuildingsBase,ExternalReference,OK,Data Type,Data Type,False,False,,
+BuildingsBase,HeightAboveGround,OK,Data Type,Data Type,False,False,,
+BuildingsBase,HeightStatusValue,OK,Code List Type,Code List Type,False,False,,
+BuildingsBase,HorizontalGeometryReferenceValue,OK,Code List Type,Code List Type,False,False,,
+Cable Transport Network,CablewayLink,OK,Spatial Object Type,Spatial Object Type,False,False,TransportLink,TransportLink
+Cable Transport Network,CablewayLinkSequence,OK,Spatial Object Type,Spatial Object Type,False,False,TransportLinkSequence,TransportLinkSequence
+Cable Transport Network,CablewayLinkSet,OK,Spatial Object Type,Spatial Object Type,False,False,TransportLinkSet,TransportLinkSet
+Cable Transport Network,CablewayNode,OK,Spatial Object Type,Spatial Object Type,False,False,TransportNode,TransportNode
+Cable Transport Network,CablewayTypeValue,OK,Code List Type,Code List Type,False,False,,
+CadastralParcels,BasicPropertyUnit,OK,Spatial Object Type,Spatial Object Type,False,False,,
+CadastralParcels,CadastralBoundary,OK,Spatial Object Type,Spatial Object Type,False,False,,
+CadastralParcels,CadastralParcel,OK,Spatial Object Type,Spatial Object Type,False,False,,
+CadastralParcels,CadastralZoning,OK,Spatial Object Type,Spatial Object Type,False,False,,
+CadastralParcels,CadastralZoningLevelValue,OK,Code List Type,Code List Type,False,False,,
+Common Transport Elements,AccessRestriction,OK,Spatial Object Type,Spatial Object Type,False,False,TransportProperty,TransportProperty
+Common Transport Elements,AccessRestrictionValue,OK,Code List Type,Code List Type,False,False,,
+Common Transport Elements,ConditionOfFacility,OK,Spatial Object Type,Spatial Object Type,False,False,TransportProperty,TransportProperty
+Common Transport Elements,MaintenanceAuthority,OK,Spatial Object Type,Spatial Object Type,False,False,TransportProperty,TransportProperty
+Common Transport Elements,MarkerPost,OK,Spatial Object Type,Spatial Object Type,False,False,TransportPoint,TransportPoint
+Common Transport Elements,OwnerAuthority,OK,Spatial Object Type,Spatial Object Type,False,False,TransportProperty,TransportProperty
+Common Transport Elements,RestrictionForVehicles,OK,Spatial Object Type,Spatial Object Type,False,False,TransportProperty,TransportProperty
+Common Transport Elements,RestrictionTypeValue,OK,Code List Type,Code List Type,False,False,,
+Common Transport Elements,TrafficFlowDirection,OK,Spatial Object Type,Spatial Object Type,False,False,TransportProperty,TransportProperty
+Common Transport Elements,TransportArea,DIFF:supers,Spatial Object Type,Spatial Object Type,True,True,NetworkArea|TransportObject,TransportObject
+Common Transport Elements,TransportLink,DIFF:supers,Spatial Object Type,Spatial Object Type,True,True,Link|TransportObject,TransportObject
+Common Transport Elements,TransportLinkSequence,DIFF:supers,Spatial Object Type,Spatial Object Type,True,True,LinkSequence|TransportObject,TransportObject
+Common Transport Elements,TransportLinkSet,DIFF:supers,Spatial Object Type,Spatial Object Type,True,True,LinkSet|TransportObject,TransportObject
+Common Transport Elements,TransportNetwork,DIFF:supers,Spatial Object Type,Spatial Object Type,False,False,Network,
+Common Transport Elements,TransportNode,DIFF:supers,Spatial Object Type,Spatial Object Type,True,True,Node|TransportObject,TransportObject
+Common Transport Elements,TransportObject,OK,Spatial Object Type,Spatial Object Type,True,True,,
+Common Transport Elements,TransportPoint,DIFF:supers,Spatial Object Type,Spatial Object Type,True,True,NetworkElement|TransportObject,TransportObject
+Common Transport Elements,TransportProperty,DIFF:supers,Spatial Object Type,Spatial Object Type,True,True,NetworkProperty,
+Common Transport Elements,TransportTypeValue,OK,Code List Type,Code List Type,False,False,,
+Common Transport Elements,VerticalPosition,OK,Spatial Object Type,Spatial Object Type,False,False,TransportProperty,TransportProperty
+Common Utility Network Elements,Appurtenance,OK,Spatial Object Type,Spatial Object Type,False,False,UtilityNode,UtilityNode
+Common Utility Network Elements,AppurtenanceTypeValue,OK,Code List Type,Code List Type,False,False,,
+Common Utility Network Elements,Cabinet,OK,Spatial Object Type,Spatial Object Type,False,False,UtilityNodeContainer,UtilityNodeContainer
+Common Utility Network Elements,Cable,OK,Spatial Object Type,Spatial Object Type,True,True,UtilityLinkSet,UtilityLinkSet
+Common Utility Network Elements,Duct,OK,Spatial Object Type,Spatial Object Type,False,False,UtilityLinkSet,UtilityLinkSet
+Common Utility Network Elements,Manhole,OK,Spatial Object Type,Spatial Object Type,False,False,UtilityNodeContainer,UtilityNodeContainer
+Common Utility Network Elements,Pipe,OK,Spatial Object Type,Spatial Object Type,False,False,UtilityLinkSet,UtilityLinkSet
+Common Utility Network Elements,Pole,OK,Spatial Object Type,Spatial Object Type,False,False,UtilityNodeContainer,UtilityNodeContainer
+Common Utility Network Elements,SpecificAppurtenanceTypeValue,OK,Code List Type,Code List Type,False,False,,
+Common Utility Network Elements,Tower,OK,Spatial Object Type,Spatial Object Type,False,False,UtilityNodeContainer,UtilityNodeContainer
+Common Utility Network Elements,UtilityDeliveryTypeValue,OK,Code List Type,Code List Type,False,False,,
+Common Utility Network Elements,UtilityLink,DIFF:supers,Spatial Object Type,Spatial Object Type,False,False,Link|UtilityNetworkElement,UtilityNetworkElement
+Common Utility Network Elements,UtilityLinkSequence,DIFF:supers,Spatial Object Type,Spatial Object Type,False,False,LinkSequence|UtilityNetworkElement,UtilityNetworkElement
+Common Utility Network Elements,UtilityLinkSet,DIFF:supers,Spatial Object Type,Spatial Object Type,True,True,LinkSet|UtilityNetworkElement,UtilityNetworkElement
+Common Utility Network Elements,UtilityNetwork,DIFF:supers,Spatial Object Type,Spatial Object Type,False,False,Network,
+Common Utility Network Elements,UtilityNetworkElement,OK,Spatial Object Type,Spatial Object Type,True,True,,
+Common Utility Network Elements,UtilityNetworkTypeValue,OK,Code List Type,Code List Type,False,False,,
+Common Utility Network Elements,UtilityNode,DIFF:supers,Spatial Object Type,Spatial Object Type,True,True,Node|UtilityNetworkElement,UtilityNetworkElement
+Common Utility Network Elements,UtilityNodeContainer,OK,Spatial Object Type,Spatial Object Type,True,True,UtilityNetworkElement,UtilityNetworkElement
+Common Utility Network Elements,WarningTypeValue,OK,Code List Type,Code List Type,False,False,,
+Coverages (Base),Coverage,OK,Spatial Object Type,Spatial Object Type,True,True,,
+ElevationBaseTypes,ElevationPropertyTypeValue,OK,Code List Type,Code List Type,False,False,,
+ElevationBaseTypes,SurfaceTypeValue,OK,Code List Type,Code List Type,False,False,,
+ElevationGridCoverage,ElevationGridCoverage,DIFF:supers,Spatial Object Type,Spatial Object Type,False,False,RectifiedGridCoverage,
+ElevationGridCoverage,ElevationGridCoverageAggregation,OK,Data Type,Data Type,False,False,,
+ElevationVectorElements,BreakLine,OK,Spatial Object Type,Spatial Object Type,False,False,ElevationVectorObject,ElevationVectorObject
+ElevationVectorElements,BreakLineTypeValue,OK,Code List Type,Code List Type,False,False,,
+ElevationVectorElements,ChartDatum,OK,Data Type,Data Type,False,False,,
+ElevationVectorElements,ContourLine,OK,Spatial Object Type,Spatial Object Type,False,False,ElevationVectorObject,ElevationVectorObject
+ElevationVectorElements,ContourLineTypeValue,OK,Code List Type,Code List Type,False,False,,
+ElevationVectorElements,ElevationVectorObject,OK,Spatial Object Type,Spatial Object Type,True,True,,
+ElevationVectorElements,IsolatedArea,OK,Spatial Object Type,Spatial Object Type,False,False,ElevationVectorObject,ElevationVectorObject
+ElevationVectorElements,SpotElevation,OK,Spatial Object Type,Spatial Object Type,False,False,ElevationVectorObject,ElevationVectorObject
+ElevationVectorElements,SpotElevationClassValue,OK,Code List Type,Code List Type,False,False,,
+ElevationVectorElements,SpotElevationTypeValue,OK,Code List Type,Code List Type,False,False,,
+ElevationVectorElements,VoidArea,OK,Spatial Object Type,Spatial Object Type,False,False,ElevationVectorObject,ElevationVectorObject
+Energy Resources Base,ClassificationAndQuantificationFrameworkValue,OK,Code List Type,Code List Type,False,False,,
+Energy Resources Base,FossilFuelClassValue,OK,Code List Type,Code List Type,False,False,,
+Energy Resources Base,FossilFuelValue,OK,Code List Type,Code List Type,False,False,,
+Energy Resources Base,RenewableAndWasteValue,OK,Code List Type,Code List Type,False,False,,
+Energy Resources Base,VerticalExtentRangeType,OK,Data Type,Data Type,False,False,,
+Energy Resources Base,VerticalExtentType,OK,Data Type,Data Type,False,False,,
+Energy Resources Base,VerticalExtentValue,OK,Union Data Type,Union Data Type,False,False,,
+Energy Resources Base,VerticalReferenceValue,OK,Code List Type,Code List Type,False,False,,
+Energy Resources Coverage,GeothermalPotentialValue,OK,Code List Type,Code List Type,False,False,PotentialTypeValue,PotentialTypeValue
+Energy Resources Coverage,HydroPotentialValue,OK,Code List Type,Code List Type,False,False,PotentialTypeValue,PotentialTypeValue
+Energy Resources Coverage,PotentialTypeValue,OK,Code List Type,Code List Type,True,True,,
+Energy Resources Coverage,RenewableAndWastePotentialCoverage,DIFF:supers,Spatial Object Type,Spatial Object Type,False,False,CoverageByDomainAndRange,
+Energy Resources Coverage,SolarPotentialValue,OK,Code List Type,Code List Type,False,False,PotentialTypeValue,PotentialTypeValue
+Energy Resources Coverage,TidalPotentialValue,OK,Code List Type,Code List Type,False,False,PotentialTypeValue,PotentialTypeValue
+Energy Resources Coverage,WindPotentialValue,OK,Code List Type,Code List Type,False,False,PotentialTypeValue,PotentialTypeValue
+Energy Resources Vector,CalorificRangeType,OK,Data Type,Data Type,False,False,,
+Energy Resources Vector,CalorificValueType,OK,Union Data Type,Union Data Type,False,False,,
+Energy Resources Vector,ExploitationPeriodType,OK,Data Type,Data Type,False,False,,
+Energy Resources Vector,FossilFuelMeasure,OK,Data Type,Data Type,False,False,,
+Energy Resources Vector,FossilFuelResource,OK,Spatial Object Type,Spatial Object Type,False,False,VectorEnergyResource,VectorEnergyResource
+Energy Resources Vector,FossilFuelResourceType,OK,Data Type,Data Type,False,False,,
+Energy Resources Vector,RenewableAndWasteResource,OK,Spatial Object Type,Spatial Object Type,False,False,VectorEnergyResource,VectorEnergyResource
+Energy Resources Vector,VectorEnergyResource,OK,Spatial Object Type,Spatial Object Type,True,True,,
+Environmental Management Facilities,EnvironmentalManagementFacility,OK,Spatial Object Type,Spatial Object Type,False,False,ActivityComplex,ActivityComplex
+Environmental Management Facilities,EnvironmentalManagementFacilityTypeValue,OK,Code List Type,Code List Type,False,False,,
+EnvironmentalMonitoringFacilities,AbstractMonitoringFeature,OK,Spatial Object Type,Spatial Object Type,True,True,AbstractMonitoringObject,AbstractMonitoringObject
+EnvironmentalMonitoringFacilities,AbstractMonitoringObject,OK,Spatial Object Type,Spatial Object Type,True,True,,
+EnvironmentalMonitoringFacilities,AnyDomainLink,DIFF:category,<none>,Object Type,False,False,,
+EnvironmentalMonitoringFacilities,EnvironmentalMonitoringActivity,OK,Spatial Object Type,Spatial Object Type,False,False,,
+EnvironmentalMonitoringFacilities,EnvironmentalMonitoringFacility,OK,Spatial Object Type,Spatial Object Type,False,False,AbstractMonitoringFeature,AbstractMonitoringFeature
+EnvironmentalMonitoringFacilities,EnvironmentalMonitoringNetwork,OK,Spatial Object Type,Spatial Object Type,False,False,AbstractMonitoringFeature,AbstractMonitoringFeature
+EnvironmentalMonitoringFacilities,EnvironmentalMonitoringProgramme,OK,Spatial Object Type,Spatial Object Type,False,False,AbstractMonitoringObject,AbstractMonitoringObject
+EnvironmentalMonitoringFacilities,Hierarchy,DIFF:category,<none>,Object Type,False,False,,
+EnvironmentalMonitoringFacilities,MeasurementRegimeValue,OK,Code List Type,Code List Type,False,False,,
+EnvironmentalMonitoringFacilities,MediaValue,OK,Code List Type,Code List Type,False,False,,
+EnvironmentalMonitoringFacilities,NetworkFacility,DIFF:category,<none>,Object Type,False,False,,
+EnvironmentalMonitoringFacilities,ObservingCapability,OK,Spatial Object Type,Spatial Object Type,False,False,,
+EnvironmentalMonitoringFacilities,OperationalActivityPeriod,OK,Spatial Object Type,Spatial Object Type,False,False,,
+EnvironmentalMonitoringFacilities,ProcessTypeValue,OK,Code List Type,Code List Type,False,False,,
+EnvironmentalMonitoringFacilities,PurposeOfCollectionValue,OK,Code List Type,Code List Type,False,False,,
+EnvironmentalMonitoringFacilities,ReportToLegalAct,OK,Data Type,Data Type,False,False,,
+EnvironmentalMonitoringFacilities,ResultAcquisitionSourceValue,OK,Code List Type,Code List Type,False,False,,
+EnvironmentalMonitoringFacilities,ResultNatureValue,OK,Code List Type,Code List Type,False,False,,
+EnvironmentalMonitoringFacilities,SpecialisedEMFTypeValue,OK,Code List Type,Code List Type,False,False,,
+Existing Land Use,ExistingLandUseDataSet,OK,Spatial Object Type,Spatial Object Type,False,False,,
+Existing Land Use,ExistingLandUseObject,OK,Spatial Object Type,Spatial Object Type,False,False,,
+Geographical Names,GeographicalName,OK,Data Type,Data Type,False,False,,
+Geographical Names,GrammaticalGenderValue,OK,Code List Type,Code List Type,False,False,,
+Geographical Names,GrammaticalNumberValue,OK,Code List Type,Code List Type,False,False,,
+Geographical Names,NameStatusValue,OK,Code List Type,Code List Type,False,False,,
+Geographical Names,NamedPlace,OK,Spatial Object Type,Spatial Object Type,False,False,,
+Geographical Names,NamedPlaceTypeValue,OK,Code List Type,Code List Type,False,False,,
+Geographical Names,NativenessValue,OK,Code List Type,Code List Type,False,False,,
+Geographical Names,PronunciationOfName,OK,Data Type,Data Type,False,False,,
+Geographical Names,SpellingOfName,OK,Data Type,Data Type,False,False,,
+Geology,AnthropogenicGeomorphologicFeature,OK,Spatial Object Type,Spatial Object Type,False,False,GeomorphologicFeature,GeomorphologicFeature
+Geology,AnthropogenicGeomorphologicFeatureTypeValue,OK,Code List Type,Code List Type,False,False,,
+Geology,Borehole,OK,Spatial Object Type,Spatial Object Type,False,False,,
+Geology,BoreholePurposeValue,OK,Code List Type,Code List Type,False,False,,
+Geology,CollectionTypeValue,OK,Code List Type,Code List Type,False,False,,
+Geology,CompositionPart,OK,Data Type,Data Type,False,False,,
+Geology,CompositionPartRoleValue,OK,Code List Type,Code List Type,False,False,,
+Geology,EventEnvironmentValue,OK,Code List Type,Code List Type,False,False,,
+Geology,EventProcessValue,OK,Code List Type,Code List Type,False,False,,
+Geology,FaultTypeValue,OK,Code List Type,Code List Type,False,False,,
+Geology,Fold,OK,Spatial Object Type,Spatial Object Type,False,False,GeologicStructure,GeologicStructure
+Geology,FoldProfileTypeValue,OK,Code List Type,Code List Type,False,False,,
+Geology,GeochronologicEraValue,OK,Code List Type,Code List Type,False,False,,
+Geology,GeologicCollection,OK,Spatial Object Type,Spatial Object Type,False,False,,
+Geology,GeologicEvent,OK,Spatial Object Type,Spatial Object Type,False,False,,
+Geology,GeologicFeature,OK,Spatial Object Type,Spatial Object Type,True,True,,
+Geology,GeologicStructure,OK,Spatial Object Type,Spatial Object Type,True,True,GeologicFeature,GeologicFeature
+Geology,GeologicUnit,OK,Spatial Object Type,Spatial Object Type,False,False,GeologicFeature,GeologicFeature
+Geology,GeologicUnitTypeValue,OK,Code List Type,Code List Type,False,False,,
+Geology,GeomorphologicActivityValue,OK,Code List Type,Code List Type,False,False,,
+Geology,GeomorphologicFeature,OK,Spatial Object Type,Spatial Object Type,True,True,GeologicFeature,GeologicFeature
+Geology,LithologyValue,OK,Code List Type,Code List Type,False,False,,
+Geology,MappedFeature,OK,Spatial Object Type,Spatial Object Type,False,False,,
+Geology,MappedInterval,OK,Spatial Object Type,Spatial Object Type,False,False,MappedFeature,MappedFeature
+Geology,MappingFrameValue,OK,Code List Type,Code List Type,False,False,,
+Geology,NaturalGeomorphologicFeature,OK,Spatial Object Type,Spatial Object Type,False,False,GeomorphologicFeature,GeomorphologicFeature
+Geology,NaturalGeomorphologicFeatureTypeValue,OK,Code List Type,Code List Type,False,False,,
+Geology,ShearDisplacementStructure,OK,Spatial Object Type,Spatial Object Type,False,False,GeologicStructure,GeologicStructure
+Geology,ThematicClass,OK,Data Type,Data Type,False,False,,
+Geology,ThematicClassValue,OK,Code List Type,Code List Type,False,False,,
+Geology,ThematicClassificationValue,OK,Code List Type,Code List Type,False,False,,
+Geophysics,Campaign,OK,Spatial Object Type,Spatial Object Type,False,False,GeophObjectSet,GeophObjectSet
+Geophysics,CampaignTypeValue,OK,Code List Type,Code List Type,False,False,,
+Geophysics,GeophMeasurement,OK,Spatial Object Type,Spatial Object Type,True,True,GeophObject,GeophObject
+Geophysics,GeophObject,DIFF:supers,Spatial Object Type,Spatial Object Type,True,True,SF_SpatialSamplingFeature,
+Geophysics,GeophObjectSet,DIFF:supers,Spatial Object Type,Spatial Object Type,False,False,SF_SpatialSamplingFeature,
+Geophysics,GeophProfile,OK,Spatial Object Type,Spatial Object Type,False,False,GeophMeasurement,GeophMeasurement
+Geophysics,GeophStation,OK,Spatial Object Type,Spatial Object Type,False,False,GeophMeasurement,GeophMeasurement
+Geophysics,GeophSwath,OK,Spatial Object Type,Spatial Object Type,False,False,GeophMeasurement,GeophMeasurement
+Geophysics,NetworkNameValue,OK,Code List Type,Code List Type,False,False,,
+Geophysics,PlatformTypeValue,OK,Code List Type,Code List Type,False,False,,
+Geophysics,ProfileTypeValue,OK,Code List Type,Code List Type,False,False,,
+Geophysics,StationRankValue,OK,Code List Type,Code List Type,False,False,,
+Geophysics,StationTypeValue,OK,Code List Type,Code List Type,False,False,,
+Geophysics,SurveyTypeValue,OK,Code List Type,Code List Type,False,False,,
+Geophysics,SwathTypeValue,OK,Code List Type,Code List Type,False,False,,
+Gridded Land Use,ExistingLandUseGrid,DIFF:supers,Spatial Object Type,Spatial Object Type,False,False,RectifiedGridCoverage,
+HabitatsAndBiotopes,EunisHabitatTypeCodeValue,OK,Code List Type,Code List Type,False,False,ReferenceHabitatTypeCodeValue,ReferenceHabitatTypeCodeValue
+HabitatsAndBiotopes,Habitat,OK,Spatial Object Type,Spatial Object Type,False,False,,
+HabitatsAndBiotopes,HabitatSpeciesType,OK,Data Type,Data Type,False,False,,
+HabitatsAndBiotopes,HabitatTypeCoverType,OK,Data Type,Data Type,False,False,,
+HabitatsAndBiotopes,HabitatVegetationType,OK,Data Type,Data Type,False,False,,
+HabitatsAndBiotopes,HabitatsDirectiveCodeValue,OK,Code List Type,Code List Type,False,False,ReferenceHabitatTypeCodeValue,ReferenceHabitatTypeCodeValue
+HabitatsAndBiotopes,LocalNameCodeValue,OK,Code List Type,Code List Type,False,False,,
+HabitatsAndBiotopes,LocalNameType,OK,Data Type,Data Type,False,False,,
+HabitatsAndBiotopes,MarineStrategyFrameworkDirectiveCodeValue,OK,Code List Type,Code List Type,False,False,ReferenceHabitatTypeCodeValue,ReferenceHabitatTypeCodeValue
+HabitatsAndBiotopes,QualifierLocalNameValue,OK,Code List Type,Code List Type,False,False,,
+HabitatsAndBiotopes,ReferenceHabitatTypeCodeValue,OK,Code List Type,Code List Type,False,False,,
+HabitatsAndBiotopes,ReferenceHabitatTypeSchemeValue,OK,Code List Type,Code List Type,False,False,,
+HumanHealth,Age,OK,Union Data Type,Union Data Type,False,False,,
+HumanHealth,AgeRangeType,OK,Data Type,Data Type,False,False,,
+HumanHealth,AirQualityComponentTypeValue,OK,Code List Type,Code List Type,False,False,ComponentTypeValue,ComponentTypeValue
+HumanHealth,BathingWaterQualityComponentTypeValue,OK,Code List Type,Code List Type,False,False,ComponentTypeValue,ComponentTypeValue
+HumanHealth,Biomarker,OK,Spatial Object Type,Spatial Object Type,False,False,HealthStatisticalData,HealthStatisticalData
+HumanHealth,BiomarkerStatisticalParameterType,OK,Data Type,Data Type,False,False,,
+HumanHealth,BiomarkerThematicMetadata,OK,Data Type,Data Type,False,False,,
+HumanHealth,BiomarkerType,OK,Data Type,Data Type,False,False,,
+HumanHealth,CODValue,OK,Code List Type,Code List Type,False,False,,
+HumanHealth,ChemicalValue,OK,Code List Type,Code List Type,False,False,,
+HumanHealth,ComponentTypeValue,OK,Code List Type,Code List Type,True,True,,
+HumanHealth,Disease,OK,Spatial Object Type,Spatial Object Type,False,False,HealthStatisticalData,HealthStatisticalData
+HumanHealth,DiseaseMeasure,OK,Data Type,Data Type,False,False,,
+HumanHealth,DiseaseMeasureTypeValue,OK,Code List Type,Code List Type,False,False,,
+HumanHealth,EnvHealthDeterminantConcentrationMeasure,OK,Spatial Object Type,Spatial Object Type,False,False,EnvHealthDeterminantMeasure,EnvHealthDeterminantMeasure
+HumanHealth,EnvHealthDeterminantMeasure,OK,Spatial Object Type,Spatial Object Type,False,False,,
+HumanHealth,EnvHealthDeterminantNoiseMeasure,OK,Spatial Object Type,Spatial Object Type,False,False,EnvHealthDeterminantMeasure,EnvHealthDeterminantMeasure
+HumanHealth,EnvHealthDeterminantStatisticalData,OK,Spatial Object Type,Spatial Object Type,False,False,HealthStatisticalData,HealthStatisticalData
+HumanHealth,EnvHealthDeterminantTypeValue,OK,Code List Type,Code List Type,False,False,,
+HumanHealth,GeneralHealthStatistics,OK,Spatial Object Type,Spatial Object Type,False,False,HealthStatisticalData,HealthStatisticalData
+HumanHealth,GeneralHealthTypeValue,OK,Code List Type,Code List Type,False,False,,
+HumanHealth,GroundWaterQualityComponentTypeValue,OK,Code List Type,Code List Type,False,False,ComponentTypeValue,ComponentTypeValue
+HumanHealth,HealthServicesStatistic,OK,Spatial Object Type,Spatial Object Type,False,False,HealthStatisticalData,HealthStatisticalData
+HumanHealth,HealthServicesTypeValue,OK,Code List Type,Code List Type,False,False,,
+HumanHealth,HealthStatisticalData,OK,Spatial Object Type,Spatial Object Type,True,True,,
+HumanHealth,ICDValue,OK,Code List Type,Code List Type,False,False,,
+HumanHealth,LakeWaterQuality,OK,Code List Type,Code List Type,False,False,ComponentTypeValue,ComponentTypeValue
+HumanHealth,MatrixValue,OK,Code List Type,Code List Type,False,False,,
+HumanHealth,MeasureCategoryTypeValue,OK,Code List Type,Code List Type,False,False,,
+HumanHealth,MediaTypeValue,OK,Code List Type,Code List Type,False,False,,
+HumanHealth,NoiseSourceTypeValue,OK,Code List Type,Code List Type,False,False,,
+HumanHealth,ReferencePeriodType,OK,Data Type,Data Type,False,False,,
+HumanHealth,RiverWaterQualityComponentTypeValue,OK,Code List Type,Code List Type,False,False,ComponentTypeValue,ComponentTypeValue
+HumanHealth,StatisticalAggregationMethodValue,OK,Code List Type,Code List Type,False,False,,
+Hydro - Network,HydroNode,DIFF:supers,Spatial Object Type,Spatial Object Type,False,False,HydroObject|Node,HydroObject
+Hydro - Network,HydroNodeCategoryValue,OK,Code List Type,Code List Type,False,False,,
+Hydro - Network,WatercourseLink,DIFF:supers,Spatial Object Type,Spatial Object Type,False,False,HydroObject|Link,HydroObject
+Hydro - Network,WatercourseLinkSequence,DIFF:supers,Spatial Object Type,Spatial Object Type,False,False,HydroObject|LinkSequence,HydroObject
+Hydro - Network,WatercourseSeparatedCrossing,DIFF:supers,Spatial Object Type,Spatial Object Type,False,False,GradeSeparatedCrossing|HydroObject,HydroObject
+Hydro - Physical Waters,Crossing,OK,Spatial Object Type,Spatial Object Type,False,False,ManMadeObject,ManMadeObject
+Hydro - Physical Waters,CrossingTypeValue,OK,Code List Type,Code List Type,False,False,,
+Hydro - Physical Waters,DamOrWeir,OK,Spatial Object Type,Spatial Object Type,False,False,ManMadeObject,ManMadeObject
+Hydro - Physical Waters,DrainageBasin,OK,Spatial Object Type,Spatial Object Type,False,False,HydroObject,HydroObject
+Hydro - Physical Waters,Embankment,OK,Spatial Object Type,Spatial Object Type,False,False,ManMadeObject,ManMadeObject
+Hydro - Physical Waters,Falls,OK,Spatial Object Type,Spatial Object Type,False,False,FluvialPoint,FluvialPoint
+Hydro - Physical Waters,FluvialPoint,OK,Spatial Object Type,Spatial Object Type,True,True,HydroPointOfInterest,HydroPointOfInterest
+Hydro - Physical Waters,Ford,OK,Spatial Object Type,Spatial Object Type,False,False,ManMadeObject,ManMadeObject
+Hydro - Physical Waters,HydroOrderCode,OK,Data Type,Data Type,False,False,,
+Hydro - Physical Waters,HydroPointOfInterest,OK,Spatial Object Type,Spatial Object Type,True,True,HydroObject,HydroObject
+Hydro - Physical Waters,HydrologicalPersistenceValue,OK,Code List Type,Code List Type,False,False,,
+Hydro - Physical Waters,LandWaterBoundary,OK,Spatial Object Type,Spatial Object Type,False,False,,
+Hydro - Physical Waters,Lock,OK,Spatial Object Type,Spatial Object Type,False,False,ManMadeObject,ManMadeObject
+Hydro - Physical Waters,ManMadeObject,OK,Spatial Object Type,Spatial Object Type,True,True,HydroObject,HydroObject
+Hydro - Physical Waters,OriginValue,OK,Code List Type,Code List Type,False,False,,
+Hydro - Physical Waters,Rapids,OK,Spatial Object Type,Spatial Object Type,False,False,FluvialPoint,FluvialPoint
+Hydro - Physical Waters,RiverBasin,OK,Spatial Object Type,Spatial Object Type,False,False,DrainageBasin,DrainageBasin
+Hydro - Physical Waters,Shore,OK,Spatial Object Type,Spatial Object Type,False,False,HydroObject,HydroObject
+Hydro - Physical Waters,ShoreTypeValue,OK,Code List Type,Code List Type,False,False,,
+Hydro - Physical Waters,ShorelineConstruction,OK,Spatial Object Type,Spatial Object Type,False,False,ManMadeObject,ManMadeObject
+Hydro - Physical Waters,Sluice,OK,Spatial Object Type,Spatial Object Type,False,False,ManMadeObject,ManMadeObject
+Hydro - Physical Waters,StandingWater,OK,Spatial Object Type,Spatial Object Type,False,False,SurfaceWater,SurfaceWater
+Hydro - Physical Waters,SurfaceWater,OK,Spatial Object Type,Spatial Object Type,True,True,HydroObject,HydroObject
+Hydro - Physical Waters,WaterLevelValue,OK,Code List Type,Code List Type,False,False,,
+Hydro - Physical Waters,Watercourse,OK,Spatial Object Type,Spatial Object Type,False,False,SurfaceWater,SurfaceWater
+Hydro - Physical Waters,Wetland,OK,Spatial Object Type,Spatial Object Type,False,False,HydroObject,HydroObject
+Hydro - Physical Waters,WidthRange,OK,Data Type,Data Type,False,False,,
+Hydro - base,HydroIdentifier,OK,Data Type,Data Type,False,False,,
+Hydro - base,HydroObject,OK,Spatial Object Type,Spatial Object Type,True,True,,
+Hydrogeology,ActiveWell,OK,Spatial Object Type,Spatial Object Type,False,False,HydrogeologicalObjectManMade,HydrogeologicalObjectManMade
+Hydrogeology,ActiveWellTypeValue,OK,Code List Type,Code List Type,False,False,,
+Hydrogeology,Aquiclude,OK,Spatial Object Type,Spatial Object Type,False,False,HydrogeologicalUnit,HydrogeologicalUnit
+Hydrogeology,Aquifer,OK,Spatial Object Type,Spatial Object Type,False,False,HydrogeologicalUnit,HydrogeologicalUnit
+Hydrogeology,AquiferMediaTypeValue,OK,Code List Type,Code List Type,False,False,,
+Hydrogeology,AquiferSystem,OK,Spatial Object Type,Spatial Object Type,False,False,HydrogeologicalUnit,HydrogeologicalUnit
+Hydrogeology,AquiferTypeValue,OK,Code List Type,Code List Type,False,False,,
+Hydrogeology,Aquitard,OK,Spatial Object Type,Spatial Object Type,False,False,HydrogeologicalUnit,HydrogeologicalUnit
+Hydrogeology,ConditionOfGroundwaterValue,OK,Code List Type,Code List Type,False,False,,
+Hydrogeology,GroundWaterBody,OK,Spatial Object Type,Spatial Object Type,False,False,,
+Hydrogeology,HydroGeochemicalRockTypeValue,OK,Code List Type,Code List Type,False,False,,
+Hydrogeology,HydrogeologicalObject,OK,Spatial Object Type,Spatial Object Type,True,True,,
+Hydrogeology,HydrogeologicalObjectManMade,OK,Spatial Object Type,Spatial Object Type,True,True,HydrogeologicalObject,HydrogeologicalObject
+Hydrogeology,HydrogeologicalObjectNatural,OK,Spatial Object Type,Spatial Object Type,False,False,HydrogeologicalObject,HydrogeologicalObject
+Hydrogeology,HydrogeologicalSurface,OK,Union Data Type,Union Data Type,False,False,,
+Hydrogeology,HydrogeologicalUnit,OK,Spatial Object Type,Spatial Object Type,True,True,GeologicUnit,GeologicUnit
+Hydrogeology,NaturalObjectTypeValue,OK,Code List Type,Code List Type,False,False,,
+Hydrogeology,PiezometricState,OK,Data Type,Data Type,False,False,,
+Hydrogeology,QuantityValue,OK,Union Data Type,Union Data Type,False,False,,
+Hydrogeology,StatusCodeTypeValue,OK,Code List Type,Code List Type,False,False,,
+Hydrogeology,WaterPersistenceValue,OK,Code List Type,Code List Type,False,False,,
+Hydrogeology,WaterSalinityValue,OK,Code List Type,Code List Type,False,False,,
+Land Use Nomenclature,HILUCSPercentage,OK,Data Type,Data Type,False,False,,
+Land Use Nomenclature,HILUCSPresence,OK,Union Data Type,Union Data Type,False,False,,
+Land Use Nomenclature,HILUCSValue,OK,Code List Type,Code List Type,False,False,,
+Land Use Nomenclature,LandUseClassificationValue,OK,Code List Type,Code List Type,True,True,,
+Land Use Nomenclature,SpecificPercentage,OK,Data Type,Data Type,False,False,,
+Land Use Nomenclature,SpecificPresence,OK,Union Data Type,Union Data Type,False,False,,
+LandCoverNomenclature,CorineValue,OK,Code List Type,Code List Type,False,False,LandCoverClassValue,LandCoverClassValue
+LandCoverNomenclature,LandCoverClassValue,OK,Code List Type,Code List Type,False,False,,
+LandCoverNomenclature,LandCoverNomenclature,OK,Data Type,Data Type,False,False,,
+LandCoverRaster,LandCoverGridCoverage,DIFF:supers,Spatial Object Type,Spatial Object Type,False,False,RectifiedGridCoverage,
+LandCoverVector,LandCoverDataset,OK,Spatial Object Type,Spatial Object Type,False,False,,
+LandCoverVector,LandCoverObservation,OK,Data Type,Data Type,False,False,,
+LandCoverVector,LandCoverUnit,OK,Spatial Object Type,Spatial Object Type,False,False,,
+LandCoverVector,LandCoverValue,OK,Data Type,Data Type,False,False,,
+MaritimeUnits,Baseline,OK,Spatial Object Type,Spatial Object Type,False,False,,
+MaritimeUnits,BaselineSegment,OK,Data Type,Data Type,False,False,,
+MaritimeUnits,BaselineSegmentTypeValue,OK,Code List Type,Code List Type,False,False,,
+MaritimeUnits,MaritimeBoundary,OK,Spatial Object Type,Spatial Object Type,False,False,,
+MaritimeUnits,MaritimeZone,OK,Spatial Object Type,Spatial Object Type,False,False,,
+MaritimeUnits,MaritimeZoneTypeValue,OK,Code List Type,Code List Type,False,False,,
+MineralResources,ClassificationMethodUsedValue,OK,Code List Type,Code List Type,False,False,,
+MineralResources,Commodity,OK,Spatial Object Type,Spatial Object Type,False,False,,
+MineralResources,CommodityCodeValue,OK,Code List Type,Code List Type,False,False,,
+MineralResources,CommodityMeasure,OK,Data Type,Data Type,False,False,,
+MineralResources,EarthResource,OK,Spatial Object Type,Spatial Object Type,True,True,GeologicFeature,GeologicFeature
+MineralResources,EarthResourceDimension,OK,Data Type,Data Type,False,False,,
+MineralResources,Endowment,OK,Data Type,Data Type,False,False,OreMeasure,OreMeasure
+MineralResources,EndusePotentialValue,OK,Code List Type,Code List Type,False,False,,
+MineralResources,ExplorationActivity,OK,Spatial Object Type,Spatial Object Type,False,False,,
+MineralResources,ExplorationActivityTypeValue,OK,Code List Type,Code List Type,False,False,,
+MineralResources,ExplorationResultValue,OK,Code List Type,Code List Type,False,False,,
+MineralResources,ImportanceValue,OK,Code List Type,Code List Type,False,False,,
+MineralResources,Mine,OK,Spatial Object Type,Spatial Object Type,False,False,MiningFeature,MiningFeature
+MineralResources,MineName,OK,Data Type,Data Type,False,False,,
+MineralResources,MineStatusValue,OK,Code List Type,Code List Type,False,False,,
+MineralResources,MineralDepositGroupValue,OK,Code List Type,Code List Type,False,False,,
+MineralResources,MineralDepositModel,OK,Object Type,Object Type,False,False,,
+MineralResources,MineralDepositTypeValue,OK,Code List Type,Code List Type,False,False,,
+MineralResources,MineralOccurrence,OK,Spatial Object Type,Spatial Object Type,False,False,EarthResource,EarthResource
+MineralResources,MineralOccurrenceTypeValue,OK,Code List Type,Code List Type,False,False,,
+MineralResources,MiningActivity,OK,Spatial Object Type,Spatial Object Type,False,False,MiningFeature,MiningFeature
+MineralResources,MiningActivityTypeValue,OK,Code List Type,Code List Type,False,False,,
+MineralResources,MiningFeature,OK,Spatial Object Type,Spatial Object Type,True,True,,
+MineralResources,MiningFeatureOccurrence,OK,Spatial Object Type,Spatial Object Type,False,False,,
+MineralResources,OreMeasure,OK,Data Type,Data Type,True,True,,
+MineralResources,ProcessingActivityTypeValue,OK,Code List Type,Code List Type,False,False,,
+MineralResources,Reserve,OK,Data Type,Data Type,False,False,OreMeasure,OreMeasure
+MineralResources,ReserveCategoryValue,OK,Code List Type,Code List Type,False,False,,
+MineralResources,Resource,OK,Data Type,Data Type,False,False,OreMeasure,OreMeasure
+MineralResources,ResourceCategoryValue,OK,Code List Type,Code List Type,False,False,,
+NaturalRiskZones,AbstractExposedElement,OK,Spatial Object Type,Spatial Object Type,True,True,,
+NaturalRiskZones,AbstractHazardArea,OK,Spatial Object Type,Spatial Object Type,True,True,,
+NaturalRiskZones,AbstractObservedEvent,OK,Spatial Object Type,Spatial Object Type,True,True,,
+NaturalRiskZones,AbstractRiskZone,OK,Spatial Object Type,Spatial Object Type,True,True,,
+NaturalRiskZones,DeterminationMethodValue,OK,Code List Type,Code List Type,False,False,,
+NaturalRiskZones,ExposedElement,OK,Spatial Object Type,Spatial Object Type,False,False,AbstractExposedElement,AbstractExposedElement
+NaturalRiskZones,ExposedElementCategoryValue,OK,Code List Type,Code List Type,False,False,,
+NaturalRiskZones,ExposedElementClassification,OK,Data Type,Data Type,False,False,,
+NaturalRiskZones,ExposedElementCoverage,DIFF:supers,Spatial Object Type,Spatial Object Type,False,False,AbstractExposedElement|CoverageByDomainAndRange,AbstractExposedElement
+NaturalRiskZones,HazardArea,OK,Spatial Object Type,Spatial Object Type,False,False,AbstractHazardArea,AbstractHazardArea
+NaturalRiskZones,HazardCoverage,DIFF:supers,Spatial Object Type,Spatial Object Type,False,False,AbstractHazardArea|CoverageByDomainAndRange,AbstractHazardArea
+NaturalRiskZones,LevelOrIntensity,OK,Data Type,Data Type,False,False,,
+NaturalRiskZones,LikelihoodOfOccurrence,OK,Data Type,Data Type,False,False,,
+NaturalRiskZones,NaturalHazardCategoryValue,OK,Code List Type,Code List Type,False,False,,
+NaturalRiskZones,NaturalHazardClassification,OK,Data Type,Data Type,False,False,,
+NaturalRiskZones,ObservedEvent,OK,Spatial Object Type,Spatial Object Type,False,False,AbstractObservedEvent,AbstractObservedEvent
+NaturalRiskZones,ObservedEventCoverage,DIFF:supers,Spatial Object Type,Spatial Object Type,False,False,AbstractObservedEvent|CoverageByDomainAndRange,AbstractObservedEvent
+NaturalRiskZones,QuantitativeLikelihood,OK,Data Type,Data Type,False,False,,
+NaturalRiskZones,RiskCoverage,DIFF:supers,Spatial Object Type,Spatial Object Type,False,False,AbstractRiskZone|CoverageByDomainAndRange,AbstractRiskZone
+NaturalRiskZones,RiskZone,OK,Spatial Object Type,Spatial Object Type,False,False,AbstractRiskZone,AbstractRiskZone
+NaturalRiskZones,SpecificExposedElementTypeValue,OK,Code List Type,Code List Type,False,False,,
+NaturalRiskZones,SpecificHazardTypeValue,OK,Code List Type,Code List Type,False,False,,
+NaturalRiskZones,VulnerabilityAssessment,OK,Data Type,Data Type,False,False,,
+Observable Properties,AbstractObservableProperty,OK,Object Type,Object Type,True,True,,
+Observable Properties,CategoryConstraint,OK,Data Type,Data Type,False,False,Constraint,Constraint
+Observable Properties,ComparisonOperatorValue,OK,Code List Type,Code List Type,False,False,,
+Observable Properties,CompositeObservableProperty,OK,Object Type,Object Type,False,False,AbstractObservableProperty,AbstractObservableProperty
+Observable Properties,Constraint,OK,Data Type,Data Type,False,False,,
+Observable Properties,ObservableProperty,OK,Object Type,Object Type,False,False,AbstractObservableProperty,AbstractObservableProperty
+Observable Properties,OtherConstraint,OK,Data Type,Data Type,False,False,Constraint,Constraint
+Observable Properties,PhenomenonTypeValue,OK,Code List Type,Code List Type,False,False,,
+Observable Properties,RangeBounds,OK,Data Type,Data Type,False,False,,
+Observable Properties,RangeConstraint,OK,Data Type,Data Type,False,False,Constraint,Constraint
+Observable Properties,ScalarConstraint,OK,Data Type,Data Type,False,False,Constraint,Constraint
+Observable Properties,StatisticalFunctionTypeValue,OK,Code List Type,Code List Type,False,False,,
+Observable Properties,StatisticalMeasure,OK,Object Type,Object Type,False,False,,
+Observation References,ObservationSet,OK,Spatial Object Type,Spatial Object Type,False,False,,
+Oceanographic Geographical Features (2),BODC_P01ParameterUsageValue,OK,Code List Type,Code List Type,False,False,PhenomenonTypeValue,PhenomenonTypeValue
+Oil-Gas-Chemicals Network,OilGasChemicalsAppurtenanceTypeValue,OK,Code List Type,Code List Type,False,False,AppurtenanceTypeValue,AppurtenanceTypeValue
+Oil-Gas-Chemicals Network,OilGasChemicalsPipe,OK,Spatial Object Type,Spatial Object Type,False,False,Pipe,Pipe
+Oil-Gas-Chemicals Network,OilGasChemicalsProductTypeValue,OK,Code List Type,Code List Type,False,False,,
+Orthoimagery,AggregatedMosaicElement,OK,Spatial Object Type,Spatial Object Type,False,False,MosaicElement,MosaicElement
+Orthoimagery,InterpolationMethodValue,OK,Code List Type,Code List Type,False,False,,
+Orthoimagery,MosaicElement,OK,Spatial Object Type,Spatial Object Type,True,True,,
+Orthoimagery,OrthoimageAggregation,OK,Data Type,Data Type,False,False,,
+Orthoimagery,OrthoimageCoverage,DIFF:supers,Spatial Object Type,Spatial Object Type,False,False,RectifiedGridCoverage,
+Orthoimagery,SingleMosaicElement,OK,Spatial Object Type,Spatial Object Type,False,False,MosaicElement,MosaicElement
+Planned Land Use,BackgroundMapValue,OK,Data Type,Data Type,False,False,,
+Planned Land Use,DimensioningIndicationCharacterValue,OK,Data Type,Data Type,False,False,DimensioningIndicationValue,DimensioningIndicationValue
+Planned Land Use,DimensioningIndicationIntegerValue,OK,Data Type,Data Type,False,False,DimensioningIndicationValue,DimensioningIndicationValue
+Planned Land Use,DimensioningIndicationMeasureValue,OK,Data Type,Data Type,False,False,DimensioningIndicationValue,DimensioningIndicationValue
+Planned Land Use,DimensioningIndicationRealValue,OK,Data Type,Data Type,False,False,DimensioningIndicationValue,DimensioningIndicationValue
+Planned Land Use,DimensioningIndicationValue,OK,Data Type,Data Type,False,False,,
+Planned Land Use,LevelOfSpatialPlanValue,OK,Code List Type,Code List Type,False,False,,
+Planned Land Use,OfficialDocumentation,OK,Spatial Object Type,Spatial Object Type,False,False,,
+Planned Land Use,OrdinanceValue,OK,Data Type,Data Type,False,False,,
+Planned Land Use,PlanTypeNameValue,OK,Code List Type,Code List Type,True,True,,
+Planned Land Use,ProcessStepGeneralValue,OK,Code List Type,Code List Type,False,False,,
+Planned Land Use,RegulationNatureValue,OK,Code List Type,Code List Type,False,False,,
+Planned Land Use,SpatialPlan,OK,Spatial Object Type,Spatial Object Type,False,False,,
+Planned Land Use,SpecificSupplementaryRegulationValue,OK,Code List Type,Code List Type,True,True,,
+Planned Land Use,SupplementaryRegulation,OK,Spatial Object Type,Spatial Object Type,False,False,,
+Planned Land Use,SupplementaryRegulationValue,OK,Code List Type,Code List Type,False,False,,
+Planned Land Use,ZoningElement,OK,Spatial Object Type,Spatial Object Type,False,False,,
+Population distribution - demography,AgeBy5YearsValue,OK,Code List Type,Code List Type,False,False,ClassificationItemTypeValue,ClassificationItemTypeValue
+Population distribution - demography,AgeByYearValue,OK,Code List Type,Code List Type,False,False,ClassificationItemTypeValue,ClassificationItemTypeValue
+Population distribution - demography,AgeGroupValue,OK,Code List Type,Code List Type,False,False,ClassificationItemTypeValue,ClassificationItemTypeValue
+Population distribution - demography,Classification,OK,Data Type,Data Type,False,False,,
+Population distribution - demography,ClassificationItem,OK,Data Type,Data Type,False,False,,
+Population distribution - demography,ClassificationItemTypeValue,OK,Code List Type,Code List Type,False,False,,
+Population distribution - demography,ClassificationTypeValue,OK,Code List Type,Code List Type,False,False,,
+Population distribution - demography,Dimensions,OK,Data Type,Data Type,False,False,,
+Population distribution - demography,NACECodeValue,OK,Code List Type,Code List Type,False,False,ClassificationItemTypeValue,ClassificationItemTypeValue
+Population distribution - demography,SpecialValue,OK,Code List Type,Code List Type,False,False,,
+Population distribution - demography,StatisticalDataStatusValue,OK,Code List Type,Code List Type,False,False,,
+Population distribution - demography,StatisticalDistribution,OK,Spatial Object Type,Spatial Object Type,False,False,,
+Population distribution - demography,StatisticalValue,OK,Data Type,Data Type,False,False,,
+Population distribution - demography,StatisticsMeasurementMethodValue,OK,Code List Type,Code List Type,False,False,,
+Population distribution - demography,VariableValue,OK,Code List Type,Code List Type,False,False,,
+Processes,Process,OK,Spatial Object Type,Spatial Object Type,False,False,,
+Processes,ProcessParameter,OK,Data Type,Data Type,False,False,,
+Processes,ProcessParameterNameValue,OK,Code List Type,Code List Type,False,False,,
+ProductionAndIndustrialFacilities,InstallationPartTypeValue,OK,Code List Type,Code List Type,False,False,,
+ProductionAndIndustrialFacilities,InstallationTypeValue,OK,Code List Type,Code List Type,False,False,,
+ProductionAndIndustrialFacilities,PollutionAbatementTechniqueValue,OK,Code List Type,Code List Type,False,False,,
+ProductionAndIndustrialFacilities,ProductionBuilding,OK,Spatial Object Type,Spatial Object Type,False,False,,
+ProductionAndIndustrialFacilities,ProductionFacility,OK,Spatial Object Type,Spatial Object Type,False,False,ActivityComplex,ActivityComplex
+ProductionAndIndustrialFacilities,ProductionInstallation,OK,Spatial Object Type,Spatial Object Type,False,False,,
+ProductionAndIndustrialFacilities,ProductionInstallationPart,OK,Spatial Object Type,Spatial Object Type,False,False,,
+ProductionAndIndustrialFacilities,ProductionPlot,OK,Spatial Object Type,Spatial Object Type,False,False,,
+ProductionAndIndustrialFacilities,ProductionSite,OK,Spatial Object Type,Spatial Object Type,False,False,,
+ProductionAndIndustrialFacilities,RiverBasinDistrictValue,OK,Code List Type,Code List Type,False,False,,
+ProductionAndIndustrialFacilities,StatusType,OK,Data Type,Data Type,False,False,,
+ProductionAndIndustrialFacilities,TechnicalUnit,OK,Spatial Object Type,Spatial Object Type,True,True,,
+ProductionAndIndustrialFacilities,TypeOfProductionBuildingValue,DIFF:category,Code List Type,Object Type,False,False,,
+Protected Sites,DesignationSchemeValue,OK,Code List Type,Code List Type,False,False,,
+Protected Sites,DesignationType,OK,Data Type,Data Type,False,False,,
+Protected Sites,DesignationValue,OK,Code List Type,Code List Type,False,False,,
+Protected Sites,IUCNDesignationValue,OK,Code List Type,Code List Type,False,False,DesignationValue,DesignationValue
+Protected Sites,NationalMonumentsRecordDesignationValue,OK,Code List Type,Code List Type,False,False,DesignationValue,DesignationValue
+Protected Sites,Natura2000DesignationValue,OK,Code List Type,Code List Type,False,False,DesignationValue,DesignationValue
+Protected Sites,Percentage,OK,Object Type,Object Type,False,False,,
+Protected Sites,ProtectedSite,OK,Spatial Object Type,Spatial Object Type,False,False,,
+Protected Sites,ProtectionClassificationValue,OK,Code List Type,Code List Type,False,False,,
+Protected Sites,RamsarDesignationValue,OK,Code List Type,Code List Type,False,False,DesignationValue,DesignationValue
+Protected Sites,UNESCOManAndBiosphereProgrammeDesignationValue,OK,Code List Type,Code List Type,False,False,DesignationValue,DesignationValue
+Protected Sites,UNESCOWorldHeritageDesignationValue,OK,Code List Type,Code List Type,False,False,DesignationValue,DesignationValue
+Railway Transport Network,DesignSpeed,OK,Spatial Object Type,Spatial Object Type,False,False,TransportProperty,TransportProperty
+Railway Transport Network,FormOfRailwayNodeValue,OK,Code List Type,Code List Type,False,False,,
+Railway Transport Network,MinMaxTrackValue,OK,Code List Type,Code List Type,False,False,,
+Railway Transport Network,NominalTrackGauge,OK,Spatial Object Type,Spatial Object Type,False,False,TransportProperty,TransportProperty
+Railway Transport Network,NumberOfTracks,OK,Spatial Object Type,Spatial Object Type,False,False,TransportProperty,TransportProperty
+Railway Transport Network,RailwayArea,OK,Spatial Object Type,Spatial Object Type,False,False,TransportArea,TransportArea
+Railway Transport Network,RailwayElectrification,OK,Spatial Object Type,Spatial Object Type,False,False,TransportProperty,TransportProperty
+Railway Transport Network,RailwayLine,OK,Spatial Object Type,Spatial Object Type,False,False,TransportLinkSet,TransportLinkSet
+Railway Transport Network,RailwayLink,OK,Spatial Object Type,Spatial Object Type,False,False,TransportLink,TransportLink
+Railway Transport Network,RailwayLinkSequence,OK,Spatial Object Type,Spatial Object Type,False,False,TransportLinkSequence,TransportLinkSequence
+Railway Transport Network,RailwayNode,OK,Spatial Object Type,Spatial Object Type,False,False,TransportNode,TransportNode
+Railway Transport Network,RailwayStationArea,OK,Spatial Object Type,Spatial Object Type,False,False,TransportArea,TransportArea
+Railway Transport Network,RailwayStationCode,OK,Spatial Object Type,Spatial Object Type,False,False,TransportProperty,TransportProperty
+Railway Transport Network,RailwayStationNode,OK,Spatial Object Type,Spatial Object Type,False,False,RailwayNode,RailwayNode
+Railway Transport Network,RailwayType,OK,Spatial Object Type,Spatial Object Type,False,False,TransportProperty,TransportProperty
+Railway Transport Network,RailwayTypeValue,OK,Code List Type,Code List Type,False,False,,
+Railway Transport Network,RailwayUse,OK,Spatial Object Type,Spatial Object Type,False,False,TransportProperty,TransportProperty
+Railway Transport Network,RailwayUseValue,OK,Code List Type,Code List Type,False,False,,
+Railway Transport Network,RailwayYardArea,OK,Spatial Object Type,Spatial Object Type,False,False,TransportArea,TransportArea
+Railway Transport Network,RailwayYardNode,OK,Spatial Object Type,Spatial Object Type,False,False,RailwayNode,RailwayNode
+Railway Transport Network,TrackGaugeCategoryValue,OK,Code List Type,Code List Type,False,False,,
+Road Transport Network,AreaConditionValue,OK,Code List Type,Code List Type,False,False,,
+Road Transport Network,ERoad,OK,Spatial Object Type,Spatial Object Type,False,False,TransportLinkSet,TransportLinkSet
+Road Transport Network,FormOfRoadNodeValue,OK,Code List Type,Code List Type,False,False,,
+Road Transport Network,FormOfWay,OK,Spatial Object Type,Spatial Object Type,False,False,TransportProperty,TransportProperty
+Road Transport Network,FormOfWayValue,OK,Code List Type,Code List Type,False,False,,
+Road Transport Network,FunctionalRoadClass,OK,Spatial Object Type,Spatial Object Type,False,False,TransportProperty,TransportProperty
+Road Transport Network,FunctionalRoadClassValue,OK,Code List Type,Code List Type,False,False,,
+Road Transport Network,MinMaxLaneValue,OK,Code List Type,Code List Type,False,False,,
+Road Transport Network,NumberOfLanes,OK,Spatial Object Type,Spatial Object Type,False,False,TransportProperty,TransportProperty
+Road Transport Network,Road,OK,Spatial Object Type,Spatial Object Type,False,False,TransportLinkSet,TransportLinkSet
+Road Transport Network,RoadArea,OK,Spatial Object Type,Spatial Object Type,False,False,TransportArea,TransportArea
+Road Transport Network,RoadLink,OK,Spatial Object Type,Spatial Object Type,False,False,TransportLink,TransportLink
+Road Transport Network,RoadLinkSequence,OK,Spatial Object Type,Spatial Object Type,False,False,TransportLinkSequence,TransportLinkSequence
+Road Transport Network,RoadName,OK,Spatial Object Type,Spatial Object Type,False,False,TransportProperty,TransportProperty
+Road Transport Network,RoadNode,OK,Spatial Object Type,Spatial Object Type,False,False,TransportNode,TransportNode
+Road Transport Network,RoadPartValue,OK,Code List Type,Code List Type,False,False,,
+Road Transport Network,RoadServiceArea,OK,Spatial Object Type,Spatial Object Type,False,False,TransportArea,TransportArea
+Road Transport Network,RoadServiceType,OK,Spatial Object Type,Spatial Object Type,False,False,TransportProperty,TransportProperty
+Road Transport Network,RoadServiceTypeValue,OK,Code List Type,Code List Type,False,False,,
+Road Transport Network,RoadSurfaceCategory,OK,Spatial Object Type,Spatial Object Type,False,False,TransportProperty,TransportProperty
+Road Transport Network,RoadSurfaceCategoryValue,OK,Code List Type,Code List Type,False,False,,
+Road Transport Network,RoadWidth,OK,Spatial Object Type,Spatial Object Type,False,False,TransportProperty,TransportProperty
+Road Transport Network,ServiceFacilityValue,OK,Code List Type,Code List Type,False,False,,
+Road Transport Network,SpeedLimit,OK,Spatial Object Type,Spatial Object Type,False,False,TransportProperty,TransportProperty
+Road Transport Network,SpeedLimitMinMaxValue,OK,Code List Type,Code List Type,False,False,,
+Road Transport Network,SpeedLimitSourceValue,OK,Code List Type,Code List Type,False,False,,
+Road Transport Network,VehicleTrafficArea,OK,Spatial Object Type,Spatial Object Type,False,False,TransportArea,TransportArea
+Road Transport Network,VehicleTypeValue,OK,Code List Type,Code List Type,False,False,,
+Road Transport Network,WeatherConditionValue,OK,Code List Type,Code List Type,False,False,,
+Sampled Land Use,ExistingLandUseSample,OK,Spatial Object Type,Spatial Object Type,False,False,,
+Sampled Land Use,SampledExistingLandUseDataSet,OK,Spatial Object Type,Spatial Object Type,False,False,,
+Sea Regions,Coastline,OK,Spatial Object Type,Spatial Object Type,False,False,Shoreline,Shoreline
+Sea Regions,InterTidalArea,OK,Spatial Object Type,Spatial Object Type,False,False,Shore,Shore
+Sea Regions,MarineCirculationZone,OK,Spatial Object Type,Spatial Object Type,False,False,SeaArea,SeaArea
+Sea Regions,MarineContour,OK,Spatial Object Type,Spatial Object Type,False,False,,
+Sea Regions,MarineExtent,OK,Data Type,Data Type,False,False,,
+Sea Regions,MarineIsoline,OK,Data Type,Data Type,False,False,,
+Sea Regions,MarineLayer,OK,Spatial Object Type,Spatial Object Type,True,True,,
+Sea Regions,ParameterValuePair,OK,Data Type,Data Type,False,False,,
+Sea Regions,Sea,OK,Spatial Object Type,Spatial Object Type,False,False,SeaArea,SeaArea
+Sea Regions,SeaArea,OK,Spatial Object Type,Spatial Object Type,False,False,HydroObject,HydroObject
+Sea Regions,SeaAreaTypeClassificationValue,OK,Code List Type,Code List Type,False,False,,
+Sea Regions,SeaBedArea,OK,Spatial Object Type,Spatial Object Type,False,False,MarineLayer,MarineLayer
+Sea Regions,SeaBedCoverValue,OK,Code List Type,Code List Type,False,False,,
+Sea Regions,SeaSurfaceArea,OK,Spatial Object Type,Spatial Object Type,False,False,MarineLayer,MarineLayer
+Sea Regions,SeaSurfaceClassificationValue,OK,Code List Type,Code List Type,False,False,,
+Sea Regions,ShoreSegment,OK,Data Type,Data Type,False,False,,
+Sea Regions,ShoreStabilityValue,OK,Code List Type,Code List Type,False,False,,
+Sea Regions,ShoreTypeClassificationValue,OK,Code List Type,Code List Type,False,False,,
+Sea Regions,Shoreline,OK,Spatial Object Type,Spatial Object Type,False,False,HydroObject,HydroObject
+Sea Regions,ZoneTypeValue,OK,Code List Type,Code List Type,False,False,,
+Sewer Network,SewerAppurtenanceTypeValue,OK,Code List Type,Code List Type,False,False,AppurtenanceTypeValue,AppurtenanceTypeValue
+Sewer Network,SewerPipe,OK,Spatial Object Type,Spatial Object Type,False,False,Pipe,Pipe
+Sewer Network,SewerWaterTypeValue,OK,Code List Type,Code List Type,False,False,,
+Soil,DerivedProfilePresenceInSoilBody,DIFF:category,<none>,Object Type,False,False,,
+Soil,DerivedSoilProfile,OK,Spatial Object Type,Spatial Object Type,False,False,SoilProfile,SoilProfile
+Soil,FAOHorizonMasterValue,OK,Code List Type,Code List Type,False,False,,
+Soil,FAOHorizonNotationType,OK,Data Type,Data Type,False,False,,
+Soil,FAOHorizonSubordinateValue,OK,Code List Type,Code List Type,False,False,,
+Soil,FAOPrimeValue,OK,Code List Type,Code List Type,False,False,,
+Soil,LayerGenesisProcessStateValue,OK,Code List Type,Code List Type,False,False,,
+Soil,LayerTypeValue,OK,Code List Type,Code List Type,False,False,,
+Soil,ObservedSoilProfile,OK,Spatial Object Type,Spatial Object Type,False,False,SoilProfile,SoilProfile
+Soil,OtherHorizonNotationType,OK,Data Type,Data Type,False,False,,
+Soil,OtherHorizonNotationTypeValue,OK,Code List Type,Code List Type,False,False,,
+Soil,OtherSoilNameType,OK,Data Type,Data Type,False,False,,
+Soil,OtherSoilNameTypeValue,OK,Code List Type,Code List Type,False,False,,
+Soil,ParticleSizeFractionType,OK,Data Type,Data Type,False,False,,
+Soil,ProfileElement,OK,Spatial Object Type,Spatial Object Type,True,True,,
+Soil,ProfileElementParameterNameValue,OK,Code List Type,Code List Type,False,False,PhenomenonTypeValue,PhenomenonTypeValue
+Soil,RangeType,OK,Data Type,Data Type,False,False,,
+Soil,SoilBody,OK,Spatial Object Type,Spatial Object Type,False,False,,
+Soil,SoilDerivedObject,OK,Spatial Object Type,Spatial Object Type,False,False,,
+Soil,SoilDerivedObjectParameterNameValue,OK,Code List Type,Code List Type,False,False,PhenomenonTypeValue,PhenomenonTypeValue
+Soil,SoilHorizon,OK,Spatial Object Type,Spatial Object Type,False,False,ProfileElement,ProfileElement
+Soil,SoilInvestigationPurposeValue,OK,Code List Type,Code List Type,False,False,,
+Soil,SoilLayer,OK,Spatial Object Type,Spatial Object Type,False,False,ProfileElement,ProfileElement
+Soil,SoilPlot,OK,Spatial Object Type,Spatial Object Type,False,False,,
+Soil,SoilPlotTypeValue,OK,Code List Type,Code List Type,False,False,,
+Soil,SoilProfile,OK,Spatial Object Type,Spatial Object Type,True,True,,
+Soil,SoilProfileParameterNameValue,OK,Code List Type,Code List Type,False,False,PhenomenonTypeValue,PhenomenonTypeValue
+Soil,SoilSite,OK,Spatial Object Type,Spatial Object Type,False,False,,
+Soil,SoilSiteParameterNameValue,OK,Code List Type,Code List Type,False,False,PhenomenonTypeValue,PhenomenonTypeValue
+Soil,SoilThemeCoverage,DIFF:supers,Spatial Object Type,Spatial Object Type,False,False,RectifiedGridCoverage,
+Soil,SoilThemeDescriptiveCoverage,DIFF:supers,Spatial Object Type,Spatial Object Type,False,False,RectifiedGridCoverage,
+Soil,SoilThemeDescriptiveParameterType,OK,Data Type,Data Type,False,False,,
+Soil,SoilThemeParameterType,OK,Data Type,Data Type,False,False,,
+Soil,WRBQualifierGroupType,OK,Data Type,Data Type,False,False,,
+Soil,WRBQualifierPlaceValue,OK,Code List Type,Code List Type,False,False,,
+Soil,WRBQualifierValue,OK,Code List Type,Code List Type,False,False,,
+Soil,WRBReferenceSoilGroupValue,OK,Code List Type,Code List Type,False,False,,
+Soil,WRBSoilNameType,OK,Data Type,Data Type,False,False,,
+Soil,WRBSpecifierValue,OK,Code List Type,Code List Type,False,False,,
+Specialised Observations,GridObservation,OK,Spatial Object Type,Spatial Object Type,False,False,,
+Specialised Observations,GridSeriesObservation,OK,Spatial Object Type,Spatial Object Type,False,False,,
+Specialised Observations,MultiPointObservation,OK,Spatial Object Type,Spatial Object Type,False,False,,
+Specialised Observations,PointObservation,OK,Spatial Object Type,Spatial Object Type,False,False,,
+Specialised Observations,PointObservationCollection,OK,Spatial Object Type,Spatial Object Type,False,False,ObservationSet,ObservationSet
+Specialised Observations,PointTimeSeriesObservation,OK,Spatial Object Type,Spatial Object Type,False,False,,
+Specialised Observations,ProfileObservation,OK,Spatial Object Type,Spatial Object Type,False,False,,
+Specialised Observations,TimeLocationValueTriple,OK,Data Type,Data Type,False,False,,
+Specialised Observations,TrajectoryObservation,OK,Spatial Object Type,Spatial Object Type,False,False,,
+SpeciesDistribution,Article17CountingUnitValue,OK,Code List Type,Code List Type,False,False,CountingUnitValue,CountingUnitValue
+SpeciesDistribution,CountingMethodValue,OK,Code List Type,Code List Type,False,False,,
+SpeciesDistribution,CountingUnitValue,OK,Code List Type,Code List Type,False,False,,
+SpeciesDistribution,DistributionInfoType,OK,Data Type,Data Type,False,False,,
+SpeciesDistribution,EuNomenCodeValue,OK,Code List Type,Code List Type,False,False,ReferenceSpeciesCodeValue,ReferenceSpeciesCodeValue
+SpeciesDistribution,EunisSpeciesCodeValue,OK,Code List Type,Code List Type,False,False,ReferenceSpeciesCodeValue,ReferenceSpeciesCodeValue
+SpeciesDistribution,GeneralCountingUnitValue,OK,Code List Type,Code List Type,False,False,CountingUnitValue,CountingUnitValue
+SpeciesDistribution,LocalSpeciesNameCodeValue,OK,Code List Type,Code List Type,False,False,,
+SpeciesDistribution,NatureDirectivesCodeValue,OK,Code List Type,Code List Type,False,False,ReferenceSpeciesCodeValue,ReferenceSpeciesCodeValue
+SpeciesDistribution,OccurrenceCategoryValue,OK,Code List Type,Code List Type,False,False,,
+SpeciesDistribution,PopulationSizeType,OK,Data Type,Data Type,False,False,,
+SpeciesDistribution,PopulationTypeValue,OK,Code List Type,Code List Type,False,False,,
+SpeciesDistribution,QualifierValue,OK,Code List Type,Code List Type,False,False,,
+SpeciesDistribution,RangeType,OK,Data Type,Data Type,False,False,,
+SpeciesDistribution,ReferenceSpeciesCodeValue,OK,Code List Type,Code List Type,False,False,,
+SpeciesDistribution,ReferenceSpeciesSchemeValue,OK,Code List Type,Code List Type,False,False,,
+SpeciesDistribution,ResidencyStatusValue,OK,Code List Type,Code List Type,False,False,,
+SpeciesDistribution,SpeciesDistributionDataSet,OK,Spatial Object Type,Spatial Object Type,False,False,,
+SpeciesDistribution,SpeciesDistributionUnit,OK,Spatial Object Type,Spatial Object Type,False,False,,
+SpeciesDistribution,SpeciesNameType,OK,Data Type,Data Type,False,False,,
+Statistical Units Base,StatisticalUnit,OK,Spatial Object Type,Spatial Object Type,True,True,,
+Statistical Units Grid,GridPosition,OK,Data Type,Data Type,False,False,,
+Statistical Units Grid,StatisticalGrid,OK,Spatial Object Type,Spatial Object Type,False,False,,
+Statistical Units Grid,StatisticalGridCell,OK,Spatial Object Type,Spatial Object Type,False,False,StatisticalUnit,StatisticalUnit
+Statistical Units Grid,StatisticalGridResolution,OK,Union Data Type,Union Data Type,False,False,,
+Statistical Units Vector,AreaStatisticalUnit,OK,Spatial Object Type,Spatial Object Type,False,False,VectorStatisticalUnit,VectorStatisticalUnit
+Statistical Units Vector,Evolution,OK,Spatial Object Type,Spatial Object Type,False,False,,
+Statistical Units Vector,EvolutionTypeValue,OK,Code List Type,Code List Type,False,False,,
+Statistical Units Vector,GeometryDescriptor,OK,Data Type,Data Type,False,False,,
+Statistical Units Vector,GeometryTypeValue,OK,Code List Type,Code List Type,False,False,,
+Statistical Units Vector,StatisticalTessellation,OK,Spatial Object Type,Spatial Object Type,False,False,,
+Statistical Units Vector,StatisticalUnitTypeValue,OK,Code List Type,Code List Type,False,False,,
+Statistical Units Vector,VectorStatisticalUnit,OK,Spatial Object Type,Spatial Object Type,False,False,StatisticalUnit,StatisticalUnit
+Statistical Units Vector,VectorStatisticalUnitGeometry,OK,Data Type,Data Type,False,False,,
+Telecommunications Network,TelecommunicationsAppurtenanceTypeValue,OK,Code List Type,Code List Type,False,False,AppurtenanceTypeValue,AppurtenanceTypeValue
+Telecommunications Network,TelecommunicationsCable,OK,Spatial Object Type,Spatial Object Type,False,False,Cable,Cable
+Telecommunications Network,TelecommunicationsCableMaterialTypeValue,OK,Code List Type,Code List Type,False,False,,
+Thermal Network,ThermalAppurtenanceTypeValue,OK,Code List Type,Code List Type,False,False,AppurtenanceTypeValue,AppurtenanceTypeValue
+Thermal Network,ThermalPipe,OK,Spatial Object Type,Spatial Object Type,False,False,Pipe,Pipe
+Water Network,WaterAppurtenanceTypeValue,OK,Code List Type,Code List Type,False,False,AppurtenanceTypeValue,AppurtenanceTypeValue
+Water Network,WaterPipe,OK,Spatial Object Type,Spatial Object Type,False,False,Pipe,Pipe
+Water Network,WaterTypeValue,OK,Code List Type,Code List Type,False,False,,
+Water Transport Network,Beacon,OK,Spatial Object Type,Spatial Object Type,False,False,TransportPoint,TransportPoint
+Water Transport Network,Buoy,OK,Spatial Object Type,Spatial Object Type,False,False,TransportPoint,TransportPoint
+Water Transport Network,CEMTClass,OK,Spatial Object Type,Spatial Object Type,False,False,TransportProperty,TransportProperty
+Water Transport Network,CEMTClassValue,OK,Code List Type,Code List Type,False,False,,
+Water Transport Network,ConditionOfWaterFacility,OK,Spatial Object Type,Spatial Object Type,False,False,ConditionOfFacility,ConditionOfFacility
+Water Transport Network,FairwayArea,OK,Spatial Object Type,Spatial Object Type,False,False,TransportArea,TransportArea
+Water Transport Network,FerryCrossing,OK,Spatial Object Type,Spatial Object Type,False,False,Waterway,Waterway
+Water Transport Network,FerryUse,OK,Spatial Object Type,Spatial Object Type,False,False,TransportProperty,TransportProperty
+Water Transport Network,FerryUseValue,OK,Code List Type,Code List Type,False,False,,
+Water Transport Network,FormOfWaterwayNodeValue,OK,Code List Type,Code List Type,False,False,,
+Water Transport Network,InlandWaterway,OK,Spatial Object Type,Spatial Object Type,False,False,Waterway,Waterway
+Water Transport Network,MarineWaterway,OK,Spatial Object Type,Spatial Object Type,False,False,Waterway,Waterway
+Water Transport Network,PortArea,OK,Spatial Object Type,Spatial Object Type,False,False,TransportArea,TransportArea
+Water Transport Network,PortNode,OK,Spatial Object Type,Spatial Object Type,False,False,WaterNode,WaterNode
+Water Transport Network,RestrictionForWaterVehicles,OK,Spatial Object Type,Spatial Object Type,False,False,RestrictionForVehicles,RestrictionForVehicles
+Water Transport Network,TrafficSeparationScheme,OK,Spatial Object Type,Spatial Object Type,False,False,,
+Water Transport Network,TrafficSeparationSchemeArea,OK,Spatial Object Type,Spatial Object Type,True,True,TransportArea,TransportArea
+Water Transport Network,TrafficSeparationSchemeCrossing,OK,Spatial Object Type,Spatial Object Type,False,False,TrafficSeparationSchemeArea,TrafficSeparationSchemeArea
+Water Transport Network,TrafficSeparationSchemeLane,OK,Spatial Object Type,Spatial Object Type,False,False,TrafficSeparationSchemeArea,TrafficSeparationSchemeArea
+Water Transport Network,TrafficSeparationSchemeRoundabout,OK,Spatial Object Type,Spatial Object Type,False,False,TrafficSeparationSchemeArea,TrafficSeparationSchemeArea
+Water Transport Network,TrafficSeparationSchemeSeparator,OK,Spatial Object Type,Spatial Object Type,False,False,TrafficSeparationSchemeArea,TrafficSeparationSchemeArea
+Water Transport Network,WaterLinkSequence,OK,Spatial Object Type,Spatial Object Type,False,False,TransportLinkSequence,TransportLinkSequence
+Water Transport Network,WaterNode,OK,Spatial Object Type,Spatial Object Type,True,True,TransportNode,TransportNode
+Water Transport Network,WaterTrafficFlowDirection,OK,Spatial Object Type,Spatial Object Type,False,False,TrafficFlowDirection,TrafficFlowDirection
+Water Transport Network,Waterway,OK,Spatial Object Type,Spatial Object Type,True,True,TransportLinkSet,TransportLinkSet
+Water Transport Network,WaterwayLink,OK,Spatial Object Type,Spatial Object Type,False,False,TransportLink,TransportLink
+Water Transport Network,WaterwayNode,OK,Spatial Object Type,Spatial Object Type,False,False,WaterNode,WaterNode
