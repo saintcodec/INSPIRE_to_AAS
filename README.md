@@ -18,5 +18,6 @@ Each experiment has its own folder with scripts, results and a log (question, me
 |---|---|---|
 | [E01](experiments/e01_source_inventory/) | Inventory of the INSPIRE v2025.1 EA/XMI model; cross-check against the mapping tables | done |
 | [E02](experiments/e02_fc_crosscheck/) | Our XMI reader vs ShapeChange's Feature Catalogue | done |
+| [E03](experiments/e03_registry_codelists/) | Codelists: UML vs INSPIRE Registry (values, extensibility) | done |
 
 Source data goes in `data/raw/` (not committed; see each experiment for checksums).

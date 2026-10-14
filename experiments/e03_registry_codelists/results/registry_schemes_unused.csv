@@ -1,0 +1,63 @@
+uri,label,status,extensibility,abstract,schema,n_values
+http://inspire.ec.europa.eu/codelist/ActivityCodeValue,activity code value,valid,open,True,pf,0
+http://inspire.ec.europa.eu/codelist/AquacultureActivityValue,Aquaculture Activity Value,valid,open,False,af,4
+http://inspire.ec.europa.eu/codelist/AquacultureInstallationValue,Aquaculture Installation Value,valid,open,False,af,8
+http://inspire.ec.europa.eu/codelist/BuildingUseValue,Building use value.,valid,open,False,hh-sa,4
+http://inspire.ec.europa.eu/codelist/CI_RoleCode,Role Code,valid,none,False,base2,0
+http://inspire.ec.europa.eu/codelist/CLPCodeValue,CLP code value,valid,any,False,pf,0
+http://inspire.ec.europa.eu/codelist/CPACodeValue,CPA code value,valid,any,False,pf,0
+http://inspire.ec.europa.eu/codelist/ConsequenceTypeValue,Consequence type value,valid,open,False,hh-sa,5
+http://inspire.ec.europa.eu/codelist/ContaminatingActivityPresenceValue,contaminating activity presence value,valid,open,False,so,4
+http://inspire.ec.europa.eu/codelist/ControlTypeCode,Control Type Code,valid,any,False,am,4
+http://inspire.ec.europa.eu/codelist/ControlledActivityType,Controlled Activity Type,valid,any,False,am,9
+http://inspire.ec.europa.eu/codelist/CurveModelTypeValue,Curve Model Type,valid,open,False,ge_gp,3
+http://inspire.ec.europa.eu/codelist/DayTypeCode,Day Type Code,valid,any,False,am,10
+http://inspire.ec.europa.eu/codelist/E-PRTRCodeValue,E-PRTR code value,valid,any,False,pf,0
+http://inspire.ec.europa.eu/codelist/EWCCodeValue,EWC code value,valid,any,False,pf,0
+http://inspire.ec.europa.eu/codelist/EnergyClassificationValue,energy classification value,valid,open,False,pf,6
+http://inspire.ec.europa.eu/codelist/EnergyProductValue,Energy product value,valid,any,False,er-s,0
+http://inspire.ec.europa.eu/codelist/EnergyStatisticsAggregateValue,Energy statistics aggregate value,valid,any,False,er-s,0
+http://inspire.ec.europa.eu/codelist/EnvironmentValue,Environment Value,valid,open,False,af,3
+http://inspire.ec.europa.eu/codelist/FireOrExplosionTypeValue,Fire or explosion type value,valid,open,False,hh-sa,2
+http://inspire.ec.europa.eu/codelist/FlowAppearanceValue,flow appearance value,valid,open,False,pf,2
+http://inspire.ec.europa.eu/codelist/HazardousMaterialTypeValue,Hazardous material related event type,valid,open,False,hh-sa,5
+http://inspire.ec.europa.eu/codelist/HealthStatusValue,Health Status Value,valid,open,False,af,4
+http://inspire.ec.europa.eu/codelist/IPPCCodeValue,IPPC code value,valid,open,False,pf,0
+http://inspire.ec.europa.eu/codelist/InstallationPartValue,Installation Part Value,valid,open,False,af,11
+http://inspire.ec.europa.eu/codelist/InundationValue,Inundation,valid,none,False,hy-p,2
+http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue,investigation trigger value,valid,open,False,so,10
+http://inspire.ec.europa.eu/codelist/IrrigationMethodeValue,Irrigation Methode Value,valid,open,False,af,3
+http://inspire.ec.europa.eu/codelist/MeasureTakenStageValue,measure taken stage value,valid,open,False,so,4
+http://inspire.ec.europa.eu/codelist/MeasureTakenStatusValue,measure taken status value,valid,open,False,so,3
+http://inspire.ec.europa.eu/codelist/MeasureTakenValue,measure taken value,valid,open,False,so,10
+http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue,other contaminating activity value,valid,open,False,so,10
+http://inspire.ec.europa.eu/codelist/PlotActivityValue,Plot Activity Value,valid,open,False,af,75
+http://inspire.ec.europa.eu/codelist/ProcessItemValue,process item value,valid,any,False,pf,0
+http://inspire.ec.europa.eu/codelist/RegistrationNatureValue,registration nature value,valid,open,False,pf,3
+http://inspire.ec.europa.eu/codelist/ReleaseValue,release value,valid,open,False,pf,2
+http://inspire.ec.europa.eu/codelist/RiskAssessmentStageValue,risk assessment stage value,valid,open,False,so,3
+http://inspire.ec.europa.eu/codelist/RiskReceptorValue,risk receptor value,valid,open,False,so,6
+http://inspire.ec.europa.eu/codelist/RiskTypeValue,risk type value,valid,open,False,so,10
+http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode,soil contamination specialised zone type code,valid,open,False,so,11
+http://inspire.ec.europa.eu/codelist/SpecialisedActivityTypeCode,Specialised Activity Type Code,valid,any,False,am,0
+http://inspire.ec.europa.eu/codelist/ThermalProductTypeValue,Thermal Product Type,valid,any,False,us-net-th,0
+http://inspire.ec.europa.eu/codelist/TrafficTypeValue,Traffic type value,valid,open,False,hh-sa,4
+http://inspire.ec.europa.eu/codelist/TypeOfAgriBuildingValue,Type of Agri-Building Value,valid,open,False,af,34
+http://inspire.ec.europa.eu/codelist/WaterSourceValue,Water Source Value,valid,open,False,af,5
+http://inspire.ec.europa.eu/enumeration/CEMTClassValue,CEMT class,retired,,False,tn-w,10
+http://inspire.ec.europa.eu/enumeration/ComparisonOperatorValue,Comparison operator,retired,,False,omop,6
+http://inspire.ec.europa.eu/enumeration/ContourLineTypeValue,Contour line type,retired,,False,el-vec,3
+http://inspire.ec.europa.eu/enumeration/DeterminationMethodValue,Determination method,retired,,False,nz-core,2
+http://inspire.ec.europa.eu/enumeration/ElevationPropertyTypeValue,Elevation property type,retired,,False,el-bas,2
+http://inspire.ec.europa.eu/enumeration/FunctionalRoadClassValue,Functional road class,retired,,False,tn-ro,10
+http://inspire.ec.europa.eu/enumeration/LegalStatusValue,Legal status,retired,,False,au,2
+http://inspire.ec.europa.eu/enumeration/MinMaxLaneValue,Minimum or maximum track number,retired,,False,tn-ro,3
+http://inspire.ec.europa.eu/enumeration/MinMaxTrackValue,Min Max track,retired,,False,tn-ra,3
+http://inspire.ec.europa.eu/enumeration/OriginValue,Origin,retired,,False,hy-p,2
+http://inspire.ec.europa.eu/enumeration/ProtectionClassificationValue,Protection classification,retired,,False,ps,7
+http://inspire.ec.europa.eu/enumeration/SpeedLimitMinMaxValue,Nature of speed limit,retired,,False,tn-ro,4
+http://inspire.ec.europa.eu/enumeration/SurfaceTypeValue,Surface type,retired,,False,el-bas,2
+http://inspire.ec.europa.eu/enumeration/TechnicalStatusValue,Technical status,retired,,False,au,2
+http://inspire.ec.europa.eu/enumeration/TrackGaugeCategoryValue,Track Gauge category,retired,,False,tn-ra,4
+http://inspire.ec.europa.eu/enumeration/TransportTypeValue,Transport type,retired,,False,tn,5
+http://inspire.ec.europa.eu/enumeration/VerticalPositionValue,Vertical position,retired,,False,base,3

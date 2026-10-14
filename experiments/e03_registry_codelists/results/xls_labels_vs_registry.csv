@@ -1,0 +1,42 @@
+schema,codelist,xls_label,registry_code,status
+AdministrativeUnits,AdministrativeHierarchyLevel,1st order,1stOrder,MATCH
+AdministrativeUnits,AdministrativeHierarchyLevel,2nd order,2ndOrder,MATCH
+AdministrativeUnits,AdministrativeHierarchyLevel,3rd order,3rdOrder,MATCH
+AdministrativeUnits,AdministrativeHierarchyLevel,4th order,4thOrder,MATCH
+AdministrativeUnits,AdministrativeHierarchyLevel,5th order,5thOrder,MATCH
+AdministrativeUnits,AdministrativeHierarchyLevel,6th order,6thOrder,MATCH
+AdministrativeUnits,LegalStatusValue,agreed,agreed,MATCH
+AdministrativeUnits,LegalStatusValue,not Agreed,notAgreed,MATCH
+AdministrativeUnits,TechnicalStatusValue,edge Matched,edgeMatched,MATCH
+AdministrativeUnits,TechnicalStatusValue,not Edge Matched,notEdgeMatched,MATCH
+CadastralParcels,CadastralZoningLevelValue,1st order,1stOrder,MATCH
+CadastralParcels,CadastralZoningLevelValue,2nd order,2ndOrder,MATCH
+CadastralParcels,CadastralZoningLevelValue,3rd order,3rdOrder,MATCH
+Soil,LayerGenesisProcessStateValue,on-going,ongoing,MATCH
+Soil,LayerGenesisProcessStateValue,terminated,terminated,MATCH
+Soil,LayerTypeValue,depth interval,depthInterval,MATCH
+Soil,LayerTypeValue,geogenic,geogenic,MATCH
+Soil,LayerTypeValue,subsoil,subSoil,MATCH
+Soil,LayerTypeValue,topsoil,topSoil,MATCH
+Soil,SoilDerivedObjectParameterNameValue,chemical parameter,chemicalParameter,MATCH
+Soil,SoilDerivedObjectParameterNameValue,physical parameter,physicalParameter,MATCH
+Soil,SoilDerivedObjectParameterNameValue,biological parameter,biologicalParameter,MATCH
+Soil,SoilDerivedObjectParameterNameValue,potential root depth,potentialRootDepth,MATCH
+Soil,SoilDerivedObjectParameterNameValue,available water capacity,availableWaterCapacity,MATCH
+Soil,SoilDerivedObjectParameterNameValue,nitrogen content,nitrogenContent,MATCH
+Soil,SoilDerivedObjectParameterNameValue,cadmium content,cadmiumContent,MATCH
+Soil,SoilDerivedObjectParameterNameValue,pH value,pHValue,MATCH
+Soil,SoilDerivedObjectParameterNameValue,copper content,copperContent,MATCH
+Soil,SoilDerivedObjectParameterNameValue,chromium content,chromiumContent,MATCH
+Soil,SoilDerivedObjectParameterNameValue,lead content,leadContent,MATCH
+Soil,SoilDerivedObjectParameterNameValue,nickel content,nickelContent,MATCH
+Soil,SoilDerivedObjectParameterNameValue,zinc content,zincContent,MATCH
+Soil,SoilDerivedObjectParameterNameValue,carbon stock,carbonStock,MATCH
+Soil,SoilDerivedObjectParameterNameValue,water drainage,waterDrainage,MATCH
+Soil,SoilDerivedObjectParameterNameValue,organic carbon content,organicCarbonContent,MATCH
+Soil,SoilDerivedObjectParameterNameValue,mercury content,mercuryContent,MATCH
+Soil,SoilInvestigationPurposeValue,general soil survey,generalSoilSurvey,MATCH
+Soil,SoilInvestigationPurposeValue,specific soil survey,specificSoilSurvey,MATCH
+Soil,SoilPlotTypeValue,borehole,borehole,MATCH
+Soil,SoilPlotTypeValue,sample,sample,MATCH
+Soil,SoilPlotTypeValue,trial pit,trialPit,MATCH

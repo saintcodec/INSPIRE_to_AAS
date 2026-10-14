@@ -1,0 +1,18 @@
+registry version: codelist 20260826-0, enumeration 20260826-0
+registry schemes: 349 (codelist 332, enumeration 17); values: 8200
+XMI codelists/enumerations in application schemas: 362
+  extensibility:AGREE                                     173
+  extensibility:CONFLICT                                  77
+  extensibility:NO_REGISTRY_ENTRY                         75
+  extensibility:UML_MISSING                               37
+  match:NONE                                              75
+  match:name                                              213
+  match:vocabulary-tag                                    74
+  registry schemes not used by any XMI codelist           62
+  test-theme codelists                                    21
+  test-theme codelists with registry values               19
+  test-theme codelists with xls values                    9
+  uml-values-vs-registry:DIFF                             19
+  uml-values-vs-registry:SAME                             99
+  vocabulary tag not a registry scheme                    137
+  xls-label:MATCH                                         41
