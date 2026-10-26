@@ -1,0 +1,50 @@
+schema,smt,path,kind,detail
+AdministrativeUnits,AdministrativeBoundary,AdministrativeBoundary/geometry,geometry-as-geojson,GM_Curve -> File application/geo+json
+AdministrativeUnits,AdministrativeBoundary,codelist:LegalStatusValue,codelist-extensibility-conflict,LegalStatusValue: UML 'any' vs Registry 'none' -> Registry used
+AdministrativeUnits,AdministrativeBoundary,codelist:AdministrativeHierarchyLevel,codelist-extensibility-missing-in-uml,AdministrativeHierarchyLevel: Registry says none
+AdministrativeUnits,AdministrativeBoundary,AdministrativeBoundary/nationalLevel,multiplicity-approximated,[1..6] -> OneToMany
+AdministrativeUnits,AdministrativeBoundary,codelist:TechnicalStatusValue,codelist-extensibility-conflict,TechnicalStatusValue: UML 'any' vs Registry 'none' -> Registry used
+AdministrativeUnits,AdministrativeUnit,AdministrativeUnit/geometry,geometry-as-geojson,GM_MultiSurface -> File application/geo+json
+AdministrativeUnits,AdministrativeUnit,codelist:GrammaticalGenderValue,codelist-extensibility-conflict,GrammaticalGenderValue: UML 'any' vs Registry 'none' -> Registry used
+AdministrativeUnits,AdministrativeUnit,codelist:GrammaticalNumberValue,codelist-extensibility-conflict,GrammaticalNumberValue: UML 'any' vs Registry 'none' -> Registry used
+AdministrativeUnits,AdministrativeUnit,codelist:NameStatusValue,codelist-extensibility-conflict,NameStatusValue: UML 'any' vs Registry 'none' -> Registry used
+AdministrativeUnits,AdministrativeUnit,codelist:NativenessValue,codelist-extensibility-conflict,NativenessValue: UML 'any' vs Registry 'none' -> Registry used
+AdministrativeUnits,AdministrativeUnit,codelist:AdministrativeHierarchyLevel,codelist-extensibility-missing-in-uml,AdministrativeHierarchyLevel: Registry says none
+AdministrativeUnits,AdministrativeUnit,AdministrativeUnit/residenceOfAuthority/geometry,geometry-as-geojson,GM_Point -> File application/geo+json
+AdministrativeUnits,AdministrativeUnit,AdministrativeUnit,ocl-constraint-not-translated,AdmininstrativeUnitHighestLevel
+AdministrativeUnits,AdministrativeUnit,AdministrativeUnit,ocl-constraint-not-translated,AdministrativeUnitLowestLevel
+AdministrativeUnits,AdministrativeUnit,AdministrativeUnit,ocl-constraint-not-translated,CondominiumsAtCountryLevel
+AdministrativeUnits,Condominium,Condominium/geometry,geometry-as-geojson,GM_MultiSurface -> File application/geo+json
+AdministrativeUnits,Condominium,codelist:GrammaticalGenderValue,codelist-extensibility-conflict,GrammaticalGenderValue: UML 'any' vs Registry 'none' -> Registry used
+AdministrativeUnits,Condominium,codelist:GrammaticalNumberValue,codelist-extensibility-conflict,GrammaticalNumberValue: UML 'any' vs Registry 'none' -> Registry used
+AdministrativeUnits,Condominium,codelist:NameStatusValue,codelist-extensibility-conflict,NameStatusValue: UML 'any' vs Registry 'none' -> Registry used
+AdministrativeUnits,Condominium,codelist:NativenessValue,codelist-extensibility-conflict,NativenessValue: UML 'any' vs Registry 'none' -> Registry used
+CadastralParcels,BasicPropertyUnit,BasicPropertyUnit/areaValue,measure-unit-not-fixed,"Area: value as xs:double, unit of measure left to the instance"
+CadastralParcels,BasicPropertyUnit,BasicPropertyUnit,ocl-constraint-not-translated,areaValueUoM
+CadastralParcels,BasicPropertyUnit,BasicPropertyUnit,ocl-constraint-not-translated,endLifespanVersion
+CadastralParcels,BasicPropertyUnit,BasicPropertyUnit,ocl-constraint-not-translated,validTo
+CadastralParcels,CadastralBoundary,CadastralBoundary/estimatedAccuracy,measure-unit-not-fixed,"Length: value as xs:double, unit of measure left to the instance"
+CadastralParcels,CadastralBoundary,CadastralBoundary/geometry,geometry-as-geojson,GM_Curve -> File application/geo+json
+CadastralParcels,CadastralBoundary,CadastralBoundary/parcel,multiplicity-approximated,[1..2] -> OneToMany
+CadastralParcels,CadastralBoundary,CadastralBoundary,ocl-constraint-not-translated,endLifespanVersion
+CadastralParcels,CadastralBoundary,CadastralBoundary,ocl-constraint-not-translated,estimatedAccuracyUoM
+CadastralParcels,CadastralBoundary,CadastralBoundary,ocl-constraint-not-translated,validTo
+CadastralParcels,CadastralParcel,CadastralParcel/areaValue,measure-unit-not-fixed,"Area: value as xs:double, unit of measure left to the instance"
+CadastralParcels,CadastralParcel,CadastralParcel/geometry,geometry-as-geojson,GM_Object -> File application/geo+json
+CadastralParcels,CadastralParcel,CadastralParcel/referencePoint,geometry-as-geojson,GM_Point -> File application/geo+json
+CadastralParcels,CadastralParcel,CadastralParcel,ocl-constraint-not-translated,areaValueUoM
+CadastralParcels,CadastralParcel,CadastralParcel,ocl-constraint-not-translated,endLifespanVersion
+CadastralParcels,CadastralParcel,CadastralParcel,ocl-constraint-not-translated,geometryType
+CadastralParcels,CadastralParcel,CadastralParcel,ocl-constraint-not-translated,validTo
+CadastralParcels,CadastralZoning,CadastralZoning/estimatedAccuracy,measure-unit-not-fixed,"Length: value as xs:double, unit of measure left to the instance"
+CadastralParcels,CadastralZoning,CadastralZoning/geometry,geometry-as-geojson,GM_MultiSurface -> File application/geo+json
+CadastralParcels,CadastralZoning,codelist:CadastralZoningLevelValue,codelist-extensibility-missing-in-uml,CadastralZoningLevelValue: Registry says none
+CadastralParcels,CadastralZoning,codelist:GrammaticalGenderValue,codelist-extensibility-conflict,GrammaticalGenderValue: UML 'any' vs Registry 'none' -> Registry used
+CadastralParcels,CadastralZoning,codelist:GrammaticalNumberValue,codelist-extensibility-conflict,GrammaticalNumberValue: UML 'any' vs Registry 'none' -> Registry used
+CadastralParcels,CadastralZoning,codelist:NameStatusValue,codelist-extensibility-conflict,NameStatusValue: UML 'any' vs Registry 'none' -> Registry used
+CadastralParcels,CadastralZoning,codelist:NativenessValue,codelist-extensibility-conflict,NativenessValue: UML 'any' vs Registry 'none' -> Registry used
+CadastralParcels,CadastralZoning,CadastralZoning/referencePoint,geometry-as-geojson,GM_Point -> File application/geo+json
+CadastralParcels,CadastralZoning,CadastralZoning,ocl-constraint-not-translated,endLifespanVersion
+CadastralParcels,CadastralZoning,CadastralZoning,ocl-constraint-not-translated,estimatedAccuracyUoM
+CadastralParcels,CadastralZoning,CadastralZoning,ocl-constraint-not-translated,validTo
+CadastralParcels,CadastralZoning,CadastralZoning,ocl-constraint-not-translated,zoningLevelHierarchy

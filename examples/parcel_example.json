@@ -1,0 +1,15 @@
+{
+  "_comment": "FICTITIOUS example parcel for testing the generator. Not a real cadastral record.",
+  "templates": "output/templates/cp_au/cp_au_templates.json",
+  "template": "CadastralParcel",
+  "values": {
+    "inspireId": {"namespace": "https://example.org/EXAMPLE-CP", "localId": "EX-0001", "versionId": "1"},
+    "label": "123/4",
+    "nationalCadastralReference": "EXAMPLE-000123-0004",
+    "areaValue": 812.5,
+    "geometry": {"file": "parcel_example.geojson"},
+    "beginLifespanVersion": "2024-05-01T00:00:00Z",
+    "validFrom": {"nilReason": "unknown"},
+    "administrativeUnit": "https://example.org/inspire-aas/sm/au/AdministrativeUnit/EXAMPLE-AU-1"
+  }
+}

@@ -8,6 +8,8 @@ venv/
 
 # Downloaded source models / large artifacts (fetch via scripts, don't commit)
 data/raw/
+# third-party specification documents (reference only)
+data/aas/
 
 # Third-party tools (download separately)
 ShapeChange-*/

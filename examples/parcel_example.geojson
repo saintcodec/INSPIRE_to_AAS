@@ -1,0 +1,8 @@
+{
+  "type": "Feature",
+  "properties": {"note": "FICTITIOUS example geometry, WGS 84 lon/lat (RFC 7946)"},
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [[[7.0000, 51.0000], [7.0004, 51.0000], [7.0004, 51.0002], [7.0000, 51.0002], [7.0000, 51.0000]]]
+  }
+}

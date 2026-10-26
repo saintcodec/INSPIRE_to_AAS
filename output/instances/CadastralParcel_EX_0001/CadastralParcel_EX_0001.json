@@ -1,0 +1,1011 @@
+{
+  "assetAdministrationShells": [
+    {
+      "modelType": "AssetAdministrationShell",
+      "id": "https://example.org/inspire-aas/aas/cp/example.org_EXAMPLE-CP_EX-0001",
+      "idShort": "CadastralParcel_EX_0001",
+      "assetInformation": {
+        "assetKind": "Instance",
+        "globalAssetId": "https://example.org/inspire-aas/asset/cp/example.org_EXAMPLE-CP_EX-0001",
+        "specificAssetIds": [
+          {
+            "name": "inspireId",
+            "value": "https://example.org/EXAMPLE-CP/EX-0001"
+          },
+          {
+            "name": "nationalCadastralReference",
+            "value": "EXAMPLE-000123-0004"
+          }
+        ]
+      },
+      "submodels": [
+        {
+          "type": "ModelReference",
+          "keys": [
+            {
+              "type": "Submodel",
+              "value": "https://example.org/inspire-aas/sm/cp/CadastralParcel/example.org_EXAMPLE-CP_EX-0001"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "submodels": [
+    {
+      "idShort": "CadastralParcel",
+      "displayName": [
+        {
+          "language": "en",
+          "text": "Cadastral Parcel"
+        },
+        {
+          "language": "de",
+          "text": "Flurstück"
+        }
+      ],
+      "description": [
+        {
+          "language": "en",
+          "text": "Areas defined by cadastral registers or equivalent."
+        }
+      ],
+      "id": "https://example.org/inspire-aas/sm/cp/CadastralParcel/example.org_EXAMPLE-CP_EX-0001",
+      "semanticId": {
+        "type": "ExternalReference",
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "value": "http://inspire.ec.europa.eu/featureconcept/CadastralParcel"
+          }
+        ]
+      },
+      "modelType": "Submodel",
+      "kind": "Instance",
+      "submodelElements": [
+        {
+          "idShort": "areaValue",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "areaValue"
+            }
+          ],
+          "description": [
+            {
+              "language": "en",
+              "text": "Registered area value giving quantification of the area projected on the horizontal plane of the cadastral parcel."
+            }
+          ],
+          "semanticId": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/areaValue"
+              }
+            ]
+          },
+          "valueType": "xs:double",
+          "modelType": "Property",
+          "value": "812.5"
+        },
+        {
+          "idShort": "beginLifespanVersion",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "beginLifespanVersion"
+            }
+          ],
+          "description": [
+            {
+              "language": "en",
+              "text": "Date and time at which this version of the spatial object was inserted or changed in the spatial data set."
+            }
+          ],
+          "semanticId": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/beginLifespanVersion"
+              }
+            ]
+          },
+          "valueType": "xs:dateTime",
+          "modelType": "Property",
+          "value": "2024-05-01T00:00:00Z"
+        },
+        {
+          "idShort": "geometry",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "geometry"
+            }
+          ],
+          "description": [
+            {
+              "language": "en",
+              "text": "Geometry of the cadastral parcel."
+            }
+          ],
+          "semanticId": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/geometry"
+              }
+            ]
+          },
+          "contentType": "application/geo+json",
+          "modelType": "File",
+          "value": "/aasx/files/parcel_example.geojson"
+        },
+        {
+          "idShort": "inspireId",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "inspireId"
+            }
+          ],
+          "description": [
+            {
+              "language": "en",
+              "text": "External object identifier of the spatial object."
+            }
+          ],
+          "semanticId": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/inspireId"
+              }
+            ]
+          },
+          "supplementalSemanticIds": [
+            {
+              "type": "ExternalReference",
+              "keys": [
+                {
+                  "type": "GlobalReference",
+                  "value": "https://example.org/inspire-aas/cd/base/4.0/Identifier"
+                }
+              ]
+            }
+          ],
+          "value": [
+            {
+              "idShort": "localId",
+              "displayName": [
+                {
+                  "language": "en",
+                  "text": "localId"
+                }
+              ],
+              "description": [
+                {
+                  "language": "en",
+                  "text": "A local identifier, assigned by the data provider. The local identifier is unique within the namespace, that is no other spatial object carries the same unique identifier."
+                }
+              ],
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "https://example.org/inspire-aas/cd/base/4.0/Identifier/localId"
+                  }
+                ]
+              },
+              "valueType": "xs:string",
+              "modelType": "Property",
+              "value": "EX-0001"
+            },
+            {
+              "idShort": "namespace",
+              "displayName": [
+                {
+                  "language": "en",
+                  "text": "namespace"
+                }
+              ],
+              "description": [
+                {
+                  "language": "en",
+                  "text": "Namespace uniquely identifying the data source of the spatial object."
+                }
+              ],
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "https://example.org/inspire-aas/cd/base/4.0/Identifier/namespace"
+                  }
+                ]
+              },
+              "valueType": "xs:string",
+              "modelType": "Property",
+              "value": "https://example.org/EXAMPLE-CP"
+            },
+            {
+              "idShort": "versionId",
+              "displayName": [
+                {
+                  "language": "en",
+                  "text": "versionId"
+                }
+              ],
+              "description": [
+                {
+                  "language": "en",
+                  "text": "The identifier of the particular version of the spatial object, with a maximum length of 25 characters. If the specification of a spatial object type with an external object identifier includes life-cycle information, the version identifier is used to distinguish between the different versions of a spatial object. Within the set of all versions of a spatial object, the version identifier is unique."
+                }
+              ],
+              "semanticId": {
+                "type": "ExternalReference",
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "https://example.org/inspire-aas/cd/base/4.0/Identifier/versionId"
+                  }
+                ]
+              },
+              "valueType": "xs:string",
+              "modelType": "Property",
+              "value": "1"
+            }
+          ],
+          "modelType": "SubmodelElementCollection"
+        },
+        {
+          "idShort": "label",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "label"
+            }
+          ],
+          "description": [
+            {
+              "language": "en",
+              "text": "Text commonly used to display the cadastral parcel identification."
+            }
+          ],
+          "semanticId": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/label"
+              }
+            ]
+          },
+          "valueType": "xs:string",
+          "modelType": "Property",
+          "value": "123/4"
+        },
+        {
+          "idShort": "nationalCadastralReference",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "nationalCadastralReference"
+            }
+          ],
+          "description": [
+            {
+              "language": "en",
+              "text": "Thematic identifier at national level, generally the full national code of the cadastral parcel. Must ensure the link to the national cadastral register or equivalent."
+            }
+          ],
+          "semanticId": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/nationalCadastralReference"
+              }
+            ]
+          },
+          "valueType": "xs:string",
+          "modelType": "Property",
+          "value": "EXAMPLE-000123-0004"
+        },
+        {
+          "idShort": "validFrom",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "validFrom"
+            }
+          ],
+          "description": [
+            {
+              "language": "en",
+              "text": "Official date and time the cadastral parcel was/will be legally established."
+            }
+          ],
+          "semanticId": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/validFrom"
+              }
+            ]
+          },
+          "valueType": "xs:dateTime",
+          "modelType": "Property",
+          "qualifiers": [
+            {
+              "type": "INSPIRE/nilReason",
+              "valueType": "xs:string",
+              "kind": "ValueQualifier",
+              "value": "unknown"
+            }
+          ]
+        },
+        {
+          "idShort": "administrativeUnit",
+          "displayName": [
+            {
+              "language": "en",
+              "text": "administrativeUnit"
+            }
+          ],
+          "description": [
+            {
+              "language": "en",
+              "text": "The administrative unit of lowest administrative level containing this cadastral parcel."
+            }
+          ],
+          "semanticId": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/administrativeUnit"
+              }
+            ]
+          },
+          "modelType": "ReferenceElement",
+          "value": {
+            "type": "ModelReference",
+            "keys": [
+              {
+                "type": "Submodel",
+                "value": "https://example.org/inspire-aas/sm/au/AdministrativeUnit/EXAMPLE-AU-1"
+              }
+            ]
+          }
+        }
+      ],
+      "administration": {
+        "version": "4",
+        "revision": "0",
+        "templateId": "https://example.org/inspire-aas/smt/cp/4.0/CadastralParcel"
+      }
+    }
+  ],
+  "conceptDescriptions": [
+    {
+      "idShort": "localId",
+      "id": "https://example.org/inspire-aas/cd/base/4.0/Identifier/localId",
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://admin-shell.io/DataSpecificationTemplates/DataSpecificationIec61360/3/0"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "en",
+                "text": "localId"
+              }
+            ],
+            "dataType": "STRING",
+            "definition": [
+              {
+                "language": "en",
+                "text": "A local identifier, assigned by the data provider. The local identifier is unique within the namespace, that is no other spatial object carries the same unique identifier."
+              }
+            ],
+            "modelType": "DataSpecificationIec61360"
+          }
+        }
+      ],
+      "modelType": "ConceptDescription"
+    },
+    {
+      "idShort": "namespace",
+      "id": "https://example.org/inspire-aas/cd/base/4.0/Identifier/namespace",
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://admin-shell.io/DataSpecificationTemplates/DataSpecificationIec61360/3/0"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "en",
+                "text": "namespace"
+              }
+            ],
+            "dataType": "STRING",
+            "definition": [
+              {
+                "language": "en",
+                "text": "Namespace uniquely identifying the data source of the spatial object."
+              }
+            ],
+            "modelType": "DataSpecificationIec61360"
+          }
+        }
+      ],
+      "modelType": "ConceptDescription"
+    },
+    {
+      "idShort": "versionId",
+      "id": "https://example.org/inspire-aas/cd/base/4.0/Identifier/versionId",
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://admin-shell.io/DataSpecificationTemplates/DataSpecificationIec61360/3/0"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "en",
+                "text": "versionId"
+              }
+            ],
+            "dataType": "STRING",
+            "definition": [
+              {
+                "language": "en",
+                "text": "The identifier of the particular version of the spatial object, with a maximum length of 25 characters. If the specification of a spatial object type with an external object identifier includes life-cycle information, the version identifier is used to distinguish between the different versions of a spatial object. Within the set of all versions of a spatial object, the version identifier is unique."
+              }
+            ],
+            "modelType": "DataSpecificationIec61360"
+          }
+        }
+      ],
+      "modelType": "ConceptDescription"
+    },
+    {
+      "idShort": "Identifier",
+      "id": "https://example.org/inspire-aas/cd/base/4.0/Identifier",
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://admin-shell.io/DataSpecificationTemplates/DataSpecificationIec61360/3/0"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "en",
+                "text": "Identifier"
+              }
+            ],
+            "definition": [
+              {
+                "language": "en",
+                "text": "External unique object identifier published by the responsible body, which may be used by external applications to reference the spatial object."
+              }
+            ],
+            "modelType": "DataSpecificationIec61360"
+          }
+        }
+      ],
+      "modelType": "ConceptDescription"
+    },
+    {
+      "idShort": "CadastralParcel",
+      "id": "http://inspire.ec.europa.eu/featureconcept/CadastralParcel",
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://admin-shell.io/DataSpecificationTemplates/DataSpecificationIec61360/3/0"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "en",
+                "text": "Cadastral Parcel"
+              },
+              {
+                "language": "de",
+                "text": "Flurstück"
+              }
+            ],
+            "definition": [
+              {
+                "language": "en",
+                "text": "Areas defined by cadastral registers or equivalent."
+              },
+              {
+                "language": "de",
+                "text": "Gebiete, die anhand des Liegenschaftskatasters oder gleichwertiger Verzeichnisse bestimmt werden."
+              }
+            ],
+            "modelType": "DataSpecificationIec61360"
+          }
+        }
+      ],
+      "modelType": "ConceptDescription"
+    },
+    {
+      "idShort": "areaValue",
+      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/areaValue",
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://admin-shell.io/DataSpecificationTemplates/DataSpecificationIec61360/3/0"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "en",
+                "text": "areaValue"
+              }
+            ],
+            "definition": [
+              {
+                "language": "en",
+                "text": "Registered area value giving quantification of the area projected on the horizontal plane of the cadastral parcel."
+              }
+            ],
+            "modelType": "DataSpecificationIec61360"
+          }
+        }
+      ],
+      "modelType": "ConceptDescription"
+    },
+    {
+      "idShort": "beginLifespanVersion",
+      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/beginLifespanVersion",
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://admin-shell.io/DataSpecificationTemplates/DataSpecificationIec61360/3/0"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "en",
+                "text": "beginLifespanVersion"
+              }
+            ],
+            "dataType": "TIMESTAMP",
+            "definition": [
+              {
+                "language": "en",
+                "text": "Date and time at which this version of the spatial object was inserted or changed in the spatial data set."
+              }
+            ],
+            "modelType": "DataSpecificationIec61360"
+          }
+        }
+      ],
+      "modelType": "ConceptDescription"
+    },
+    {
+      "idShort": "endLifespanVersion",
+      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/endLifespanVersion",
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://admin-shell.io/DataSpecificationTemplates/DataSpecificationIec61360/3/0"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "en",
+                "text": "endLifespanVersion"
+              }
+            ],
+            "dataType": "TIMESTAMP",
+            "definition": [
+              {
+                "language": "en",
+                "text": "Date and time at which this version of the spatial object was superseded or retired in the spatial data set."
+              }
+            ],
+            "modelType": "DataSpecificationIec61360"
+          }
+        }
+      ],
+      "modelType": "ConceptDescription"
+    },
+    {
+      "idShort": "geometry",
+      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/geometry",
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://admin-shell.io/DataSpecificationTemplates/DataSpecificationIec61360/3/0"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "en",
+                "text": "geometry"
+              }
+            ],
+            "dataType": "FILE",
+            "definition": [
+              {
+                "language": "en",
+                "text": "Geometry of the cadastral parcel."
+              }
+            ],
+            "modelType": "DataSpecificationIec61360"
+          }
+        }
+      ],
+      "modelType": "ConceptDescription"
+    },
+    {
+      "idShort": "inspireId",
+      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/inspireId",
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://admin-shell.io/DataSpecificationTemplates/DataSpecificationIec61360/3/0"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "en",
+                "text": "inspireId"
+              }
+            ],
+            "definition": [
+              {
+                "language": "en",
+                "text": "External object identifier of the spatial object."
+              }
+            ],
+            "modelType": "DataSpecificationIec61360"
+          }
+        }
+      ],
+      "modelType": "ConceptDescription"
+    },
+    {
+      "idShort": "label",
+      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/label",
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://admin-shell.io/DataSpecificationTemplates/DataSpecificationIec61360/3/0"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "en",
+                "text": "label"
+              }
+            ],
+            "dataType": "STRING",
+            "definition": [
+              {
+                "language": "en",
+                "text": "Text commonly used to display the cadastral parcel identification."
+              }
+            ],
+            "modelType": "DataSpecificationIec61360"
+          }
+        }
+      ],
+      "modelType": "ConceptDescription"
+    },
+    {
+      "idShort": "nationalCadastralReference",
+      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/nationalCadastralReference",
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://admin-shell.io/DataSpecificationTemplates/DataSpecificationIec61360/3/0"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "en",
+                "text": "nationalCadastralReference"
+              }
+            ],
+            "dataType": "STRING",
+            "definition": [
+              {
+                "language": "en",
+                "text": "Thematic identifier at national level, generally the full national code of the cadastral parcel. Must ensure the link to the national cadastral register or equivalent."
+              }
+            ],
+            "modelType": "DataSpecificationIec61360"
+          }
+        }
+      ],
+      "modelType": "ConceptDescription"
+    },
+    {
+      "idShort": "referencePoint",
+      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/referencePoint",
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://admin-shell.io/DataSpecificationTemplates/DataSpecificationIec61360/3/0"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "en",
+                "text": "referencePoint"
+              }
+            ],
+            "dataType": "FILE",
+            "definition": [
+              {
+                "language": "en",
+                "text": "A point within the cadastral parcel."
+              }
+            ],
+            "modelType": "DataSpecificationIec61360"
+          }
+        }
+      ],
+      "modelType": "ConceptDescription"
+    },
+    {
+      "idShort": "validFrom",
+      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/validFrom",
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://admin-shell.io/DataSpecificationTemplates/DataSpecificationIec61360/3/0"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "en",
+                "text": "validFrom"
+              }
+            ],
+            "dataType": "TIMESTAMP",
+            "definition": [
+              {
+                "language": "en",
+                "text": "Official date and time the cadastral parcel was/will be legally established."
+              }
+            ],
+            "modelType": "DataSpecificationIec61360"
+          }
+        }
+      ],
+      "modelType": "ConceptDescription"
+    },
+    {
+      "idShort": "validTo",
+      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/validTo",
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://admin-shell.io/DataSpecificationTemplates/DataSpecificationIec61360/3/0"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "en",
+                "text": "validTo"
+              }
+            ],
+            "dataType": "TIMESTAMP",
+            "definition": [
+              {
+                "language": "en",
+                "text": "Date and time at which the cadastral parcel legally ceased/will cease to be used."
+              }
+            ],
+            "modelType": "DataSpecificationIec61360"
+          }
+        }
+      ],
+      "modelType": "ConceptDescription"
+    },
+    {
+      "idShort": "administrativeUnit",
+      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/administrativeUnit",
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://admin-shell.io/DataSpecificationTemplates/DataSpecificationIec61360/3/0"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "en",
+                "text": "administrativeUnit"
+              }
+            ],
+            "definition": [
+              {
+                "language": "en",
+                "text": "The administrative unit of lowest administrative level containing this cadastral parcel."
+              }
+            ],
+            "modelType": "DataSpecificationIec61360"
+          }
+        }
+      ],
+      "modelType": "ConceptDescription"
+    },
+    {
+      "idShort": "basicPropertyUnit",
+      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/basicPropertyUnit",
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://admin-shell.io/DataSpecificationTemplates/DataSpecificationIec61360/3/0"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "en",
+                "text": "basicPropertyUnit"
+              }
+            ],
+            "definition": [
+              {
+                "language": "en",
+                "text": "The basic property unit(s) containing this cadastral parcel."
+              }
+            ],
+            "modelType": "DataSpecificationIec61360"
+          }
+        }
+      ],
+      "modelType": "ConceptDescription"
+    },
+    {
+      "idShort": "zoning",
+      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/zoning",
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "type": "ExternalReference",
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://admin-shell.io/DataSpecificationTemplates/DataSpecificationIec61360/3/0"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "en",
+                "text": "zoning"
+              }
+            ],
+            "definition": [
+              {
+                "language": "en",
+                "text": "The cadastral zoning of lowest level containing this cadastral parcel."
+              }
+            ],
+            "modelType": "DataSpecificationIec61360"
+          }
+        }
+      ],
+      "modelType": "ConceptDescription"
+    }
+  ]
+}
