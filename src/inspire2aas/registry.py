@@ -22,6 +22,7 @@ class Concept:
     labels: dict = field(default_factory=dict)       # lang -> text
     definitions: dict = field(default_factory=dict)  # lang -> text
     status: str = ""
+    broader: str = ""                                # URI of the parent value (hierarchical lists)
 
 
 @dataclass
@@ -79,7 +80,7 @@ def read() -> Registry:
             if cl is not None:
                 cl.values[uri.rsplit("/", 1)[-1]] = Concept(uri=uri, labels=_lang(d, SKOS + "prefLabel"),
                                                             definitions=_lang(d, SKOS + "definition"),
-                                                            status=status)
+                                                            status=status, broader=_res(d, SKOS + "broader") or "")
     fcs = {}
     for d in _parse("featureconcept"):
         uri = d.get(RDF + "about") or ""

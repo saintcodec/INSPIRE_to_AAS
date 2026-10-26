@@ -48,7 +48,7 @@ def main(argv=None):
     unknown = [s for s in a.schemas if s not in model.schemas]
     if unknown:
         raise SystemExit(f"unknown schema(s): {unknown}. Known: {sorted(model.schemas)}")
-    smts, cds, ledger = mapper.build(model, reg, set(a.schemas))
+    smts, cds, ledger, codelists = mapper.build(model, reg, set(a.schemas))
     name = a.name or "_".join(reg.schema_prefix.get(s, s) for s in a.schemas)
 
     shell = T.AssetAdministrationShell(
@@ -63,6 +63,7 @@ def main(argv=None):
     out.mkdir(parents=True, exist_ok=True)
     jpath = out / f"{name}_templates.json"
     jpath.write_text(json.dumps(jsonization.to_jsonable(env), indent=2, ensure_ascii=False), encoding="utf-8")
+    (out / f"{name}_codelists.json").write_text(json.dumps(codelists, indent=1, ensure_ascii=False), encoding="utf-8")
     aasx_note = ""
     try:
         n = write_aasx(jpath, out / f"{name}_templates.aasx")

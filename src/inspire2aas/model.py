@@ -22,6 +22,7 @@ class Prop:
     ordered: bool = False
     doc: Doc = field(default_factory=Doc)
     owner_id: str = ""     # class that defines the property (relevant after flattening)
+    assoc_class_id: str | None = None   # role whose association has an association class
 
 
 @dataclass

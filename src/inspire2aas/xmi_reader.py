@@ -121,7 +121,7 @@ def read(path=config.XMI_PATH) -> Model:
                  tags=tags(e) if e is not None else {},
                  doc=parse_doc(props_el.get("documentation") if props_el is not None else ""))
         if e is not None and e.find("constraints") is not None:
-            cl.constraints = [(k.get("name"), k.get("description") or "") for k in e.find("constraints")]
+            cl.constraints = [(k.get("name"), k.get("notes") or k.get("description") or "") for k in e.find("constraints")]
         cl._uml = c   # keep for attribute pass
         cl._ea = e
         classes[cl.id] = cl
@@ -222,7 +222,10 @@ def read(path=config.XMI_PATH) -> Model:
                 lo, hi = "0", "*"
             st = stereotypes(en)
             doc_el = en.find("documentation")
+            xp = cn.find("extendedProperties")
+            assoc_cls = xp.get("associationclass") if xp is not None else None
             owner.props.append(Prop(name=name, kind="role", lower=lo.strip(), upper=hi.strip(),
+                                    assoc_class_id=assoc_cls if assoc_cls in classes else None,
                                     type_name=target.name if target else en.find("model").get("name"),
                                     type_id=target.id if target else None,
                                     voidable="voidable" in st,

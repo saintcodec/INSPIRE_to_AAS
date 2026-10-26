@@ -1,0 +1,81 @@
+schema,smt,path,kind,detail
+Existing Land Use,ExistingLandUseDataSet,ExistingLandUseDataSet/extent,geometry-as-geojson,GM_MultiSurface -> File application/geo+json
+Existing Land Use,ExistingLandUseObject,ExistingLandUseObject/geometry,geometry-as-geojson,GM_MultiSurface -> File application/geo+json
+Existing Land Use,ExistingLandUseObject,ExistingLandUseObject/hilucsPresence/orderedList,definition-missing,https://example.org/inspire-aas/cd/lunom/4.0/HILUCSPresence/orderedList: no definition in the source; name used instead
+Existing Land Use,ExistingLandUseObject,ExistingLandUseObject/hilucsPresence/percentageList,definition-missing,https://example.org/inspire-aas/cd/lunom/4.0/HILUCSPresence/percentageList: no definition in the source; name used instead
+Existing Land Use,ExistingLandUseObject,ExistingLandUseObject/hilucsPresence,union-xor-not-enforced,HILUCSPresence: 'exactly one of' only as qualifier
+Existing Land Use,ExistingLandUseObject,ExistingLandUseObject/specificPresence/orderedList,definition-missing,https://example.org/inspire-aas/cd/lunom/4.0/SpecificPresence/orderedList: no definition in the source; name used instead
+Existing Land Use,ExistingLandUseObject,ExistingLandUseObject/specificPresence/percentageList,definition-missing,https://example.org/inspire-aas/cd/lunom/4.0/SpecificPresence/percentageList: no definition in the source; name used instead
+Existing Land Use,ExistingLandUseObject,ExistingLandUseObject/specificPresence,union-xor-not-enforced,SpecificPresence: 'exactly one of' only as qualifier
+LandCoverVector,LandCoverDataset,LandCoverDataset/extent,type-placeholder,EX_Extent: external type 'EX_Extent' (not an INSPIRE schema type) -> xs:string
+LandCoverVector,LandCoverDataset,LandCoverDataset/nomenclatureDocumentation/embeddedDescription,type-placeholder,LC_LandCoverClassificationSystem: external type 'LC_LandCoverClassificationSystem' (not an INSPIRE schema type) -> xs:string
+LandCoverVector,LandCoverDataset,LandCoverDataset/nomenclatureDocumentation/externalDescription/date,type-placeholder,CI_Date: external dataType 'CI_Date' (not an INSPIRE schema type) -> xs:string
+LandCoverVector,LandCoverDataset,LandCoverDataset/nomenclatureDocumentation/responsibleParty/contact/address/addressArea,datatype-recursion-cut,GeographicalName at depth 4 (depth limit) -> xs:string placeholder
+LandCoverVector,LandCoverDataset,LandCoverDataset/nomenclatureDocumentation/responsibleParty/contact/address/adminUnit,datatype-recursion-cut,GeographicalName at depth 4 (depth limit) -> xs:string placeholder
+LandCoverVector,LandCoverDataset,LandCoverDataset/nomenclatureDocumentation/responsibleParty/contact/address/locatorName,datatype-recursion-cut,GeographicalName at depth 4 (depth limit) -> xs:string placeholder
+LandCoverVector,LandCoverDataset,LandCoverDataset/nomenclatureDocumentation/responsibleParty/contact/address/postName,datatype-recursion-cut,GeographicalName at depth 4 (depth limit) -> xs:string placeholder
+LandCoverVector,LandCoverDataset,LandCoverDataset/nomenclatureDocumentation/responsibleParty/contact/address/thoroughfare,datatype-recursion-cut,GeographicalName at depth 4 (depth limit) -> xs:string placeholder
+LandCoverVector,LandCoverUnit,LandCoverUnit/geometry,geometry-as-geojson,GM_Object -> File application/geo+json
+LandCoverVector,LandCoverUnit,LandCoverUnit,ocl-constraint-not-translated,geometryIsKindOfGM_PointOrGM_Surface
+Soil,DerivedSoilProfile,DerivedSoilProfile,schema-version-patch-dropped,schema version 4.0.2 -> AAS version 4 revision 0
+Soil,DerivedSoilProfile,DerivedSoilProfile/WRBSoilName/WRBQualifierGroup/WRBspecifier,multiplicity-approximated,[0..2] -> ZeroToMany
+Soil,DerivedSoilProfile,DerivedSoilProfile/WRBSoilName/over,datatype-recursion-cut,WRBSoilNameType at depth 1 (cycle) -> xs:string placeholder
+Soil,DerivedSoilProfile,codelist:SoilProfileParameterNameValue,codelist-extensibility-conflict,SoilProfileParameterNameValue: UML 'any' vs Registry 'narrower' -> Registry used
+Soil,DerivedSoilProfile,DerivedSoilProfile/soilProfileObservation,observation-profile,"OM_Observation -> collection {observedProperty, result(number|text|range), uom, phenomenonTime, resultTime, procedure, parameter[]}; featureOfInterest omitted (OCL: = the object itself); resultQuality, validTime, metadata, relatedObservation omitted; TM_Object simplified to dateTime; NamedValue.value stored as text"
+Soil,ObservedSoilProfile,ObservedSoilProfile,schema-version-patch-dropped,schema version 4.0.2 -> AAS version 4 revision 0
+Soil,ObservedSoilProfile,ObservedSoilProfile/WRBSoilName/WRBQualifierGroup/WRBspecifier,multiplicity-approximated,[0..2] -> ZeroToMany
+Soil,ObservedSoilProfile,ObservedSoilProfile/WRBSoilName/over,datatype-recursion-cut,WRBSoilNameType at depth 1 (cycle) -> xs:string placeholder
+Soil,ObservedSoilProfile,codelist:SoilProfileParameterNameValue,codelist-extensibility-conflict,SoilProfileParameterNameValue: UML 'any' vs Registry 'narrower' -> Registry used
+Soil,ObservedSoilProfile,ObservedSoilProfile/soilProfileObservation,observation-profile,"OM_Observation -> collection {observedProperty, result(number|text|range), uom, phenomenonTime, resultTime, procedure, parameter[]}; featureOfInterest omitted (OCL: = the object itself); resultQuality, validTime, metadata, relatedObservation omitted; TM_Object simplified to dateTime; NamedValue.value stored as text"
+Soil,SoilBody,SoilBody,schema-version-patch-dropped,schema version 4.0.2 -> AAS version 4 revision 0
+Soil,SoilBody,SoilBody/geometry,geometry-as-geojson,GM_MultiSurface -> File application/geo+json
+Soil,SoilBody,SoilBody/isDescribedBy/derivedProfilePercentageRange/uom,type-placeholder,UnitOfMeasure: external type 'UnitOfMeasure' (not an INSPIRE schema type) -> xs:string
+Soil,SoilBody,SoilBody/isDescribedBy,association-class-as-collection,"DerivedProfilePresenceInSoilBody: role 'isDescribedBy' -> collection {derivedSoilProfile (reference), derivedProfilePercentageRange}"
+Soil,SoilDerivedObject,SoilDerivedObject,schema-version-patch-dropped,schema version 4.0.2 -> AAS version 4 revision 0
+Soil,SoilDerivedObject,SoilDerivedObject/geometry,geometry-as-geojson,GM_Object -> File application/geo+json
+Soil,SoilDerivedObject,codelist:SoilDerivedObjectParameterNameValue,codelist-extensibility-conflict,SoilDerivedObjectParameterNameValue: UML 'any' vs Registry 'narrower' -> Registry used
+Soil,SoilDerivedObject,SoilDerivedObject/soilDerivedObjectObservation,observation-profile,"OM_Observation -> collection {observedProperty, result(number|text|range), uom, phenomenonTime, resultTime, procedure, parameter[]}; featureOfInterest omitted (OCL: = the object itself); resultQuality, validTime, metadata, relatedObservation omitted; TM_Object simplified to dateTime; NamedValue.value stored as text"
+Soil,SoilDerivedObject,SoilDerivedObject,ocl-constraint-not-translated,code list for parameter of soil derived objects
+Soil,SoilDerivedObject,SoilDerivedObject,ocl-constraint-not-translated,FoI of Soil derived object observations
+Soil,SoilDerivedObject,SoilDerivedObject,ocl-constraint-not-translated,results of soil derived object observations
+Soil,SoilHorizon,SoilHorizon,schema-version-patch-dropped,schema version 4.0.2 -> AAS version 4 revision 0
+Soil,SoilHorizon,SoilHorizon/particleSizeFraction/fractionParticleSizeRange,type-placeholder,<no type>: unresolved type -> xs:string
+Soil,SoilHorizon,SoilHorizon/profileElementDepthRange/uom,type-placeholder,UnitOfMeasure: external type 'UnitOfMeasure' (not an INSPIRE schema type) -> xs:string
+Soil,SoilHorizon,codelist:ProfileElementParameterNameValue,codelist-extensibility-conflict,ProfileElementParameterNameValue: UML 'any' vs Registry 'narrower' -> Registry used
+Soil,SoilHorizon,SoilHorizon/profileElementObservation,observation-profile,"OM_Observation -> collection {observedProperty, result(number|text|range), uom, phenomenonTime, resultTime, procedure, parameter[]}; featureOfInterest omitted (OCL: = the object itself); resultQuality, validTime, metadata, relatedObservation omitted; TM_Object simplified to dateTime; NamedValue.value stored as text"
+Soil,SoilLayer,SoilLayer,schema-version-patch-dropped,schema version 4.0.2 -> AAS version 4 revision 0
+Soil,SoilLayer,SoilLayer/particleSizeFraction/fractionParticleSizeRange,type-placeholder,<no type>: unresolved type -> xs:string
+Soil,SoilLayer,SoilLayer/profileElementDepthRange/uom,type-placeholder,UnitOfMeasure: external type 'UnitOfMeasure' (not an INSPIRE schema type) -> xs:string
+Soil,SoilLayer,codelist:ProfileElementParameterNameValue,codelist-extensibility-conflict,ProfileElementParameterNameValue: UML 'any' vs Registry 'narrower' -> Registry used
+Soil,SoilLayer,SoilLayer/profileElementObservation,observation-profile,"OM_Observation -> collection {observedProperty, result(number|text|range), uom, phenomenonTime, resultTime, procedure, parameter[]}; featureOfInterest omitted (OCL: = the object itself); resultQuality, validTime, metadata, relatedObservation omitted; TM_Object simplified to dateTime; NamedValue.value stored as text"
+Soil,SoilLayer,SoilLayer,ocl-constraint-not-translated,geogenicConstraint
+Soil,SoilPlot,SoilPlot,schema-version-patch-dropped,schema version 4.0.2 -> AAS version 4 revision 0
+Soil,SoilPlot,SoilPlot/soilPlotLocation,type-placeholder,Location: external union 'Location' (not an INSPIRE schema type) -> xs:string
+Soil,SoilSite,SoilSite,schema-version-patch-dropped,schema version 4.0.2 -> AAS version 4 revision 0
+Soil,SoilSite,SoilSite/geometry,geometry-as-geojson,GM_Object -> File application/geo+json
+Soil,SoilSite,codelist:SoilSiteParameterNameValue,codelist-extensibility-conflict,SoilSiteParameterNameValue: UML 'any' vs Registry 'narrower' -> Registry used
+Soil,SoilSite,SoilSite/soilSiteObservation,observation-profile,"OM_Observation -> collection {observedProperty, result(number|text|range), uom, phenomenonTime, resultTime, procedure, parameter[]}; featureOfInterest omitted (OCL: = the object itself); resultQuality, validTime, metadata, relatedObservation omitted; TM_Object simplified to dateTime; NamedValue.value stored as text"
+Soil,SoilSite,SoilSite,ocl-constraint-not-translated,code list for soil site observations
+Soil,SoilSite,SoilSite,ocl-constraint-not-translated,FoI of soil site observations
+Soil,SoilSite,SoilSite,ocl-constraint-not-translated,result of soil site observations
+Soil,SoilThemeCoverage,SoilThemeCoverage,schema-version-patch-dropped,schema version 4.0.2 -> AAS version 4 revision 0
+Soil,SoilThemeCoverage,SoilThemeCoverage/metadata,type-placeholder,Any: external type 'Any' (not an INSPIRE schema type) -> xs:string
+Soil,SoilThemeCoverage,SoilThemeCoverage/rangeType,type-placeholder,RecordType: external type 'RecordType' (not an INSPIRE schema type) -> xs:string
+Soil,SoilThemeCoverage,SoilThemeCoverage/coverageFunction/gridFunction/sequenceRule,type-placeholder,CV_SequenceRule: external type 'CV_SequenceRule' (not an INSPIRE schema type) -> xs:string
+Soil,SoilThemeCoverage,SoilThemeCoverage/coverageFunction,union-xor-not-enforced,CoverageFunction: 'exactly one of' only as qualifier
+Soil,SoilThemeCoverage,SoilThemeCoverage/domainSet,type-placeholder,Any: external type 'Any' (not an INSPIRE schema type) -> xs:string
+Soil,SoilThemeCoverage,SoilThemeCoverage/rangeSet,type-placeholder,Any: external type 'Any' (not an INSPIRE schema type) -> xs:string
+Soil,SoilThemeCoverage,SoilThemeCoverage/domainExtent,type-placeholder,EX_Extent: external type 'EX_Extent' (not an INSPIRE schema type) -> xs:string
+Soil,SoilThemeCoverage,codelist:SoilDerivedObjectParameterNameValue,codelist-extensibility-conflict,SoilDerivedObjectParameterNameValue: UML 'any' vs Registry 'narrower' -> Registry used
+Soil,SoilThemeCoverage,SoilThemeCoverage/soilThemeParameter/uom,type-placeholder,UnitOfMeasure: external type 'UnitOfMeasure' (not an INSPIRE schema type) -> xs:string
+Soil,SoilThemeCoverage,SoilThemeCoverage,ocl-constraint-not-translated,rangeSetValuesConstraint
+Soil,SoilThemeDescriptiveCoverage,SoilThemeDescriptiveCoverage,schema-version-patch-dropped,schema version 4.0.2 -> AAS version 4 revision 0
+Soil,SoilThemeDescriptiveCoverage,SoilThemeDescriptiveCoverage/metadata,type-placeholder,Any: external type 'Any' (not an INSPIRE schema type) -> xs:string
+Soil,SoilThemeDescriptiveCoverage,SoilThemeDescriptiveCoverage/rangeType,type-placeholder,RecordType: external type 'RecordType' (not an INSPIRE schema type) -> xs:string
+Soil,SoilThemeDescriptiveCoverage,SoilThemeDescriptiveCoverage/coverageFunction/gridFunction/sequenceRule,type-placeholder,CV_SequenceRule: external type 'CV_SequenceRule' (not an INSPIRE schema type) -> xs:string
+Soil,SoilThemeDescriptiveCoverage,SoilThemeDescriptiveCoverage/coverageFunction,union-xor-not-enforced,CoverageFunction: 'exactly one of' only as qualifier
+Soil,SoilThemeDescriptiveCoverage,SoilThemeDescriptiveCoverage/domainSet,type-placeholder,Any: external type 'Any' (not an INSPIRE schema type) -> xs:string
+Soil,SoilThemeDescriptiveCoverage,SoilThemeDescriptiveCoverage/rangeSet,type-placeholder,Any: external type 'Any' (not an INSPIRE schema type) -> xs:string
+Soil,SoilThemeDescriptiveCoverage,SoilThemeDescriptiveCoverage/domainExtent,type-placeholder,EX_Extent: external type 'EX_Extent' (not an INSPIRE schema type) -> xs:string
+Soil,SoilThemeDescriptiveCoverage,SoilThemeDescriptiveCoverage/soilThemeDescriptiveParameter/uom,type-placeholder,UnitOfMeasure: external type 'UnitOfMeasure' (not an INSPIRE schema type) -> xs:string
+Soil,SoilThemeDescriptiveCoverage,SoilThemeDescriptiveCoverage,ocl-constraint-not-translated,rangeSetValuesConstraint

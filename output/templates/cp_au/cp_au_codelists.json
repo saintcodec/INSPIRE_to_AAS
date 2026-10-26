@@ -1,0 +1,211 @@
+{
+ "http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel": {
+  "extensibility": "none",
+  "registryVersion": "20260826-0",
+  "values": {
+   "1stOrder": {
+    "uri": "http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/1stOrder",
+    "broader": null,
+    "hasNarrower": false,
+    "label": "1st order"
+   },
+   "2ndOrder": {
+    "uri": "http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/2ndOrder",
+    "broader": null,
+    "hasNarrower": false,
+    "label": "2nd order"
+   },
+   "3rdOrder": {
+    "uri": "http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/3rdOrder",
+    "broader": null,
+    "hasNarrower": false,
+    "label": "3rd order"
+   },
+   "4thOrder": {
+    "uri": "http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/4thOrder",
+    "broader": null,
+    "hasNarrower": false,
+    "label": "4th order"
+   },
+   "5thOrder": {
+    "uri": "http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/5thOrder",
+    "broader": null,
+    "hasNarrower": false,
+    "label": "5th order"
+   },
+   "6thOrder": {
+    "uri": "http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/6thOrder",
+    "broader": null,
+    "hasNarrower": false,
+    "label": "6th order"
+   }
+  }
+ },
+ "http://inspire.ec.europa.eu/codelist/CadastralZoningLevelValue": {
+  "extensibility": "none",
+  "registryVersion": "20260826-0",
+  "values": {
+   "1stOrder": {
+    "uri": "http://inspire.ec.europa.eu/codelist/CadastralZoningLevelValue/1stOrder",
+    "broader": null,
+    "hasNarrower": false,
+    "label": "1st order"
+   },
+   "2ndOrder": {
+    "uri": "http://inspire.ec.europa.eu/codelist/CadastralZoningLevelValue/2ndOrder",
+    "broader": null,
+    "hasNarrower": false,
+    "label": "2nd order"
+   },
+   "3rdOrder": {
+    "uri": "http://inspire.ec.europa.eu/codelist/CadastralZoningLevelValue/3rdOrder",
+    "broader": null,
+    "hasNarrower": false,
+    "label": "3rd order"
+   }
+  }
+ },
+ "http://inspire.ec.europa.eu/codelist/CountryCode": {
+  "extensibility": "none",
+  "registryVersion": "20260826-0",
+  "values": {}
+ },
+ "http://inspire.ec.europa.eu/codelist/GrammaticalGenderValue": {
+  "extensibility": "none",
+  "registryVersion": "20260826-0",
+  "values": {
+   "common": {
+    "uri": "http://inspire.ec.europa.eu/codelist/GrammaticalGenderValue/common",
+    "broader": null,
+    "hasNarrower": false,
+    "label": "common"
+   },
+   "feminine": {
+    "uri": "http://inspire.ec.europa.eu/codelist/GrammaticalGenderValue/feminine",
+    "broader": null,
+    "hasNarrower": false,
+    "label": "feminine"
+   },
+   "masculine": {
+    "uri": "http://inspire.ec.europa.eu/codelist/GrammaticalGenderValue/masculine",
+    "broader": null,
+    "hasNarrower": false,
+    "label": "masculine"
+   },
+   "neuter": {
+    "uri": "http://inspire.ec.europa.eu/codelist/GrammaticalGenderValue/neuter",
+    "broader": null,
+    "hasNarrower": false,
+    "label": "neuter"
+   }
+  }
+ },
+ "http://inspire.ec.europa.eu/codelist/GrammaticalNumberValue": {
+  "extensibility": "none",
+  "registryVersion": "20260826-0",
+  "values": {
+   "dual": {
+    "uri": "http://inspire.ec.europa.eu/codelist/GrammaticalNumberValue/dual",
+    "broader": null,
+    "hasNarrower": false,
+    "label": "dual"
+   },
+   "plural": {
+    "uri": "http://inspire.ec.europa.eu/codelist/GrammaticalNumberValue/plural",
+    "broader": null,
+    "hasNarrower": false,
+    "label": "plural"
+   },
+   "singular": {
+    "uri": "http://inspire.ec.europa.eu/codelist/GrammaticalNumberValue/singular",
+    "broader": null,
+    "hasNarrower": false,
+    "label": "singular"
+   }
+  }
+ },
+ "http://inspire.ec.europa.eu/codelist/LegalStatusValue": {
+  "extensibility": "none",
+  "registryVersion": "20260826-0",
+  "values": {
+   "agreed": {
+    "uri": "http://inspire.ec.europa.eu/codelist/LegalStatusValue/agreed",
+    "broader": null,
+    "hasNarrower": false,
+    "label": "agreed"
+   },
+   "notAgreed": {
+    "uri": "http://inspire.ec.europa.eu/codelist/LegalStatusValue/notAgreed",
+    "broader": null,
+    "hasNarrower": false,
+    "label": "notAgreed"
+   }
+  }
+ },
+ "http://inspire.ec.europa.eu/codelist/NameStatusValue": {
+  "extensibility": "none",
+  "registryVersion": "20260826-0",
+  "values": {
+   "historical": {
+    "uri": "http://inspire.ec.europa.eu/codelist/NameStatusValue/historical",
+    "broader": null,
+    "hasNarrower": false,
+    "label": "historical"
+   },
+   "official": {
+    "uri": "http://inspire.ec.europa.eu/codelist/NameStatusValue/official",
+    "broader": null,
+    "hasNarrower": false,
+    "label": "official"
+   },
+   "other": {
+    "uri": "http://inspire.ec.europa.eu/codelist/NameStatusValue/other",
+    "broader": null,
+    "hasNarrower": false,
+    "label": "other"
+   },
+   "standardised": {
+    "uri": "http://inspire.ec.europa.eu/codelist/NameStatusValue/standardised",
+    "broader": null,
+    "hasNarrower": false,
+    "label": "standardised"
+   }
+  }
+ },
+ "http://inspire.ec.europa.eu/codelist/NativenessValue": {
+  "extensibility": "none",
+  "registryVersion": "20260826-0",
+  "values": {
+   "endonym": {
+    "uri": "http://inspire.ec.europa.eu/codelist/NativenessValue/endonym",
+    "broader": null,
+    "hasNarrower": false,
+    "label": "endonym"
+   },
+   "exonym": {
+    "uri": "http://inspire.ec.europa.eu/codelist/NativenessValue/exonym",
+    "broader": null,
+    "hasNarrower": false,
+    "label": "exonym"
+   }
+  }
+ },
+ "http://inspire.ec.europa.eu/codelist/TechnicalStatusValue": {
+  "extensibility": "none",
+  "registryVersion": "20260826-0",
+  "values": {
+   "edgeMatched": {
+    "uri": "http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/edgeMatched",
+    "broader": null,
+    "hasNarrower": false,
+    "label": "edgeMatched"
+   },
+   "notEdgeMatched": {
+    "uri": "http://inspire.ec.europa.eu/codelist/TechnicalStatusValue/notEdgeMatched",
+    "broader": null,
+    "hasNarrower": false,
+    "label": "notEdgeMatched"
+   }
+  }
+ }
+}

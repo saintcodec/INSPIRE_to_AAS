@@ -2,11 +2,11 @@
   "assetAdministrationShells": [
     {
       "modelType": "AssetAdministrationShell",
-      "id": "https://example.org/inspire-aas/aas/cp/example.org_EXAMPLE-CP_EX-0001",
+      "id": "https://example.org/inspire-aas/aas/cp/example.org/EXAMPLE-CP/EX-0001",
       "idShort": "CadastralParcel_EX_0001",
       "assetInformation": {
         "assetKind": "Instance",
-        "globalAssetId": "https://example.org/inspire-aas/asset/cp/example.org_EXAMPLE-CP_EX-0001",
+        "globalAssetId": "https://example.org/inspire-aas/asset/cp/example.org/EXAMPLE-CP/EX-0001",
         "specificAssetIds": [
           {
             "name": "inspireId",
@@ -24,7 +24,7 @@
           "keys": [
             {
               "type": "Submodel",
-              "value": "https://example.org/inspire-aas/sm/cp/CadastralParcel/example.org_EXAMPLE-CP_EX-0001"
+              "value": "https://example.org/inspire-aas/sm/cp/CadastralParcel/example.org/EXAMPLE-CP/EX-0001"
             }
           ]
         }
@@ -50,7 +50,7 @@
           "text": "Areas defined by cadastral registers or equivalent."
         }
       ],
-      "id": "https://example.org/inspire-aas/sm/cp/CadastralParcel/example.org_EXAMPLE-CP_EX-0001",
+      "id": "https://example.org/inspire-aas/sm/cp/CadastralParcel/example.org/EXAMPLE-CP/EX-0001",
       "semanticId": {
         "type": "ExternalReference",
         "keys": [
