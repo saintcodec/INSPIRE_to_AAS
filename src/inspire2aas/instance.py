@@ -33,6 +33,7 @@ Codelist rules (R3):
 """
 import copy
 from dataclasses import dataclass, field
+import hashlib
 import io
 import json
 import re
@@ -40,6 +41,7 @@ import sys
 from pathlib import Path
 
 import aas_core3_1.jsonization as jsonization
+import aas_core3_1.types as aas_types
 import aas_core3_1.verification as verification
 
 from . import config, ids
@@ -98,6 +100,26 @@ class Filler:
         self.base_dir = Path(base_dir)
         self.codelist_ns = codelist_ns or {}
         self.warnings, self.files, self.used_cds = [], {}, set()
+        self.file_dir = "object"   # per-object folder inside the AASX (set by fill_feature)
+        self.path_root = ""        # path prefix of the current object (e.g. "SoilBodies[3]/")
+
+    def file_path(self, path, suffix):
+        """Unique AASX part name: /aasx/files/<object folder>/<element path><suffix>."""
+        local = path[len(self.path_root):] if path.startswith(self.path_root) else path
+        name = re.sub(r"[^A-Za-z0-9._-]", "_", local).strip("_") or "file"
+        p = f"/aasx/files/{self.file_dir}/{name}{suffix}"
+        if p in self.files:
+            raise InstanceError(f"{path}: file name {p} is already used in this package")
+        return p
+
+    @staticmethod
+    def typed(value, value_type, path):
+        """Check a value against its xsd type now, so the error names the field (not a verifier path)."""
+        s = str(value)
+        if not verification.value_consistent_with_xsd_type(s, aas_types.DataTypeDefXSD(value_type)):
+            hint = " (xs:dateTime needs a time and zone, e.g. 2023-07-09T00:00:00Z)" if value_type == "xs:dateTime" else ""
+            raise InstanceError(f"{path}: '{s}' is not a valid {value_type}{hint}")
+        return s
 
     @staticmethod
     def quals(e):
@@ -245,14 +267,14 @@ class Filler:
                 raise InstanceError(f"{path}: expected a simple value, got {value}")
             if e["valueType"] == "xs:boolean":
                 value = str(bool(value)).lower() if isinstance(value, bool) else str(value).lower()
-            e["value"] = str(value)
+            e["value"] = self.typed(value, e["valueType"], path)
             return e
         if mt == "Range":
             if not isinstance(value, dict) or not set(value) <= {"min", "max"} or not value:
                 raise InstanceError(f"{path}: a range is {{'min': ..., 'max': ...}}")
             for k in ("min", "max"):
                 if k in value:
-                    e[k] = str(value[k])
+                    e[k] = self.typed(value[k], e["valueType"], f"{path}/{k}")
             return e
         if mt == "MultiLanguageProperty":
             texts = value if isinstance(value, dict) else {"en": value}
@@ -261,11 +283,10 @@ class Filler:
         if mt == "File":
             if isinstance(value, dict) and "file" in value:
                 src = (self.base_dir / value["file"]).resolve()
-                data, name = src.read_bytes(), src.name
+                data, suffix = src.read_bytes(), src.suffix or ".bin"
             else:
-                data = json.dumps(value, ensure_ascii=False).encode("utf-8")
-                name = f"{path.replace('/', '_')}.geojson"
-            aasx_path = f"/aasx/files/{name}"
+                data, suffix = json.dumps(value, ensure_ascii=False).encode("utf-8"), ".geojson"
+            aasx_path = self.file_path(path, suffix)   # unique per object and element (EcoTwin defect 1)
             self.files[aasx_path] = data
             e["value"] = aasx_path
             return e
@@ -279,28 +300,90 @@ def _verify(env):
     return [f"{e.path}: {e.cause}" for e in verification.verify(jsonization.environment_from_jsonable(env))]
 
 
+def file_dir(namespace, local_id):
+    """Folder for one object's files in an AASX: readable part of the inspireId + short hash
+    of the full object key, so different objects never share a folder."""
+    key = ids.object_key(namespace, local_id)
+    readable = re.sub(r"[^A-Za-z0-9._-]", "_", str(local_id))[:60].strip("_") or "object"
+    return f"{readable}_{hashlib.sha1(key.encode('utf-8')).hexdigest()[:8]}"
+
+
+def fill_feature(f: Filler, tmpl, values, prefix=""):
+    """Fill all elements of one feature from its template; the same rules for a single feature
+    (build_submodel) and for an item of a collection (build_feature_collection)."""
+    where = prefix.rstrip("/") or "values"
+    if not isinstance(values, dict):
+        raise InstanceError(f"{where}: expected an object with the template's fields")
+    known = {e["idShort"] for e in tmpl["submodelElements"]}
+    unknown = set(values) - known
+    if unknown:
+        raise InstanceError(f"{where}: unknown fields {sorted(unknown)}; template has {sorted(known)}")
+    iid = values.get("inspireId")
+    if not isinstance(iid, dict) or not {"namespace", "localId"} <= set(iid):
+        raise InstanceError(f"{where}: inspireId {{namespace, localId}} is required to identify the object")
+    f.file_dir, f.path_root = file_dir(iid["namespace"], iid["localId"]), prefix
+    elems = [f.fill(e, values.get(e["idShort"]), f"{prefix}{e['idShort']}") for e in tmpl["submodelElements"]]
+    f.used_cds.add(tmpl["semanticId"]["keys"][0]["value"])
+    return [e for e in elems if e is not None], iid
+
+
+def _result(t, f, sm):
+    cds = [c for c in t.env.get("conceptDescriptions", []) if c["id"] in f.used_cds]
+    return SubmodelResult(sm, cds, f.files, f.warnings, _verify({"submodels": [sm], "conceptDescriptions": cds}))
+
+
 def build_submodel(templates, template, values, base_dir=".", codelist_namespaces=None, codelists=None):
     """One Submodel instance + the ConceptDescriptions it uses (R6). Does not create a shell."""
     t = templates if isinstance(templates, Templates) else Templates(templates, codelists)
     tmpl = t.template(template)
-    known = {e["idShort"] for e in tmpl["submodelElements"]}
-    unknown = set(values) - known
-    if unknown:
-        raise InstanceError(f"unknown fields {sorted(unknown)}; template has {sorted(known)}")
-    iid = values.get("inspireId")
-    if not isinstance(iid, dict) or not {"namespace", "localId"} <= set(iid):
-        raise InstanceError("inspireId {namespace, localId} is required to identify the object")
     f = Filler(t, base_dir, codelist_namespaces)
-    elems = [f.fill(e, values.get(e["idShort"]), e["idShort"]) for e in tmpl["submodelElements"]]
+    elems, iid = fill_feature(f, tmpl, values)
     sm = {k: v for k, v in tmpl.items() if k not in ("submodelElements", "kind", "administration")}
     sm.update(id=ids.submodel_id(ids.template_prefix(tmpl["id"]), template, iid["namespace"], iid["localId"]),
-              kind="Instance", submodelElements=[e for e in elems if e is not None],
+              kind="Instance", submodelElements=elems,
               administration={"version": tmpl["administration"]["version"],
                               "revision": tmpl["administration"]["revision"], "templateId": tmpl["id"]})
-    f.used_cds.add(tmpl["semanticId"]["keys"][0]["value"])
-    cds = [c for c in t.env.get("conceptDescriptions", []) if c["id"] in f.used_cds]
-    errors = _verify({"submodels": [sm], "conceptDescriptions": cds})
-    return SubmodelResult(sm, cds, f.files, f.warnings, errors)
+    return _result(t, f, sm)
+
+
+def build_feature_collection(templates, template, values_list, submodel_id, id_short, semantic_id=None,
+                             list_name="features", base_dir=".", codelist_namespaces=None, codelists=None):
+    """Several features of one type as items of one Submodel (R7).
+
+    Submodel (id, idShort, semanticId from the caller)
+    └── <list_name>  SubmodelElementList of SMC, semanticIdListElement = the feature concept
+        └── [i]      SMC without idShort, semanticId = the feature concept,
+                     supplementalSemanticId = the Submodel Template the item follows,
+                     children = the template's elements, filled with every rule of build_submodel.
+    Errors name the item, e.g. "SoilBodies[3]/beginLifespanVersion: …"."""
+    t = templates if isinstance(templates, Templates) else Templates(templates, codelists)
+    tmpl = t.template(template)
+    if not isinstance(values_list, list) or not values_list:
+        raise InstanceError(f"{list_name}: a non-empty list of features is required")
+    if not re.fullmatch(r"[A-Za-z][A-Za-z0-9_]*[A-Za-z0-9_]", list_name) or \
+            not re.fullmatch(r"[A-Za-z][A-Za-z0-9_]*[A-Za-z0-9_]", id_short):
+        raise InstanceError("id_short and list_name must be valid idShorts (letters, digits, '_'; >= 2 characters)")
+    concept = tmpl["semanticId"]
+    f = Filler(t, base_dir, codelist_namespaces)
+    items, seen = [], {}
+    for i, values in enumerate(values_list):
+        iid = values.get("inspireId") if isinstance(values, dict) else None
+        if isinstance(iid, dict) and {"namespace", "localId"} <= set(iid):
+            key = ids.object_key(iid["namespace"], iid["localId"])
+            if key in seen:
+                raise InstanceError(f"{list_name}[{i}]: inspireId is the same as {list_name}[{seen[key]}]")
+            seen[key] = i
+        elems, _ = fill_feature(f, tmpl, values, f"{list_name}[{i}]/")
+        items.append({"modelType": "SubmodelElementCollection", "semanticId": concept,
+                      "supplementalSemanticIds": [ext_ref(tmpl["id"])], "value": elems})
+    feature_list = {"modelType": "SubmodelElementList", "idShort": list_name, "orderRelevant": False,
+                    "typeValueListElement": "SubmodelElementCollection", "semanticIdListElement": concept,
+                    "value": items}
+    sm = {"modelType": "Submodel", "id": submodel_id, "idShort": id_short, "kind": "Instance",
+          "submodelElements": [feature_list]}
+    if semantic_id:
+        sm["semanticId"] = ext_ref(semantic_id)
+    return _result(t, f, sm)
 
 
 def build_instance(spec_path):
@@ -323,16 +406,24 @@ def build_instance(spec_path):
     return env, r, _verify(env), short
 
 
+CONTENT_TYPES = {".geojson": "application/geo+json", ".json": "application/json", ".xml": "application/xml",
+                 ".gml": "application/gml+xml", ".pdf": "application/pdf", ".png": "image/png",
+                 ".jpg": "image/jpeg", ".tif": "image/tiff", ".tiff": "image/tiff"}
+
+
 def write_aasx(env, files, aasx_path):
+    """Package an AAS environment (dict) + supplementary files (AASX path -> bytes) as AASX.
+    The environment part is XML and is named /aasx/data.xml (EcoTwin defect 2: it was called data.json)."""
     from basyx.aas.adapter import aasx
     from basyx.aas.adapter.json import read_aas_json_file
     store = read_aas_json_file(io.StringIO(json.dumps(env)), failsafe=False)
     fc = aasx.DictSupplementaryFileContainer()
     for p, data in files.items():
-        fc.add_file(p, io.BytesIO(data), "application/geo+json")
+        fc.add_file(p, io.BytesIO(data), CONTENT_TYPES.get(Path(p).suffix.lower(), "application/octet-stream"))
     with aasx.AASXWriter(str(aasx_path)) as w:
         # write_all_aas_objects: write_aas() would drop ConceptDescriptions referenced via ExternalReference (E04 B3)
-        w.write_all_aas_objects("/aasx/data.json", store, fc)
+        # BaSyx writes XML unless write_json=True, so the part name must end in .xml
+        w.write_all_aas_objects("/aasx/data.xml", store, fc)
 
 
 def main(argv=None):

@@ -142,7 +142,7 @@
           },
           "contentType": "application/geo+json",
           "modelType": "File",
-          "value": "/aasx/files/parcel_example.geojson"
+          "value": "/aasx/files/EX-0001_16871640/geometry.geojson"
         },
         {
           "idShort": "inspireId",

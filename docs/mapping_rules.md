@@ -97,4 +97,26 @@ Implemented in [src/inspire2aas/mapper.py](../src/inspire2aas/mapper.py) (templa
 | Submodel instance | `ids.submodel_id(prefix, Class, namespace, localId)` = `{BASE}sm/{prefix}/{Class}/{namespace without scheme}/{localId}`, percent-encoded (v1, reversible: `>` → `%3E`) |
 | AAS (instance) | `ids.aas_id(…)` = `{BASE}aas/{prefix}/…`; asset `ids.asset_id(…)`; `specificAssetIds`: inspireId, nationalCadastralReference |
 
+## Feature collections (v1.1, R7)
+
+`instance.build_feature_collection(templates, template, values_list, submodel_id, id_short, semantic_id, list_name)`:
+
+```
+Submodel  (id, idShort, semanticId from the caller; kind = Instance)
+└── <list_name>   SubmodelElementList, typeValueListElement = SMC,
+                  semanticIdListElement = the feature concept (e.g. …/featureconcept/SoilBody)
+    └── [i]       SMC without idShort (AASd-120), semanticId = the feature concept (AASd-107),
+                  supplementalSemanticId = the Submodel Template the item follows,
+                  children = the template's elements, filled with exactly the rules of build_submodel
+```
+
+- Every item needs an inspireId; two items with the same inspireId are rejected.
+- Error messages and warnings name the item: `<list_name>[i]/<path>`.
+- Values are checked against their xsd type while filling, so type errors also name the field.
+
+## Files in AASX packages (v1.1)
+
+- Supplementary files: `/aasx/files/<object folder>/<element path><suffix>`. The object folder is the readable localId plus 8 hex digits of a SHA-1 of the object key, so different objects never share a folder; the element path keeps files of one object apart. A name used twice in one package is an error.
+- The AAS environment part is XML and is named `/aasx/data.xml`. Up to v1 it was XML in a part called `data.json`, with the correct content type.
+
 References in instance input: a submodel id, `{"template", "inspireId"}` (resolved with `ids.submodel_id`), or `{"uri"}` (ExternalReference). `python -m inspire2aas.check_refs <files>` reports dangling ModelReferences across a set of files.

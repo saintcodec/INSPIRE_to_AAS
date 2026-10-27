@@ -54,7 +54,8 @@ def test_example_parcel_instance(cp_au_templates, tmp_path):
     vf = next(x for x in sm["submodelElements"] if x["idShort"] == "validFrom")
     assert vf["qualifiers"][0] == {"type": "INSPIRE/nilReason", "valueType": "xs:string",
                                    "kind": "ValueQualifier", "value": "unknown"}
-    assert list(f.files) == ["/aasx/files/parcel_example.geojson"]
+    [path] = list(f.files)    # one folder per object, file named after the element (E06)
+    assert path.startswith("/aasx/files/EX-0001_") and path.endswith("/geometry.geojson")
 
 
 @pytest.mark.parametrize("values, message", [

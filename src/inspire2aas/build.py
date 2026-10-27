@@ -33,7 +33,8 @@ def write_aasx(json_path, aasx_path):
         store = read_aas_json_file(fh, failsafe=False)
     files = aasx.DictSupplementaryFileContainer()
     with aasx.AASXWriter(str(aasx_path)) as w:
-        w.write_all_aas_objects("/aasx/data.json", store, files)
+        # BaSyx writes XML unless write_json=True, so the part name must end in .xml (EcoTwin defect 2)
+        w.write_all_aas_objects("/aasx/data.xml", store, files)
     return len(store)
 
 

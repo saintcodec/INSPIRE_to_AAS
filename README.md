@@ -10,7 +10,7 @@ Research prototype. Nothing in this repository is assumed correct until it has b
 
 - **Working:** CadastralParcels + AdministrativeUnits → 7 AAS v3.1 Submodel Templates (0 verification errors), plus an example parcel AAS ([E04](experiments/e04_first_generator/)).
 - **Working:** Existing Land Use, Land Cover and Soil (14 templates), including soil observations, association classes and national codelist values ([E05](experiments/e05_ecotwin_requests/), used by the EcoTwin project).
-- Python API for other projects: `inspire2aas.instance.build_submodel`, `inspire2aas.ids`, `inspire2aas.check_refs`.
+- Python API for other projects: `inspire2aas.instance.build_submodel`, `build_feature_collection`, `write_aasx`, `inspire2aas.ids`, `inspire2aas.check_refs`.
 - Mapping rules: [docs/mapping_rules.md](docs/mapping_rules.md)
 - [first_reaserch.md](first_reaserch.md): initial desk-research notes (LLM-assisted). These are **hypotheses to verify**, not established facts.
 
@@ -44,3 +44,4 @@ Each experiment has its own folder with scripts, results and a log (question, me
 | [E03](experiments/e03_registry_codelists/) | Codelists: UML vs INSPIRE Registry (values, extensibility) | done |
 | [E04](experiments/e04_first_generator/) | First generator: CP + AU templates and a parcel AAS | done |
 | [E05](experiments/e05_ecotwin_requests/) | EcoTwin requests R1–R6: observations, association classes, national codes, ids | done |
+| [E06](experiments/e06_feature_collections/) | EcoTwin request R7: feature collections; AASX file naming and part name | done |
