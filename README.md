@@ -33,19 +33,6 @@ set PYTHONPATH=src
 
 Required source data (not committed): `data/raw/approved/ea+xmi/` (INSPIRE UML v2025.1), `data/raw/approved/fc/`, and `data/raw/INSPIRE Registry/` (RDF dump). See the experiments for checksums.
 
-## Experiments
-
-Each experiment has its own folder with scripts, results and a log (question, method, findings).
-
-| ID | Topic | Status |
-|---|---|---|
-| [E01](experiments/e01_source_inventory/) | Inventory of the INSPIRE v2025.1 EA/XMI model; cross-check against the mapping tables | done |
-| [E02](experiments/e02_fc_crosscheck/) | Our XMI reader vs ShapeChange's Feature Catalogue | done |
-| [E03](experiments/e03_registry_codelists/) | Codelists: UML vs INSPIRE Registry (values, extensibility) | done |
-| [E04](experiments/e04_first_generator/) | First generator: CP + AU templates and a parcel AAS | done |
-| [E05](experiments/e05_ecotwin_requests/) | EcoTwin requests R1–R6: observations, association classes, national codes, ids | done |
-| [E06](experiments/e06_feature_collections/) | EcoTwin request R7: feature collections; AASX file naming and part name | done |
-
 ## Licence
 
 The code and the documentation of this project are under the [MIT licence](LICENSE). The generated
