@@ -2,10 +2,10 @@
   "assetAdministrationShells": [
     {
       "idShort": "INSPIRE_cp_au_Templates",
-      "id": "https://example.org/inspire-aas/aas/templates/cp_au",
+      "id": "https://w3id.org/inspire-aas/aas/templates/cp_au",
       "assetInformation": {
         "assetKind": "Type",
-        "globalAssetId": "https://example.org/inspire-aas/asset/templates/cp_au"
+        "globalAssetId": "https://w3id.org/inspire-aas/asset/templates/cp_au"
       },
       "submodels": [
         {
@@ -13,7 +13,7 @@
           "keys": [
             {
               "type": "Submodel",
-              "value": "https://example.org/inspire-aas/smt/au/5.0/AdministrativeBoundary"
+              "value": "https://w3id.org/inspire-aas/smt/au/5.0/AdministrativeBoundary"
             }
           ]
         },
@@ -22,7 +22,7 @@
           "keys": [
             {
               "type": "Submodel",
-              "value": "https://example.org/inspire-aas/smt/au/5.0/AdministrativeUnit"
+              "value": "https://w3id.org/inspire-aas/smt/au/5.0/AdministrativeUnit"
             }
           ]
         },
@@ -31,7 +31,7 @@
           "keys": [
             {
               "type": "Submodel",
-              "value": "https://example.org/inspire-aas/smt/au/5.0/Condominium"
+              "value": "https://w3id.org/inspire-aas/smt/au/5.0/Condominium"
             }
           ]
         },
@@ -40,7 +40,7 @@
           "keys": [
             {
               "type": "Submodel",
-              "value": "https://example.org/inspire-aas/smt/cp/4.0/BasicPropertyUnit"
+              "value": "https://w3id.org/inspire-aas/smt/cp/4.0/BasicPropertyUnit"
             }
           ]
         },
@@ -49,7 +49,7 @@
           "keys": [
             {
               "type": "Submodel",
-              "value": "https://example.org/inspire-aas/smt/cp/4.0/CadastralBoundary"
+              "value": "https://w3id.org/inspire-aas/smt/cp/4.0/CadastralBoundary"
             }
           ]
         },
@@ -58,7 +58,7 @@
           "keys": [
             {
               "type": "Submodel",
-              "value": "https://example.org/inspire-aas/smt/cp/4.0/CadastralParcel"
+              "value": "https://w3id.org/inspire-aas/smt/cp/4.0/CadastralParcel"
             }
           ]
         },
@@ -67,7 +67,7 @@
           "keys": [
             {
               "type": "Submodel",
-              "value": "https://example.org/inspire-aas/smt/cp/4.0/CadastralZoning"
+              "value": "https://w3id.org/inspire-aas/smt/cp/4.0/CadastralZoning"
             }
           ]
         }
@@ -98,7 +98,7 @@
         "version": "5",
         "revision": "0"
       },
-      "id": "https://example.org/inspire-aas/smt/au/5.0/AdministrativeBoundary",
+      "id": "https://w3id.org/inspire-aas/smt/au/5.0/AdministrativeBoundary",
       "kind": "Template",
       "semanticId": {
         "type": "ExternalReference",
@@ -129,7 +129,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/beginLifespanVersion"
+                "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/beginLifespanVersion"
               }
             ]
           },
@@ -175,7 +175,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/country"
+                "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/country"
               }
             ]
           },
@@ -220,7 +220,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/endLifespanVersion"
+                "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/endLifespanVersion"
               }
             ]
           },
@@ -266,7 +266,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/geometry"
+                "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/geometry"
               }
             ]
           },
@@ -306,7 +306,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/inspireId"
+                "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/inspireId"
               }
             ]
           },
@@ -316,7 +316,7 @@
               "keys": [
                 {
                   "type": "GlobalReference",
-                  "value": "https://example.org/inspire-aas/cd/base/4.0/Identifier"
+                  "value": "https://w3id.org/inspire-aas/cd/base/4.0/Identifier"
                 }
               ]
             }
@@ -349,7 +349,7 @@
                 "keys": [
                   {
                     "type": "GlobalReference",
-                    "value": "https://example.org/inspire-aas/cd/base/4.0/Identifier/localId"
+                    "value": "https://w3id.org/inspire-aas/cd/base/4.0/Identifier/localId"
                   }
                 ]
               },
@@ -383,7 +383,7 @@
                 "keys": [
                   {
                     "type": "GlobalReference",
-                    "value": "https://example.org/inspire-aas/cd/base/4.0/Identifier/namespace"
+                    "value": "https://w3id.org/inspire-aas/cd/base/4.0/Identifier/namespace"
                   }
                 ]
               },
@@ -417,7 +417,7 @@
                 "keys": [
                   {
                     "type": "GlobalReference",
-                    "value": "https://example.org/inspire-aas/cd/base/4.0/Identifier/versionId"
+                    "value": "https://w3id.org/inspire-aas/cd/base/4.0/Identifier/versionId"
                   }
                 ]
               },
@@ -466,7 +466,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/legalStatus"
+                "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/legalStatus"
               }
             ]
           },
@@ -517,7 +517,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/nationalLevel"
+                "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/nationalLevel"
               }
             ]
           },
@@ -535,7 +535,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/nationalLevel"
+                "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/nationalLevel"
               }
             ]
           },
@@ -548,7 +548,7 @@
                 "keys": [
                   {
                     "type": "GlobalReference",
-                    "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/nationalLevel"
+                    "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/nationalLevel"
                   }
                 ]
               },
@@ -588,7 +588,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/technicalStatus"
+                "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/technicalStatus"
               }
             ]
           },
@@ -639,7 +639,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/admUnit"
+                "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/admUnit"
               }
             ]
           },
@@ -663,7 +663,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/admUnit"
+                "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/admUnit"
               }
             ]
           },
@@ -675,7 +675,7 @@
                 "keys": [
                   {
                     "type": "GlobalReference",
-                    "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/admUnit"
+                    "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/admUnit"
                   }
                 ]
               },
@@ -717,7 +717,7 @@
         "version": "5",
         "revision": "0"
       },
-      "id": "https://example.org/inspire-aas/smt/au/5.0/AdministrativeUnit",
+      "id": "https://w3id.org/inspire-aas/smt/au/5.0/AdministrativeUnit",
       "kind": "Template",
       "semanticId": {
         "type": "ExternalReference",
@@ -748,7 +748,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/beginLifespanVersion"
+                "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/beginLifespanVersion"
               }
             ]
           },
@@ -794,7 +794,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/country"
+                "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/country"
               }
             ]
           },
@@ -839,7 +839,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/endLifespanVersion"
+                "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/endLifespanVersion"
               }
             ]
           },
@@ -885,7 +885,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/geometry"
+                "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/geometry"
               }
             ]
           },
@@ -925,7 +925,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/inspireId"
+                "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/inspireId"
               }
             ]
           },
@@ -935,7 +935,7 @@
               "keys": [
                 {
                   "type": "GlobalReference",
-                  "value": "https://example.org/inspire-aas/cd/base/4.0/Identifier"
+                  "value": "https://w3id.org/inspire-aas/cd/base/4.0/Identifier"
                 }
               ]
             }
@@ -968,7 +968,7 @@
                 "keys": [
                   {
                     "type": "GlobalReference",
-                    "value": "https://example.org/inspire-aas/cd/base/4.0/Identifier/localId"
+                    "value": "https://w3id.org/inspire-aas/cd/base/4.0/Identifier/localId"
                   }
                 ]
               },
@@ -1002,7 +1002,7 @@
                 "keys": [
                   {
                     "type": "GlobalReference",
-                    "value": "https://example.org/inspire-aas/cd/base/4.0/Identifier/namespace"
+                    "value": "https://w3id.org/inspire-aas/cd/base/4.0/Identifier/namespace"
                   }
                 ]
               },
@@ -1036,7 +1036,7 @@
                 "keys": [
                   {
                     "type": "GlobalReference",
-                    "value": "https://example.org/inspire-aas/cd/base/4.0/Identifier/versionId"
+                    "value": "https://w3id.org/inspire-aas/cd/base/4.0/Identifier/versionId"
                   }
                 ]
               },
@@ -1085,7 +1085,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/name"
+                "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/name"
               }
             ]
           },
@@ -1103,7 +1103,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/name"
+                "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/name"
               }
             ]
           },
@@ -1115,7 +1115,7 @@
                 "keys": [
                   {
                     "type": "GlobalReference",
-                    "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/name"
+                    "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/name"
                   }
                 ]
               },
@@ -1125,7 +1125,7 @@
                   "keys": [
                     {
                       "type": "GlobalReference",
-                      "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName"
+                      "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName"
                     }
                   ]
                 }
@@ -1150,7 +1150,7 @@
                     "keys": [
                       {
                         "type": "GlobalReference",
-                        "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/grammaticalGender"
+                        "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/grammaticalGender"
                       }
                     ]
                   },
@@ -1201,7 +1201,7 @@
                     "keys": [
                       {
                         "type": "GlobalReference",
-                        "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/grammaticalNumber"
+                        "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/grammaticalNumber"
                       }
                     ]
                   },
@@ -1252,7 +1252,7 @@
                     "keys": [
                       {
                         "type": "GlobalReference",
-                        "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/language"
+                        "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/language"
                       }
                     ]
                   },
@@ -1292,7 +1292,7 @@
                     "keys": [
                       {
                         "type": "GlobalReference",
-                        "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/nameStatus"
+                        "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/nameStatus"
                       }
                     ]
                   },
@@ -1343,7 +1343,7 @@
                     "keys": [
                       {
                         "type": "GlobalReference",
-                        "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/nativeness"
+                        "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/nativeness"
                       }
                     ]
                   },
@@ -1394,7 +1394,7 @@
                     "keys": [
                       {
                         "type": "GlobalReference",
-                        "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/pronunciation"
+                        "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/pronunciation"
                       }
                     ]
                   },
@@ -1404,7 +1404,7 @@
                       "keys": [
                         {
                           "type": "GlobalReference",
-                          "value": "https://example.org/inspire-aas/cd/gn/4.0/PronunciationOfName"
+                          "value": "https://w3id.org/inspire-aas/cd/gn/4.0/PronunciationOfName"
                         }
                       ]
                     }
@@ -1443,7 +1443,7 @@
                         "keys": [
                           {
                             "type": "GlobalReference",
-                            "value": "https://example.org/inspire-aas/cd/gn/4.0/PronunciationOfName/pronunciationIPA"
+                            "value": "https://w3id.org/inspire-aas/cd/gn/4.0/PronunciationOfName/pronunciationIPA"
                           }
                         ]
                       },
@@ -1483,7 +1483,7 @@
                         "keys": [
                           {
                             "type": "GlobalReference",
-                            "value": "https://example.org/inspire-aas/cd/gn/4.0/PronunciationOfName/pronunciationSoundLink"
+                            "value": "https://w3id.org/inspire-aas/cd/gn/4.0/PronunciationOfName/pronunciationSoundLink"
                           }
                         ]
                       },
@@ -1526,7 +1526,7 @@
                     "keys": [
                       {
                         "type": "GlobalReference",
-                        "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/sourceOfName"
+                        "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/sourceOfName"
                       }
                     ]
                   },
@@ -1566,7 +1566,7 @@
                     "keys": [
                       {
                         "type": "GlobalReference",
-                        "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/spelling"
+                        "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/spelling"
                       }
                     ]
                   },
@@ -1584,7 +1584,7 @@
                     "keys": [
                       {
                         "type": "GlobalReference",
-                        "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/spelling"
+                        "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/spelling"
                       }
                     ]
                   },
@@ -1596,7 +1596,7 @@
                         "keys": [
                           {
                             "type": "GlobalReference",
-                            "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/spelling"
+                            "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/spelling"
                           }
                         ]
                       },
@@ -1606,7 +1606,7 @@
                           "keys": [
                             {
                               "type": "GlobalReference",
-                              "value": "https://example.org/inspire-aas/cd/gn/4.0/SpellingOfName"
+                              "value": "https://w3id.org/inspire-aas/cd/gn/4.0/SpellingOfName"
                             }
                           ]
                         }
@@ -1631,7 +1631,7 @@
                             "keys": [
                               {
                                 "type": "GlobalReference",
-                                "value": "https://example.org/inspire-aas/cd/gn/4.0/SpellingOfName/script"
+                                "value": "https://w3id.org/inspire-aas/cd/gn/4.0/SpellingOfName/script"
                               }
                             ]
                           },
@@ -1671,7 +1671,7 @@
                             "keys": [
                               {
                                 "type": "GlobalReference",
-                                "value": "https://example.org/inspire-aas/cd/gn/4.0/SpellingOfName/text"
+                                "value": "https://w3id.org/inspire-aas/cd/gn/4.0/SpellingOfName/text"
                               }
                             ]
                           },
@@ -1705,7 +1705,7 @@
                             "keys": [
                               {
                                 "type": "GlobalReference",
-                                "value": "https://example.org/inspire-aas/cd/gn/4.0/SpellingOfName/transliterationScheme"
+                                "value": "https://w3id.org/inspire-aas/cd/gn/4.0/SpellingOfName/transliterationScheme"
                               }
                             ]
                           },
@@ -1757,7 +1757,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/nationalCode"
+                "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/nationalCode"
               }
             ]
           },
@@ -1791,7 +1791,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/nationalLevel"
+                "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/nationalLevel"
               }
             ]
           },
@@ -1836,7 +1836,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/nationalLevelName"
+                "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/nationalLevelName"
               }
             ]
           },
@@ -1860,7 +1860,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/nationalLevelName"
+                "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/nationalLevelName"
               }
             ]
           },
@@ -1872,7 +1872,7 @@
                 "keys": [
                   {
                     "type": "GlobalReference",
-                    "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/nationalLevelName"
+                    "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/nationalLevelName"
                   }
                 ]
               },
@@ -1900,7 +1900,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/residenceOfAuthority"
+                "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/residenceOfAuthority"
               }
             ]
           },
@@ -1924,7 +1924,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/residenceOfAuthority"
+                "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/residenceOfAuthority"
               }
             ]
           },
@@ -1936,7 +1936,7 @@
                 "keys": [
                   {
                     "type": "GlobalReference",
-                    "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/residenceOfAuthority"
+                    "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/residenceOfAuthority"
                   }
                 ]
               },
@@ -1946,7 +1946,7 @@
                   "keys": [
                     {
                       "type": "GlobalReference",
-                      "value": "https://example.org/inspire-aas/cd/au/5.0/ResidenceOfAuthority"
+                      "value": "https://w3id.org/inspire-aas/cd/au/5.0/ResidenceOfAuthority"
                     }
                   ]
                 }
@@ -1971,7 +1971,7 @@
                     "keys": [
                       {
                         "type": "GlobalReference",
-                        "value": "https://example.org/inspire-aas/cd/au/5.0/ResidenceOfAuthority/geometry"
+                        "value": "https://w3id.org/inspire-aas/cd/au/5.0/ResidenceOfAuthority/geometry"
                       }
                     ]
                   },
@@ -2017,7 +2017,7 @@
                     "keys": [
                       {
                         "type": "GlobalReference",
-                        "value": "https://example.org/inspire-aas/cd/au/5.0/ResidenceOfAuthority/name"
+                        "value": "https://w3id.org/inspire-aas/cd/au/5.0/ResidenceOfAuthority/name"
                       }
                     ]
                   },
@@ -2027,7 +2027,7 @@
                       "keys": [
                         {
                           "type": "GlobalReference",
-                          "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName"
+                          "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName"
                         }
                       ]
                     }
@@ -2060,7 +2060,7 @@
                         "keys": [
                           {
                             "type": "GlobalReference",
-                            "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/grammaticalGender"
+                            "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/grammaticalGender"
                           }
                         ]
                       },
@@ -2111,7 +2111,7 @@
                         "keys": [
                           {
                             "type": "GlobalReference",
-                            "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/grammaticalNumber"
+                            "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/grammaticalNumber"
                           }
                         ]
                       },
@@ -2162,7 +2162,7 @@
                         "keys": [
                           {
                             "type": "GlobalReference",
-                            "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/language"
+                            "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/language"
                           }
                         ]
                       },
@@ -2202,7 +2202,7 @@
                         "keys": [
                           {
                             "type": "GlobalReference",
-                            "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/nameStatus"
+                            "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/nameStatus"
                           }
                         ]
                       },
@@ -2253,7 +2253,7 @@
                         "keys": [
                           {
                             "type": "GlobalReference",
-                            "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/nativeness"
+                            "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/nativeness"
                           }
                         ]
                       },
@@ -2304,7 +2304,7 @@
                         "keys": [
                           {
                             "type": "GlobalReference",
-                            "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/pronunciation"
+                            "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/pronunciation"
                           }
                         ]
                       },
@@ -2314,7 +2314,7 @@
                           "keys": [
                             {
                               "type": "GlobalReference",
-                              "value": "https://example.org/inspire-aas/cd/gn/4.0/PronunciationOfName"
+                              "value": "https://w3id.org/inspire-aas/cd/gn/4.0/PronunciationOfName"
                             }
                           ]
                         }
@@ -2353,7 +2353,7 @@
                             "keys": [
                               {
                                 "type": "GlobalReference",
-                                "value": "https://example.org/inspire-aas/cd/gn/4.0/PronunciationOfName/pronunciationIPA"
+                                "value": "https://w3id.org/inspire-aas/cd/gn/4.0/PronunciationOfName/pronunciationIPA"
                               }
                             ]
                           },
@@ -2393,7 +2393,7 @@
                             "keys": [
                               {
                                 "type": "GlobalReference",
-                                "value": "https://example.org/inspire-aas/cd/gn/4.0/PronunciationOfName/pronunciationSoundLink"
+                                "value": "https://w3id.org/inspire-aas/cd/gn/4.0/PronunciationOfName/pronunciationSoundLink"
                               }
                             ]
                           },
@@ -2436,7 +2436,7 @@
                         "keys": [
                           {
                             "type": "GlobalReference",
-                            "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/sourceOfName"
+                            "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/sourceOfName"
                           }
                         ]
                       },
@@ -2476,7 +2476,7 @@
                         "keys": [
                           {
                             "type": "GlobalReference",
-                            "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/spelling"
+                            "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/spelling"
                           }
                         ]
                       },
@@ -2494,7 +2494,7 @@
                         "keys": [
                           {
                             "type": "GlobalReference",
-                            "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/spelling"
+                            "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/spelling"
                           }
                         ]
                       },
@@ -2506,7 +2506,7 @@
                             "keys": [
                               {
                                 "type": "GlobalReference",
-                                "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/spelling"
+                                "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/spelling"
                               }
                             ]
                           },
@@ -2516,7 +2516,7 @@
                               "keys": [
                                 {
                                   "type": "GlobalReference",
-                                  "value": "https://example.org/inspire-aas/cd/gn/4.0/SpellingOfName"
+                                  "value": "https://w3id.org/inspire-aas/cd/gn/4.0/SpellingOfName"
                                 }
                               ]
                             }
@@ -2541,7 +2541,7 @@
                                 "keys": [
                                   {
                                     "type": "GlobalReference",
-                                    "value": "https://example.org/inspire-aas/cd/gn/4.0/SpellingOfName/script"
+                                    "value": "https://w3id.org/inspire-aas/cd/gn/4.0/SpellingOfName/script"
                                   }
                                 ]
                               },
@@ -2581,7 +2581,7 @@
                                 "keys": [
                                   {
                                     "type": "GlobalReference",
-                                    "value": "https://example.org/inspire-aas/cd/gn/4.0/SpellingOfName/text"
+                                    "value": "https://w3id.org/inspire-aas/cd/gn/4.0/SpellingOfName/text"
                                   }
                                 ]
                               },
@@ -2615,7 +2615,7 @@
                                 "keys": [
                                   {
                                     "type": "GlobalReference",
-                                    "value": "https://example.org/inspire-aas/cd/gn/4.0/SpellingOfName/transliterationScheme"
+                                    "value": "https://w3id.org/inspire-aas/cd/gn/4.0/SpellingOfName/transliterationScheme"
                                   }
                                 ]
                               },
@@ -2670,7 +2670,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/boundary"
+                "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/boundary"
               }
             ]
           },
@@ -2694,7 +2694,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/boundary"
+                "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/boundary"
               }
             ]
           },
@@ -2706,7 +2706,7 @@
                 "keys": [
                   {
                     "type": "GlobalReference",
-                    "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/boundary"
+                    "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/boundary"
                   }
                 ]
               },
@@ -2742,7 +2742,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/administeredBy"
+                "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/administeredBy"
               }
             ]
           },
@@ -2766,7 +2766,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/administeredBy"
+                "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/administeredBy"
               }
             ]
           },
@@ -2778,7 +2778,7 @@
                 "keys": [
                   {
                     "type": "GlobalReference",
-                    "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/administeredBy"
+                    "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/administeredBy"
                   }
                 ]
               },
@@ -2814,7 +2814,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/coAdminister"
+                "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/coAdminister"
               }
             ]
           },
@@ -2838,7 +2838,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/coAdminister"
+                "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/coAdminister"
               }
             ]
           },
@@ -2850,7 +2850,7 @@
                 "keys": [
                   {
                     "type": "GlobalReference",
-                    "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/coAdminister"
+                    "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/coAdminister"
                   }
                 ]
               },
@@ -2886,7 +2886,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/lowerLevelUnit"
+                "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/lowerLevelUnit"
               }
             ]
           },
@@ -2910,7 +2910,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/lowerLevelUnit"
+                "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/lowerLevelUnit"
               }
             ]
           },
@@ -2922,7 +2922,7 @@
                 "keys": [
                   {
                     "type": "GlobalReference",
-                    "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/lowerLevelUnit"
+                    "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/lowerLevelUnit"
                   }
                 ]
               },
@@ -2958,7 +2958,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/upperLevelUnit"
+                "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/upperLevelUnit"
               }
             ]
           },
@@ -3003,7 +3003,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/condominium"
+                "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/condominium"
               }
             ]
           },
@@ -3027,7 +3027,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/condominium"
+                "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/condominium"
               }
             ]
           },
@@ -3039,7 +3039,7 @@
                 "keys": [
                   {
                     "type": "GlobalReference",
-                    "value": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/condominium"
+                    "value": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/condominium"
                   }
                 ]
               },
@@ -3081,7 +3081,7 @@
         "version": "5",
         "revision": "0"
       },
-      "id": "https://example.org/inspire-aas/smt/au/5.0/Condominium",
+      "id": "https://w3id.org/inspire-aas/smt/au/5.0/Condominium",
       "kind": "Template",
       "semanticId": {
         "type": "ExternalReference",
@@ -3112,7 +3112,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/au/5.0/Condominium/beginLifespanVersion"
+                "value": "https://w3id.org/inspire-aas/cd/au/5.0/Condominium/beginLifespanVersion"
               }
             ]
           },
@@ -3158,7 +3158,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/au/5.0/Condominium/endLifespanVersion"
+                "value": "https://w3id.org/inspire-aas/cd/au/5.0/Condominium/endLifespanVersion"
               }
             ]
           },
@@ -3204,7 +3204,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/au/5.0/Condominium/geometry"
+                "value": "https://w3id.org/inspire-aas/cd/au/5.0/Condominium/geometry"
               }
             ]
           },
@@ -3244,7 +3244,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/au/5.0/Condominium/inspireId"
+                "value": "https://w3id.org/inspire-aas/cd/au/5.0/Condominium/inspireId"
               }
             ]
           },
@@ -3254,7 +3254,7 @@
               "keys": [
                 {
                   "type": "GlobalReference",
-                  "value": "https://example.org/inspire-aas/cd/base/4.0/Identifier"
+                  "value": "https://w3id.org/inspire-aas/cd/base/4.0/Identifier"
                 }
               ]
             }
@@ -3287,7 +3287,7 @@
                 "keys": [
                   {
                     "type": "GlobalReference",
-                    "value": "https://example.org/inspire-aas/cd/base/4.0/Identifier/localId"
+                    "value": "https://w3id.org/inspire-aas/cd/base/4.0/Identifier/localId"
                   }
                 ]
               },
@@ -3321,7 +3321,7 @@
                 "keys": [
                   {
                     "type": "GlobalReference",
-                    "value": "https://example.org/inspire-aas/cd/base/4.0/Identifier/namespace"
+                    "value": "https://w3id.org/inspire-aas/cd/base/4.0/Identifier/namespace"
                   }
                 ]
               },
@@ -3355,7 +3355,7 @@
                 "keys": [
                   {
                     "type": "GlobalReference",
-                    "value": "https://example.org/inspire-aas/cd/base/4.0/Identifier/versionId"
+                    "value": "https://w3id.org/inspire-aas/cd/base/4.0/Identifier/versionId"
                   }
                 ]
               },
@@ -3404,7 +3404,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/au/5.0/Condominium/name"
+                "value": "https://w3id.org/inspire-aas/cd/au/5.0/Condominium/name"
               }
             ]
           },
@@ -3428,7 +3428,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/au/5.0/Condominium/name"
+                "value": "https://w3id.org/inspire-aas/cd/au/5.0/Condominium/name"
               }
             ]
           },
@@ -3440,7 +3440,7 @@
                 "keys": [
                   {
                     "type": "GlobalReference",
-                    "value": "https://example.org/inspire-aas/cd/au/5.0/Condominium/name"
+                    "value": "https://w3id.org/inspire-aas/cd/au/5.0/Condominium/name"
                   }
                 ]
               },
@@ -3450,7 +3450,7 @@
                   "keys": [
                     {
                       "type": "GlobalReference",
-                      "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName"
+                      "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName"
                     }
                   ]
                 }
@@ -3475,7 +3475,7 @@
                     "keys": [
                       {
                         "type": "GlobalReference",
-                        "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/grammaticalGender"
+                        "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/grammaticalGender"
                       }
                     ]
                   },
@@ -3526,7 +3526,7 @@
                     "keys": [
                       {
                         "type": "GlobalReference",
-                        "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/grammaticalNumber"
+                        "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/grammaticalNumber"
                       }
                     ]
                   },
@@ -3577,7 +3577,7 @@
                     "keys": [
                       {
                         "type": "GlobalReference",
-                        "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/language"
+                        "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/language"
                       }
                     ]
                   },
@@ -3617,7 +3617,7 @@
                     "keys": [
                       {
                         "type": "GlobalReference",
-                        "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/nameStatus"
+                        "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/nameStatus"
                       }
                     ]
                   },
@@ -3668,7 +3668,7 @@
                     "keys": [
                       {
                         "type": "GlobalReference",
-                        "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/nativeness"
+                        "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/nativeness"
                       }
                     ]
                   },
@@ -3719,7 +3719,7 @@
                     "keys": [
                       {
                         "type": "GlobalReference",
-                        "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/pronunciation"
+                        "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/pronunciation"
                       }
                     ]
                   },
@@ -3729,7 +3729,7 @@
                       "keys": [
                         {
                           "type": "GlobalReference",
-                          "value": "https://example.org/inspire-aas/cd/gn/4.0/PronunciationOfName"
+                          "value": "https://w3id.org/inspire-aas/cd/gn/4.0/PronunciationOfName"
                         }
                       ]
                     }
@@ -3768,7 +3768,7 @@
                         "keys": [
                           {
                             "type": "GlobalReference",
-                            "value": "https://example.org/inspire-aas/cd/gn/4.0/PronunciationOfName/pronunciationIPA"
+                            "value": "https://w3id.org/inspire-aas/cd/gn/4.0/PronunciationOfName/pronunciationIPA"
                           }
                         ]
                       },
@@ -3808,7 +3808,7 @@
                         "keys": [
                           {
                             "type": "GlobalReference",
-                            "value": "https://example.org/inspire-aas/cd/gn/4.0/PronunciationOfName/pronunciationSoundLink"
+                            "value": "https://w3id.org/inspire-aas/cd/gn/4.0/PronunciationOfName/pronunciationSoundLink"
                           }
                         ]
                       },
@@ -3851,7 +3851,7 @@
                     "keys": [
                       {
                         "type": "GlobalReference",
-                        "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/sourceOfName"
+                        "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/sourceOfName"
                       }
                     ]
                   },
@@ -3891,7 +3891,7 @@
                     "keys": [
                       {
                         "type": "GlobalReference",
-                        "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/spelling"
+                        "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/spelling"
                       }
                     ]
                   },
@@ -3909,7 +3909,7 @@
                     "keys": [
                       {
                         "type": "GlobalReference",
-                        "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/spelling"
+                        "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/spelling"
                       }
                     ]
                   },
@@ -3921,7 +3921,7 @@
                         "keys": [
                           {
                             "type": "GlobalReference",
-                            "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/spelling"
+                            "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/spelling"
                           }
                         ]
                       },
@@ -3931,7 +3931,7 @@
                           "keys": [
                             {
                               "type": "GlobalReference",
-                              "value": "https://example.org/inspire-aas/cd/gn/4.0/SpellingOfName"
+                              "value": "https://w3id.org/inspire-aas/cd/gn/4.0/SpellingOfName"
                             }
                           ]
                         }
@@ -3956,7 +3956,7 @@
                             "keys": [
                               {
                                 "type": "GlobalReference",
-                                "value": "https://example.org/inspire-aas/cd/gn/4.0/SpellingOfName/script"
+                                "value": "https://w3id.org/inspire-aas/cd/gn/4.0/SpellingOfName/script"
                               }
                             ]
                           },
@@ -3996,7 +3996,7 @@
                             "keys": [
                               {
                                 "type": "GlobalReference",
-                                "value": "https://example.org/inspire-aas/cd/gn/4.0/SpellingOfName/text"
+                                "value": "https://w3id.org/inspire-aas/cd/gn/4.0/SpellingOfName/text"
                               }
                             ]
                           },
@@ -4030,7 +4030,7 @@
                             "keys": [
                               {
                                 "type": "GlobalReference",
-                                "value": "https://example.org/inspire-aas/cd/gn/4.0/SpellingOfName/transliterationScheme"
+                                "value": "https://w3id.org/inspire-aas/cd/gn/4.0/SpellingOfName/transliterationScheme"
                               }
                             ]
                           },
@@ -4082,7 +4082,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/au/5.0/Condominium/admUnit"
+                "value": "https://w3id.org/inspire-aas/cd/au/5.0/Condominium/admUnit"
               }
             ]
           },
@@ -4106,7 +4106,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/au/5.0/Condominium/admUnit"
+                "value": "https://w3id.org/inspire-aas/cd/au/5.0/Condominium/admUnit"
               }
             ]
           },
@@ -4118,7 +4118,7 @@
                 "keys": [
                   {
                     "type": "GlobalReference",
-                    "value": "https://example.org/inspire-aas/cd/au/5.0/Condominium/admUnit"
+                    "value": "https://w3id.org/inspire-aas/cd/au/5.0/Condominium/admUnit"
                   }
                 ]
               },
@@ -4160,7 +4160,7 @@
         "version": "4",
         "revision": "0"
       },
-      "id": "https://example.org/inspire-aas/smt/cp/4.0/BasicPropertyUnit",
+      "id": "https://w3id.org/inspire-aas/smt/cp/4.0/BasicPropertyUnit",
       "kind": "Template",
       "semanticId": {
         "type": "ExternalReference",
@@ -4191,7 +4191,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/BasicPropertyUnit/areaValue"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/BasicPropertyUnit/areaValue"
               }
             ]
           },
@@ -4231,7 +4231,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/BasicPropertyUnit/beginLifespanVersion"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/BasicPropertyUnit/beginLifespanVersion"
               }
             ]
           },
@@ -4277,7 +4277,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/BasicPropertyUnit/endLifespanVersion"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/BasicPropertyUnit/endLifespanVersion"
               }
             ]
           },
@@ -4323,7 +4323,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/BasicPropertyUnit/inspireId"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/BasicPropertyUnit/inspireId"
               }
             ]
           },
@@ -4333,7 +4333,7 @@
               "keys": [
                 {
                   "type": "GlobalReference",
-                  "value": "https://example.org/inspire-aas/cd/base/4.0/Identifier"
+                  "value": "https://w3id.org/inspire-aas/cd/base/4.0/Identifier"
                 }
               ]
             }
@@ -4366,7 +4366,7 @@
                 "keys": [
                   {
                     "type": "GlobalReference",
-                    "value": "https://example.org/inspire-aas/cd/base/4.0/Identifier/localId"
+                    "value": "https://w3id.org/inspire-aas/cd/base/4.0/Identifier/localId"
                   }
                 ]
               },
@@ -4400,7 +4400,7 @@
                 "keys": [
                   {
                     "type": "GlobalReference",
-                    "value": "https://example.org/inspire-aas/cd/base/4.0/Identifier/namespace"
+                    "value": "https://w3id.org/inspire-aas/cd/base/4.0/Identifier/namespace"
                   }
                 ]
               },
@@ -4434,7 +4434,7 @@
                 "keys": [
                   {
                     "type": "GlobalReference",
-                    "value": "https://example.org/inspire-aas/cd/base/4.0/Identifier/versionId"
+                    "value": "https://w3id.org/inspire-aas/cd/base/4.0/Identifier/versionId"
                   }
                 ]
               },
@@ -4483,7 +4483,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/BasicPropertyUnit/nationalCadastralReference"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/BasicPropertyUnit/nationalCadastralReference"
               }
             ]
           },
@@ -4517,7 +4517,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/BasicPropertyUnit/validFrom"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/BasicPropertyUnit/validFrom"
               }
             ]
           },
@@ -4557,7 +4557,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/BasicPropertyUnit/validTo"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/BasicPropertyUnit/validTo"
               }
             ]
           },
@@ -4597,7 +4597,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/BasicPropertyUnit/administrativeUnit"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/BasicPropertyUnit/administrativeUnit"
               }
             ]
           },
@@ -4648,7 +4648,7 @@
         "version": "4",
         "revision": "0"
       },
-      "id": "https://example.org/inspire-aas/smt/cp/4.0/CadastralBoundary",
+      "id": "https://w3id.org/inspire-aas/smt/cp/4.0/CadastralBoundary",
       "kind": "Template",
       "semanticId": {
         "type": "ExternalReference",
@@ -4679,7 +4679,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralBoundary/beginLifespanVersion"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralBoundary/beginLifespanVersion"
               }
             ]
           },
@@ -4725,7 +4725,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralBoundary/endLifespanVersion"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralBoundary/endLifespanVersion"
               }
             ]
           },
@@ -4771,7 +4771,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralBoundary/estimatedAccuracy"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralBoundary/estimatedAccuracy"
               }
             ]
           },
@@ -4811,7 +4811,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralBoundary/geometry"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralBoundary/geometry"
               }
             ]
           },
@@ -4851,7 +4851,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralBoundary/inspireId"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralBoundary/inspireId"
               }
             ]
           },
@@ -4861,7 +4861,7 @@
               "keys": [
                 {
                   "type": "GlobalReference",
-                  "value": "https://example.org/inspire-aas/cd/base/4.0/Identifier"
+                  "value": "https://w3id.org/inspire-aas/cd/base/4.0/Identifier"
                 }
               ]
             }
@@ -4894,7 +4894,7 @@
                 "keys": [
                   {
                     "type": "GlobalReference",
-                    "value": "https://example.org/inspire-aas/cd/base/4.0/Identifier/localId"
+                    "value": "https://w3id.org/inspire-aas/cd/base/4.0/Identifier/localId"
                   }
                 ]
               },
@@ -4928,7 +4928,7 @@
                 "keys": [
                   {
                     "type": "GlobalReference",
-                    "value": "https://example.org/inspire-aas/cd/base/4.0/Identifier/namespace"
+                    "value": "https://w3id.org/inspire-aas/cd/base/4.0/Identifier/namespace"
                   }
                 ]
               },
@@ -4962,7 +4962,7 @@
                 "keys": [
                   {
                     "type": "GlobalReference",
-                    "value": "https://example.org/inspire-aas/cd/base/4.0/Identifier/versionId"
+                    "value": "https://w3id.org/inspire-aas/cd/base/4.0/Identifier/versionId"
                   }
                 ]
               },
@@ -5011,7 +5011,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralBoundary/validFrom"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralBoundary/validFrom"
               }
             ]
           },
@@ -5051,7 +5051,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralBoundary/validTo"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralBoundary/validTo"
               }
             ]
           },
@@ -5091,7 +5091,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralBoundary/parcel"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralBoundary/parcel"
               }
             ]
           },
@@ -5115,7 +5115,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralBoundary/parcel"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralBoundary/parcel"
               }
             ]
           },
@@ -5127,7 +5127,7 @@
                 "keys": [
                   {
                     "type": "GlobalReference",
-                    "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralBoundary/parcel"
+                    "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralBoundary/parcel"
                   }
                 ]
               },
@@ -5169,7 +5169,7 @@
         "version": "4",
         "revision": "0"
       },
-      "id": "https://example.org/inspire-aas/smt/cp/4.0/CadastralParcel",
+      "id": "https://w3id.org/inspire-aas/smt/cp/4.0/CadastralParcel",
       "kind": "Template",
       "semanticId": {
         "type": "ExternalReference",
@@ -5200,7 +5200,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/areaValue"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralParcel/areaValue"
               }
             ]
           },
@@ -5240,7 +5240,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/beginLifespanVersion"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralParcel/beginLifespanVersion"
               }
             ]
           },
@@ -5286,7 +5286,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/endLifespanVersion"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralParcel/endLifespanVersion"
               }
             ]
           },
@@ -5332,7 +5332,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/geometry"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralParcel/geometry"
               }
             ]
           },
@@ -5372,7 +5372,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/inspireId"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralParcel/inspireId"
               }
             ]
           },
@@ -5382,7 +5382,7 @@
               "keys": [
                 {
                   "type": "GlobalReference",
-                  "value": "https://example.org/inspire-aas/cd/base/4.0/Identifier"
+                  "value": "https://w3id.org/inspire-aas/cd/base/4.0/Identifier"
                 }
               ]
             }
@@ -5415,7 +5415,7 @@
                 "keys": [
                   {
                     "type": "GlobalReference",
-                    "value": "https://example.org/inspire-aas/cd/base/4.0/Identifier/localId"
+                    "value": "https://w3id.org/inspire-aas/cd/base/4.0/Identifier/localId"
                   }
                 ]
               },
@@ -5449,7 +5449,7 @@
                 "keys": [
                   {
                     "type": "GlobalReference",
-                    "value": "https://example.org/inspire-aas/cd/base/4.0/Identifier/namespace"
+                    "value": "https://w3id.org/inspire-aas/cd/base/4.0/Identifier/namespace"
                   }
                 ]
               },
@@ -5483,7 +5483,7 @@
                 "keys": [
                   {
                     "type": "GlobalReference",
-                    "value": "https://example.org/inspire-aas/cd/base/4.0/Identifier/versionId"
+                    "value": "https://w3id.org/inspire-aas/cd/base/4.0/Identifier/versionId"
                   }
                 ]
               },
@@ -5532,7 +5532,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/label"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralParcel/label"
               }
             ]
           },
@@ -5566,7 +5566,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/nationalCadastralReference"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralParcel/nationalCadastralReference"
               }
             ]
           },
@@ -5600,7 +5600,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/referencePoint"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralParcel/referencePoint"
               }
             ]
           },
@@ -5646,7 +5646,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/validFrom"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralParcel/validFrom"
               }
             ]
           },
@@ -5686,7 +5686,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/validTo"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralParcel/validTo"
               }
             ]
           },
@@ -5726,7 +5726,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/administrativeUnit"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralParcel/administrativeUnit"
               }
             ]
           },
@@ -5771,7 +5771,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/basicPropertyUnit"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralParcel/basicPropertyUnit"
               }
             ]
           },
@@ -5795,7 +5795,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/basicPropertyUnit"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralParcel/basicPropertyUnit"
               }
             ]
           },
@@ -5807,7 +5807,7 @@
                 "keys": [
                   {
                     "type": "GlobalReference",
-                    "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/basicPropertyUnit"
+                    "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralParcel/basicPropertyUnit"
                   }
                 ]
               },
@@ -5843,7 +5843,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/zoning"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralParcel/zoning"
               }
             ]
           },
@@ -5894,7 +5894,7 @@
         "version": "4",
         "revision": "0"
       },
-      "id": "https://example.org/inspire-aas/smt/cp/4.0/CadastralZoning",
+      "id": "https://w3id.org/inspire-aas/smt/cp/4.0/CadastralZoning",
       "kind": "Template",
       "semanticId": {
         "type": "ExternalReference",
@@ -5925,7 +5925,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralZoning/beginLifespanVersion"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralZoning/beginLifespanVersion"
               }
             ]
           },
@@ -5971,7 +5971,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralZoning/endLifespanVersion"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralZoning/endLifespanVersion"
               }
             ]
           },
@@ -6017,7 +6017,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralZoning/estimatedAccuracy"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralZoning/estimatedAccuracy"
               }
             ]
           },
@@ -6057,7 +6057,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralZoning/geometry"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralZoning/geometry"
               }
             ]
           },
@@ -6097,7 +6097,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralZoning/inspireId"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralZoning/inspireId"
               }
             ]
           },
@@ -6107,7 +6107,7 @@
               "keys": [
                 {
                   "type": "GlobalReference",
-                  "value": "https://example.org/inspire-aas/cd/base/4.0/Identifier"
+                  "value": "https://w3id.org/inspire-aas/cd/base/4.0/Identifier"
                 }
               ]
             }
@@ -6140,7 +6140,7 @@
                 "keys": [
                   {
                     "type": "GlobalReference",
-                    "value": "https://example.org/inspire-aas/cd/base/4.0/Identifier/localId"
+                    "value": "https://w3id.org/inspire-aas/cd/base/4.0/Identifier/localId"
                   }
                 ]
               },
@@ -6174,7 +6174,7 @@
                 "keys": [
                   {
                     "type": "GlobalReference",
-                    "value": "https://example.org/inspire-aas/cd/base/4.0/Identifier/namespace"
+                    "value": "https://w3id.org/inspire-aas/cd/base/4.0/Identifier/namespace"
                   }
                 ]
               },
@@ -6208,7 +6208,7 @@
                 "keys": [
                   {
                     "type": "GlobalReference",
-                    "value": "https://example.org/inspire-aas/cd/base/4.0/Identifier/versionId"
+                    "value": "https://w3id.org/inspire-aas/cd/base/4.0/Identifier/versionId"
                   }
                 ]
               },
@@ -6257,7 +6257,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralZoning/label"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralZoning/label"
               }
             ]
           },
@@ -6291,7 +6291,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralZoning/level"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralZoning/level"
               }
             ]
           },
@@ -6342,7 +6342,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralZoning/levelName"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralZoning/levelName"
               }
             ]
           },
@@ -6366,7 +6366,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralZoning/levelName"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralZoning/levelName"
               }
             ]
           },
@@ -6378,7 +6378,7 @@
                 "keys": [
                   {
                     "type": "GlobalReference",
-                    "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralZoning/levelName"
+                    "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralZoning/levelName"
                   }
                 ]
               },
@@ -6406,7 +6406,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralZoning/name"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralZoning/name"
               }
             ]
           },
@@ -6430,7 +6430,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralZoning/name"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralZoning/name"
               }
             ]
           },
@@ -6442,7 +6442,7 @@
                 "keys": [
                   {
                     "type": "GlobalReference",
-                    "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralZoning/name"
+                    "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralZoning/name"
                   }
                 ]
               },
@@ -6452,7 +6452,7 @@
                   "keys": [
                     {
                       "type": "GlobalReference",
-                      "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName"
+                      "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName"
                     }
                   ]
                 }
@@ -6477,7 +6477,7 @@
                     "keys": [
                       {
                         "type": "GlobalReference",
-                        "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/grammaticalGender"
+                        "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/grammaticalGender"
                       }
                     ]
                   },
@@ -6528,7 +6528,7 @@
                     "keys": [
                       {
                         "type": "GlobalReference",
-                        "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/grammaticalNumber"
+                        "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/grammaticalNumber"
                       }
                     ]
                   },
@@ -6579,7 +6579,7 @@
                     "keys": [
                       {
                         "type": "GlobalReference",
-                        "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/language"
+                        "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/language"
                       }
                     ]
                   },
@@ -6619,7 +6619,7 @@
                     "keys": [
                       {
                         "type": "GlobalReference",
-                        "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/nameStatus"
+                        "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/nameStatus"
                       }
                     ]
                   },
@@ -6670,7 +6670,7 @@
                     "keys": [
                       {
                         "type": "GlobalReference",
-                        "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/nativeness"
+                        "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/nativeness"
                       }
                     ]
                   },
@@ -6721,7 +6721,7 @@
                     "keys": [
                       {
                         "type": "GlobalReference",
-                        "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/pronunciation"
+                        "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/pronunciation"
                       }
                     ]
                   },
@@ -6731,7 +6731,7 @@
                       "keys": [
                         {
                           "type": "GlobalReference",
-                          "value": "https://example.org/inspire-aas/cd/gn/4.0/PronunciationOfName"
+                          "value": "https://w3id.org/inspire-aas/cd/gn/4.0/PronunciationOfName"
                         }
                       ]
                     }
@@ -6770,7 +6770,7 @@
                         "keys": [
                           {
                             "type": "GlobalReference",
-                            "value": "https://example.org/inspire-aas/cd/gn/4.0/PronunciationOfName/pronunciationIPA"
+                            "value": "https://w3id.org/inspire-aas/cd/gn/4.0/PronunciationOfName/pronunciationIPA"
                           }
                         ]
                       },
@@ -6810,7 +6810,7 @@
                         "keys": [
                           {
                             "type": "GlobalReference",
-                            "value": "https://example.org/inspire-aas/cd/gn/4.0/PronunciationOfName/pronunciationSoundLink"
+                            "value": "https://w3id.org/inspire-aas/cd/gn/4.0/PronunciationOfName/pronunciationSoundLink"
                           }
                         ]
                       },
@@ -6853,7 +6853,7 @@
                     "keys": [
                       {
                         "type": "GlobalReference",
-                        "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/sourceOfName"
+                        "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/sourceOfName"
                       }
                     ]
                   },
@@ -6893,7 +6893,7 @@
                     "keys": [
                       {
                         "type": "GlobalReference",
-                        "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/spelling"
+                        "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/spelling"
                       }
                     ]
                   },
@@ -6911,7 +6911,7 @@
                     "keys": [
                       {
                         "type": "GlobalReference",
-                        "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/spelling"
+                        "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/spelling"
                       }
                     ]
                   },
@@ -6923,7 +6923,7 @@
                         "keys": [
                           {
                             "type": "GlobalReference",
-                            "value": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/spelling"
+                            "value": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/spelling"
                           }
                         ]
                       },
@@ -6933,7 +6933,7 @@
                           "keys": [
                             {
                               "type": "GlobalReference",
-                              "value": "https://example.org/inspire-aas/cd/gn/4.0/SpellingOfName"
+                              "value": "https://w3id.org/inspire-aas/cd/gn/4.0/SpellingOfName"
                             }
                           ]
                         }
@@ -6958,7 +6958,7 @@
                             "keys": [
                               {
                                 "type": "GlobalReference",
-                                "value": "https://example.org/inspire-aas/cd/gn/4.0/SpellingOfName/script"
+                                "value": "https://w3id.org/inspire-aas/cd/gn/4.0/SpellingOfName/script"
                               }
                             ]
                           },
@@ -6998,7 +6998,7 @@
                             "keys": [
                               {
                                 "type": "GlobalReference",
-                                "value": "https://example.org/inspire-aas/cd/gn/4.0/SpellingOfName/text"
+                                "value": "https://w3id.org/inspire-aas/cd/gn/4.0/SpellingOfName/text"
                               }
                             ]
                           },
@@ -7032,7 +7032,7 @@
                             "keys": [
                               {
                                 "type": "GlobalReference",
-                                "value": "https://example.org/inspire-aas/cd/gn/4.0/SpellingOfName/transliterationScheme"
+                                "value": "https://w3id.org/inspire-aas/cd/gn/4.0/SpellingOfName/transliterationScheme"
                               }
                             ]
                           },
@@ -7084,7 +7084,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralZoning/nationalCadastalZoningReference"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralZoning/nationalCadastalZoningReference"
               }
             ]
           },
@@ -7118,7 +7118,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralZoning/originalMapScaleDenominator"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralZoning/originalMapScaleDenominator"
               }
             ]
           },
@@ -7158,7 +7158,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralZoning/referencePoint"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralZoning/referencePoint"
               }
             ]
           },
@@ -7204,7 +7204,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralZoning/validFrom"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralZoning/validFrom"
               }
             ]
           },
@@ -7244,7 +7244,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralZoning/validTo"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralZoning/validTo"
               }
             ]
           },
@@ -7284,7 +7284,7 @@
             "keys": [
               {
                 "type": "GlobalReference",
-                "value": "https://example.org/inspire-aas/cd/cp/4.0/CadastralZoning/upperLevelUnit"
+                "value": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralZoning/upperLevelUnit"
               }
             ]
           },
@@ -7340,6 +7340,7 @@
                 "text": "Verwaltungsgrenze"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Registry, version 20260826-0",
             "definition": [
               {
                 "language": "en",
@@ -7358,7 +7359,7 @@
     },
     {
       "idShort": "beginLifespanVersion",
-      "id": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/beginLifespanVersion",
+      "id": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/beginLifespanVersion",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -7377,6 +7378,7 @@
                 "text": "begin lifespan version"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema AdministrativeUnits 5.0, class AdministrativeBoundary",
             "dataType": "TIMESTAMP",
             "definition": [
               {
@@ -7421,6 +7423,7 @@
                 "text": "Ländercode"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Registry, version 20260826-0",
             "dataType": "STRING",
             "definition": [
               {
@@ -7440,7 +7443,7 @@
     },
     {
       "idShort": "country",
-      "id": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/country",
+      "id": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/country",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -7459,6 +7462,7 @@
                 "text": "country"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema AdministrativeUnits 5.0, class AdministrativeBoundary",
             "dataType": "STRING",
             "definition": [
               {
@@ -7474,7 +7478,7 @@
     },
     {
       "idShort": "endLifespanVersion",
-      "id": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/endLifespanVersion",
+      "id": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/endLifespanVersion",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -7493,6 +7497,7 @@
                 "text": "end lifespan version"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema AdministrativeUnits 5.0, class AdministrativeBoundary",
             "dataType": "TIMESTAMP",
             "definition": [
               {
@@ -7508,7 +7513,7 @@
     },
     {
       "idShort": "geometry",
-      "id": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/geometry",
+      "id": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/geometry",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -7527,6 +7532,7 @@
                 "text": "geometry"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema AdministrativeUnits 5.0, class AdministrativeBoundary",
             "dataType": "FILE",
             "definition": [
               {
@@ -7542,7 +7548,7 @@
     },
     {
       "idShort": "localId",
-      "id": "https://example.org/inspire-aas/cd/base/4.0/Identifier/localId",
+      "id": "https://w3id.org/inspire-aas/cd/base/4.0/Identifier/localId",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -7561,6 +7567,7 @@
                 "text": "localId"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema Base Types 4.0, class Identifier",
             "dataType": "STRING",
             "definition": [
               {
@@ -7576,7 +7583,7 @@
     },
     {
       "idShort": "namespace",
-      "id": "https://example.org/inspire-aas/cd/base/4.0/Identifier/namespace",
+      "id": "https://w3id.org/inspire-aas/cd/base/4.0/Identifier/namespace",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -7595,6 +7602,7 @@
                 "text": "namespace"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema Base Types 4.0, class Identifier",
             "dataType": "STRING",
             "definition": [
               {
@@ -7610,7 +7618,7 @@
     },
     {
       "idShort": "versionId",
-      "id": "https://example.org/inspire-aas/cd/base/4.0/Identifier/versionId",
+      "id": "https://w3id.org/inspire-aas/cd/base/4.0/Identifier/versionId",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -7629,6 +7637,7 @@
                 "text": "versionId"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema Base Types 4.0, class Identifier",
             "dataType": "STRING",
             "definition": [
               {
@@ -7644,7 +7653,7 @@
     },
     {
       "idShort": "inspireId",
-      "id": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/inspireId",
+      "id": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/inspireId",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -7663,6 +7672,7 @@
                 "text": "inspire id"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema AdministrativeUnits 5.0, class AdministrativeBoundary",
             "definition": [
               {
                 "language": "en",
@@ -7677,7 +7687,7 @@
     },
     {
       "idShort": "Identifier",
-      "id": "https://example.org/inspire-aas/cd/base/4.0/Identifier",
+      "id": "https://w3id.org/inspire-aas/cd/base/4.0/Identifier",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -7696,6 +7706,7 @@
                 "text": "Identifier"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema Base Types 4.0, class Identifier",
             "definition": [
               {
                 "language": "en",
@@ -7739,6 +7750,7 @@
                 "text": "Rechtsstatus"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Registry, version 20260826-0",
             "dataType": "STRING",
             "definition": [
               {
@@ -7786,7 +7798,7 @@
     },
     {
       "idShort": "legalStatus",
-      "id": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/legalStatus",
+      "id": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/legalStatus",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -7805,6 +7817,7 @@
                 "text": "legal status"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema AdministrativeUnits 5.0, class AdministrativeBoundary",
             "dataType": "STRING",
             "definition": [
               {
@@ -7877,6 +7890,7 @@
                 "text": "Verwaltungshierarchieebene"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Registry, version 20260826-0",
             "dataType": "STRING",
             "definition": [
               {
@@ -7972,7 +7986,7 @@
     },
     {
       "idShort": "nationalLevel",
-      "id": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/nationalLevel",
+      "id": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/nationalLevel",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -7991,6 +8005,7 @@
                 "text": "national level"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema AdministrativeUnits 5.0, class AdministrativeBoundary",
             "dataType": "STRING",
             "definition": [
               {
@@ -8111,6 +8126,7 @@
                 "text": "Technischer Status"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Registry, version 20260826-0",
             "dataType": "STRING",
             "definition": [
               {
@@ -8158,7 +8174,7 @@
     },
     {
       "idShort": "technicalStatus",
-      "id": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/technicalStatus",
+      "id": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/technicalStatus",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -8177,6 +8193,7 @@
                 "text": "technical status"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema AdministrativeUnits 5.0, class AdministrativeBoundary",
             "dataType": "STRING",
             "definition": [
               {
@@ -8220,7 +8237,7 @@
     },
     {
       "idShort": "admUnit",
-      "id": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/admUnit",
+      "id": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeBoundary/admUnit",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -8239,6 +8256,7 @@
                 "text": "adm unit"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema AdministrativeUnits 5.0, class AdministrativeBoundary",
             "definition": [
               {
                 "language": "en",
@@ -8276,6 +8294,7 @@
                 "text": "Verwaltungseinheit"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Registry, version 20260826-0",
             "definition": [
               {
                 "language": "en",
@@ -8294,7 +8313,7 @@
     },
     {
       "idShort": "beginLifespanVersion",
-      "id": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/beginLifespanVersion",
+      "id": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/beginLifespanVersion",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -8313,6 +8332,7 @@
                 "text": "begin lifespan version"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema AdministrativeUnits 5.0, class AdministrativeUnit",
             "dataType": "TIMESTAMP",
             "definition": [
               {
@@ -8328,7 +8348,7 @@
     },
     {
       "idShort": "country",
-      "id": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/country",
+      "id": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/country",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -8347,6 +8367,7 @@
                 "text": "country"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema AdministrativeUnits 5.0, class AdministrativeUnit",
             "dataType": "STRING",
             "definition": [
               {
@@ -8362,7 +8383,7 @@
     },
     {
       "idShort": "endLifespanVersion",
-      "id": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/endLifespanVersion",
+      "id": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/endLifespanVersion",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -8381,6 +8402,7 @@
                 "text": "end lifespan version"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema AdministrativeUnits 5.0, class AdministrativeUnit",
             "dataType": "TIMESTAMP",
             "definition": [
               {
@@ -8396,7 +8418,7 @@
     },
     {
       "idShort": "geometry",
-      "id": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/geometry",
+      "id": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/geometry",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -8415,6 +8437,7 @@
                 "text": "geometry"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema AdministrativeUnits 5.0, class AdministrativeUnit",
             "dataType": "FILE",
             "definition": [
               {
@@ -8430,7 +8453,7 @@
     },
     {
       "idShort": "inspireId",
-      "id": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/inspireId",
+      "id": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/inspireId",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -8449,6 +8472,7 @@
                 "text": "inspire id"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema AdministrativeUnits 5.0, class AdministrativeUnit",
             "definition": [
               {
                 "language": "en",
@@ -8492,6 +8516,7 @@
                 "text": "Genus"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Registry, version 20260826-0",
             "dataType": "STRING",
             "definition": [
               {
@@ -8563,7 +8588,7 @@
     },
     {
       "idShort": "grammaticalGender",
-      "id": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/grammaticalGender",
+      "id": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/grammaticalGender",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -8582,6 +8607,7 @@
                 "text": "grammaticalGender"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema Geographical Names 4.0, class GeographicalName",
             "dataType": "STRING",
             "definition": [
               {
@@ -8678,6 +8704,7 @@
                 "text": "Numerus"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Registry, version 20260826-0",
             "dataType": "STRING",
             "definition": [
               {
@@ -8737,7 +8764,7 @@
     },
     {
       "idShort": "grammaticalNumber",
-      "id": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/grammaticalNumber",
+      "id": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/grammaticalNumber",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -8756,6 +8783,7 @@
                 "text": "grammaticalNumber"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema Geographical Names 4.0, class GeographicalName",
             "dataType": "STRING",
             "definition": [
               {
@@ -8811,7 +8839,7 @@
     },
     {
       "idShort": "language",
-      "id": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/language",
+      "id": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/language",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -8830,6 +8858,7 @@
                 "text": "language"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema Geographical Names 4.0, class GeographicalName",
             "dataType": "STRING",
             "definition": [
               {
@@ -8874,6 +8903,7 @@
                 "text": "Namensstatus"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Registry, version 20260826-0",
             "dataType": "STRING",
             "definition": [
               {
@@ -8945,7 +8975,7 @@
     },
     {
       "idShort": "nameStatus",
-      "id": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/nameStatus",
+      "id": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/nameStatus",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -8964,6 +8994,7 @@
                 "text": "nameStatus"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema Geographical Names 4.0, class GeographicalName",
             "dataType": "STRING",
             "definition": [
               {
@@ -9060,6 +9091,7 @@
                 "text": "Ortsüblichkeit"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Registry, version 20260826-0",
             "dataType": "STRING",
             "definition": [
               {
@@ -9107,7 +9139,7 @@
     },
     {
       "idShort": "nativeness",
-      "id": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/nativeness",
+      "id": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/nativeness",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -9126,6 +9158,7 @@
                 "text": "nativeness"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema Geographical Names 4.0, class GeographicalName",
             "dataType": "STRING",
             "definition": [
               {
@@ -9169,7 +9202,7 @@
     },
     {
       "idShort": "pronunciationIPA",
-      "id": "https://example.org/inspire-aas/cd/gn/4.0/PronunciationOfName/pronunciationIPA",
+      "id": "https://w3id.org/inspire-aas/cd/gn/4.0/PronunciationOfName/pronunciationIPA",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -9188,6 +9221,7 @@
                 "text": "pronunciationIPA"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema Geographical Names 4.0, class PronunciationOfName",
             "dataType": "STRING",
             "definition": [
               {
@@ -9203,7 +9237,7 @@
     },
     {
       "idShort": "pronunciationSoundLink",
-      "id": "https://example.org/inspire-aas/cd/gn/4.0/PronunciationOfName/pronunciationSoundLink",
+      "id": "https://w3id.org/inspire-aas/cd/gn/4.0/PronunciationOfName/pronunciationSoundLink",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -9222,6 +9256,7 @@
                 "text": "pronunciationSoundLink"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema Geographical Names 4.0, class PronunciationOfName",
             "dataType": "IRI",
             "definition": [
               {
@@ -9237,7 +9272,7 @@
     },
     {
       "idShort": "pronunciation",
-      "id": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/pronunciation",
+      "id": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/pronunciation",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -9256,6 +9291,7 @@
                 "text": "pronunciation"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema Geographical Names 4.0, class GeographicalName",
             "definition": [
               {
                 "language": "en",
@@ -9270,7 +9306,7 @@
     },
     {
       "idShort": "PronunciationOfName",
-      "id": "https://example.org/inspire-aas/cd/gn/4.0/PronunciationOfName",
+      "id": "https://w3id.org/inspire-aas/cd/gn/4.0/PronunciationOfName",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -9289,6 +9325,7 @@
                 "text": "PronunciationOfName"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema Geographical Names 4.0, class PronunciationOfName",
             "definition": [
               {
                 "language": "en",
@@ -9303,7 +9340,7 @@
     },
     {
       "idShort": "sourceOfName",
-      "id": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/sourceOfName",
+      "id": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/sourceOfName",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -9322,6 +9359,7 @@
                 "text": "sourceOfName"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema Geographical Names 4.0, class GeographicalName",
             "dataType": "STRING",
             "definition": [
               {
@@ -9337,7 +9375,7 @@
     },
     {
       "idShort": "script",
-      "id": "https://example.org/inspire-aas/cd/gn/4.0/SpellingOfName/script",
+      "id": "https://w3id.org/inspire-aas/cd/gn/4.0/SpellingOfName/script",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -9356,6 +9394,7 @@
                 "text": "script"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema Geographical Names 4.0, class SpellingOfName",
             "dataType": "STRING",
             "definition": [
               {
@@ -9371,7 +9410,7 @@
     },
     {
       "idShort": "text",
-      "id": "https://example.org/inspire-aas/cd/gn/4.0/SpellingOfName/text",
+      "id": "https://w3id.org/inspire-aas/cd/gn/4.0/SpellingOfName/text",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -9390,6 +9429,7 @@
                 "text": "text"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema Geographical Names 4.0, class SpellingOfName",
             "dataType": "STRING",
             "definition": [
               {
@@ -9405,7 +9445,7 @@
     },
     {
       "idShort": "transliterationScheme",
-      "id": "https://example.org/inspire-aas/cd/gn/4.0/SpellingOfName/transliterationScheme",
+      "id": "https://w3id.org/inspire-aas/cd/gn/4.0/SpellingOfName/transliterationScheme",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -9424,6 +9464,7 @@
                 "text": "transliterationScheme"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema Geographical Names 4.0, class SpellingOfName",
             "dataType": "STRING",
             "definition": [
               {
@@ -9439,7 +9480,7 @@
     },
     {
       "idShort": "spelling",
-      "id": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName/spelling",
+      "id": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName/spelling",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -9458,6 +9499,7 @@
                 "text": "spelling"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema Geographical Names 4.0, class GeographicalName",
             "definition": [
               {
                 "language": "en",
@@ -9472,7 +9514,7 @@
     },
     {
       "idShort": "SpellingOfName",
-      "id": "https://example.org/inspire-aas/cd/gn/4.0/SpellingOfName",
+      "id": "https://w3id.org/inspire-aas/cd/gn/4.0/SpellingOfName",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -9491,6 +9533,7 @@
                 "text": "SpellingOfName"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema Geographical Names 4.0, class SpellingOfName",
             "definition": [
               {
                 "language": "en",
@@ -9505,7 +9548,7 @@
     },
     {
       "idShort": "name",
-      "id": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/name",
+      "id": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/name",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -9524,6 +9567,7 @@
                 "text": "name"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema AdministrativeUnits 5.0, class AdministrativeUnit",
             "definition": [
               {
                 "language": "en",
@@ -9538,7 +9582,7 @@
     },
     {
       "idShort": "GeographicalName",
-      "id": "https://example.org/inspire-aas/cd/gn/4.0/GeographicalName",
+      "id": "https://w3id.org/inspire-aas/cd/gn/4.0/GeographicalName",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -9557,6 +9601,7 @@
                 "text": "GeographicalName"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema Geographical Names 4.0, class GeographicalName",
             "definition": [
               {
                 "language": "en",
@@ -9571,7 +9616,7 @@
     },
     {
       "idShort": "nationalCode",
-      "id": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/nationalCode",
+      "id": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/nationalCode",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -9590,6 +9635,7 @@
                 "text": "national code"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema AdministrativeUnits 5.0, class AdministrativeUnit",
             "dataType": "STRING",
             "definition": [
               {
@@ -9605,7 +9651,7 @@
     },
     {
       "idShort": "nationalLevel",
-      "id": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/nationalLevel",
+      "id": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/nationalLevel",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -9624,6 +9670,7 @@
                 "text": "national level"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema AdministrativeUnits 5.0, class AdministrativeUnit",
             "dataType": "STRING",
             "definition": [
               {
@@ -9715,7 +9762,7 @@
     },
     {
       "idShort": "nationalLevelName",
-      "id": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/nationalLevelName",
+      "id": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/nationalLevelName",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -9734,6 +9781,7 @@
                 "text": "national level name"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema AdministrativeUnits 5.0, class AdministrativeUnit",
             "dataType": "STRING_TRANSLATABLE",
             "definition": [
               {
@@ -9749,7 +9797,7 @@
     },
     {
       "idShort": "geometry",
-      "id": "https://example.org/inspire-aas/cd/au/5.0/ResidenceOfAuthority/geometry",
+      "id": "https://w3id.org/inspire-aas/cd/au/5.0/ResidenceOfAuthority/geometry",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -9768,6 +9816,7 @@
                 "text": "geometry"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema AdministrativeUnits 5.0, class ResidenceOfAuthority",
             "dataType": "FILE",
             "definition": [
               {
@@ -9783,7 +9832,7 @@
     },
     {
       "idShort": "name",
-      "id": "https://example.org/inspire-aas/cd/au/5.0/ResidenceOfAuthority/name",
+      "id": "https://w3id.org/inspire-aas/cd/au/5.0/ResidenceOfAuthority/name",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -9802,6 +9851,7 @@
                 "text": "name"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema AdministrativeUnits 5.0, class ResidenceOfAuthority",
             "definition": [
               {
                 "language": "en",
@@ -9816,7 +9866,7 @@
     },
     {
       "idShort": "residenceOfAuthority",
-      "id": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/residenceOfAuthority",
+      "id": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/residenceOfAuthority",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -9835,6 +9885,7 @@
                 "text": "residence of authority"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema AdministrativeUnits 5.0, class AdministrativeUnit",
             "definition": [
               {
                 "language": "en",
@@ -9849,7 +9900,7 @@
     },
     {
       "idShort": "ResidenceOfAuthority",
-      "id": "https://example.org/inspire-aas/cd/au/5.0/ResidenceOfAuthority",
+      "id": "https://w3id.org/inspire-aas/cd/au/5.0/ResidenceOfAuthority",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -9868,6 +9919,7 @@
                 "text": "ResidenceOfAuthority"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema AdministrativeUnits 5.0, class ResidenceOfAuthority",
             "definition": [
               {
                 "language": "en",
@@ -9882,7 +9934,7 @@
     },
     {
       "idShort": "boundary",
-      "id": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/boundary",
+      "id": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/boundary",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -9901,6 +9953,7 @@
                 "text": "boundary"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema AdministrativeUnits 5.0, class AdministrativeUnit",
             "definition": [
               {
                 "language": "en",
@@ -9915,7 +9968,7 @@
     },
     {
       "idShort": "administeredBy",
-      "id": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/administeredBy",
+      "id": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/administeredBy",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -9934,6 +9987,7 @@
                 "text": "administered by"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema AdministrativeUnits 5.0, class AdministrativeUnit",
             "definition": [
               {
                 "language": "en",
@@ -9948,7 +10002,7 @@
     },
     {
       "idShort": "coAdminister",
-      "id": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/coAdminister",
+      "id": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/coAdminister",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -9967,6 +10021,7 @@
                 "text": "co administer"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema AdministrativeUnits 5.0, class AdministrativeUnit",
             "definition": [
               {
                 "language": "en",
@@ -9981,7 +10036,7 @@
     },
     {
       "idShort": "lowerLevelUnit",
-      "id": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/lowerLevelUnit",
+      "id": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/lowerLevelUnit",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -10000,6 +10055,7 @@
                 "text": "lower level unit"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema AdministrativeUnits 5.0, class AdministrativeUnit",
             "definition": [
               {
                 "language": "en",
@@ -10014,7 +10070,7 @@
     },
     {
       "idShort": "upperLevelUnit",
-      "id": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/upperLevelUnit",
+      "id": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/upperLevelUnit",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -10033,6 +10089,7 @@
                 "text": "upper level unit"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema AdministrativeUnits 5.0, class AdministrativeUnit",
             "definition": [
               {
                 "language": "en",
@@ -10047,7 +10104,7 @@
     },
     {
       "idShort": "condominium",
-      "id": "https://example.org/inspire-aas/cd/au/5.0/AdministrativeUnit/condominium",
+      "id": "https://w3id.org/inspire-aas/cd/au/5.0/AdministrativeUnit/condominium",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -10066,6 +10123,7 @@
                 "text": "condominium"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema AdministrativeUnits 5.0, class AdministrativeUnit",
             "definition": [
               {
                 "language": "en",
@@ -10103,6 +10161,7 @@
                 "text": "Kondominium"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Registry, version 20260826-0",
             "definition": [
               {
                 "language": "en",
@@ -10121,7 +10180,7 @@
     },
     {
       "idShort": "beginLifespanVersion",
-      "id": "https://example.org/inspire-aas/cd/au/5.0/Condominium/beginLifespanVersion",
+      "id": "https://w3id.org/inspire-aas/cd/au/5.0/Condominium/beginLifespanVersion",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -10140,6 +10199,7 @@
                 "text": "begin lifespan version"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema AdministrativeUnits 5.0, class Condominium",
             "dataType": "TIMESTAMP",
             "definition": [
               {
@@ -10155,7 +10215,7 @@
     },
     {
       "idShort": "endLifespanVersion",
-      "id": "https://example.org/inspire-aas/cd/au/5.0/Condominium/endLifespanVersion",
+      "id": "https://w3id.org/inspire-aas/cd/au/5.0/Condominium/endLifespanVersion",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -10174,6 +10234,7 @@
                 "text": "end lifespan version"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema AdministrativeUnits 5.0, class Condominium",
             "dataType": "TIMESTAMP",
             "definition": [
               {
@@ -10189,7 +10250,7 @@
     },
     {
       "idShort": "geometry",
-      "id": "https://example.org/inspire-aas/cd/au/5.0/Condominium/geometry",
+      "id": "https://w3id.org/inspire-aas/cd/au/5.0/Condominium/geometry",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -10208,6 +10269,7 @@
                 "text": "geometry"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema AdministrativeUnits 5.0, class Condominium",
             "dataType": "FILE",
             "definition": [
               {
@@ -10223,7 +10285,7 @@
     },
     {
       "idShort": "inspireId",
-      "id": "https://example.org/inspire-aas/cd/au/5.0/Condominium/inspireId",
+      "id": "https://w3id.org/inspire-aas/cd/au/5.0/Condominium/inspireId",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -10242,6 +10304,7 @@
                 "text": "inspire id"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema AdministrativeUnits 5.0, class Condominium",
             "definition": [
               {
                 "language": "en",
@@ -10256,7 +10319,7 @@
     },
     {
       "idShort": "name",
-      "id": "https://example.org/inspire-aas/cd/au/5.0/Condominium/name",
+      "id": "https://w3id.org/inspire-aas/cd/au/5.0/Condominium/name",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -10275,6 +10338,7 @@
                 "text": "name"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema AdministrativeUnits 5.0, class Condominium",
             "definition": [
               {
                 "language": "en",
@@ -10289,7 +10353,7 @@
     },
     {
       "idShort": "admUnit",
-      "id": "https://example.org/inspire-aas/cd/au/5.0/Condominium/admUnit",
+      "id": "https://w3id.org/inspire-aas/cd/au/5.0/Condominium/admUnit",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -10308,6 +10372,7 @@
                 "text": "adm unit"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema AdministrativeUnits 5.0, class Condominium",
             "definition": [
               {
                 "language": "en",
@@ -10345,6 +10410,7 @@
                 "text": "Buchungseinheit"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Registry, version 20260826-0",
             "definition": [
               {
                 "language": "en",
@@ -10363,7 +10429,7 @@
     },
     {
       "idShort": "areaValue",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/BasicPropertyUnit/areaValue",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/BasicPropertyUnit/areaValue",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -10382,6 +10448,7 @@
                 "text": "areaValue"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class BasicPropertyUnit",
             "definition": [
               {
                 "language": "en",
@@ -10396,7 +10463,7 @@
     },
     {
       "idShort": "beginLifespanVersion",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/BasicPropertyUnit/beginLifespanVersion",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/BasicPropertyUnit/beginLifespanVersion",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -10415,6 +10482,7 @@
                 "text": "beginLifespanVersion"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class BasicPropertyUnit",
             "dataType": "TIMESTAMP",
             "definition": [
               {
@@ -10430,7 +10498,7 @@
     },
     {
       "idShort": "endLifespanVersion",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/BasicPropertyUnit/endLifespanVersion",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/BasicPropertyUnit/endLifespanVersion",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -10449,6 +10517,7 @@
                 "text": "endLifespanVersion"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class BasicPropertyUnit",
             "dataType": "TIMESTAMP",
             "definition": [
               {
@@ -10464,7 +10533,7 @@
     },
     {
       "idShort": "inspireId",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/BasicPropertyUnit/inspireId",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/BasicPropertyUnit/inspireId",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -10483,6 +10552,7 @@
                 "text": "inspireId"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class BasicPropertyUnit",
             "definition": [
               {
                 "language": "en",
@@ -10497,7 +10567,7 @@
     },
     {
       "idShort": "nationalCadastralReference",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/BasicPropertyUnit/nationalCadastralReference",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/BasicPropertyUnit/nationalCadastralReference",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -10516,6 +10586,7 @@
                 "text": "nationalCadastralReference"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class BasicPropertyUnit",
             "dataType": "STRING",
             "definition": [
               {
@@ -10531,7 +10602,7 @@
     },
     {
       "idShort": "validFrom",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/BasicPropertyUnit/validFrom",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/BasicPropertyUnit/validFrom",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -10550,6 +10621,7 @@
                 "text": "validFrom"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class BasicPropertyUnit",
             "dataType": "TIMESTAMP",
             "definition": [
               {
@@ -10565,7 +10637,7 @@
     },
     {
       "idShort": "validTo",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/BasicPropertyUnit/validTo",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/BasicPropertyUnit/validTo",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -10584,6 +10656,7 @@
                 "text": "validTo"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class BasicPropertyUnit",
             "dataType": "TIMESTAMP",
             "definition": [
               {
@@ -10599,7 +10672,7 @@
     },
     {
       "idShort": "administrativeUnit",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/BasicPropertyUnit/administrativeUnit",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/BasicPropertyUnit/administrativeUnit",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -10618,6 +10691,7 @@
                 "text": "administrativeUnit"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class BasicPropertyUnit",
             "definition": [
               {
                 "language": "en",
@@ -10655,6 +10729,7 @@
                 "text": "Flurstücksgrenze"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Registry, version 20260826-0",
             "definition": [
               {
                 "language": "en",
@@ -10673,7 +10748,7 @@
     },
     {
       "idShort": "beginLifespanVersion",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralBoundary/beginLifespanVersion",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralBoundary/beginLifespanVersion",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -10692,6 +10767,7 @@
                 "text": "beginLifespanVersion"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class CadastralBoundary",
             "dataType": "TIMESTAMP",
             "definition": [
               {
@@ -10707,7 +10783,7 @@
     },
     {
       "idShort": "endLifespanVersion",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralBoundary/endLifespanVersion",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralBoundary/endLifespanVersion",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -10726,6 +10802,7 @@
                 "text": "endLifespanVersion"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class CadastralBoundary",
             "dataType": "TIMESTAMP",
             "definition": [
               {
@@ -10741,7 +10818,7 @@
     },
     {
       "idShort": "estimatedAccuracy",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralBoundary/estimatedAccuracy",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralBoundary/estimatedAccuracy",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -10760,6 +10837,7 @@
                 "text": "estimatedAccuracy"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class CadastralBoundary",
             "definition": [
               {
                 "language": "en",
@@ -10774,7 +10852,7 @@
     },
     {
       "idShort": "geometry",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralBoundary/geometry",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralBoundary/geometry",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -10793,6 +10871,7 @@
                 "text": "geometry"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class CadastralBoundary",
             "dataType": "FILE",
             "definition": [
               {
@@ -10808,7 +10887,7 @@
     },
     {
       "idShort": "inspireId",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralBoundary/inspireId",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralBoundary/inspireId",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -10827,6 +10906,7 @@
                 "text": "inspireId"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class CadastralBoundary",
             "definition": [
               {
                 "language": "en",
@@ -10841,7 +10921,7 @@
     },
     {
       "idShort": "validFrom",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralBoundary/validFrom",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralBoundary/validFrom",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -10860,6 +10940,7 @@
                 "text": "validFrom"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class CadastralBoundary",
             "dataType": "TIMESTAMP",
             "definition": [
               {
@@ -10875,7 +10956,7 @@
     },
     {
       "idShort": "validTo",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralBoundary/validTo",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralBoundary/validTo",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -10894,6 +10975,7 @@
                 "text": "validTo"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class CadastralBoundary",
             "dataType": "TIMESTAMP",
             "definition": [
               {
@@ -10909,7 +10991,7 @@
     },
     {
       "idShort": "parcel",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralBoundary/parcel",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralBoundary/parcel",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -10928,6 +11010,7 @@
                 "text": "parcel"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class CadastralBoundary",
             "definition": [
               {
                 "language": "en",
@@ -10965,6 +11048,7 @@
                 "text": "Flurstück"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Registry, version 20260826-0",
             "definition": [
               {
                 "language": "en",
@@ -10983,7 +11067,7 @@
     },
     {
       "idShort": "areaValue",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/areaValue",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralParcel/areaValue",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -11002,6 +11086,7 @@
                 "text": "areaValue"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class CadastralParcel",
             "definition": [
               {
                 "language": "en",
@@ -11016,7 +11101,7 @@
     },
     {
       "idShort": "beginLifespanVersion",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/beginLifespanVersion",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralParcel/beginLifespanVersion",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -11035,6 +11120,7 @@
                 "text": "beginLifespanVersion"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class CadastralParcel",
             "dataType": "TIMESTAMP",
             "definition": [
               {
@@ -11050,7 +11136,7 @@
     },
     {
       "idShort": "endLifespanVersion",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/endLifespanVersion",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralParcel/endLifespanVersion",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -11069,6 +11155,7 @@
                 "text": "endLifespanVersion"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class CadastralParcel",
             "dataType": "TIMESTAMP",
             "definition": [
               {
@@ -11084,7 +11171,7 @@
     },
     {
       "idShort": "geometry",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/geometry",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralParcel/geometry",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -11103,6 +11190,7 @@
                 "text": "geometry"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class CadastralParcel",
             "dataType": "FILE",
             "definition": [
               {
@@ -11118,7 +11206,7 @@
     },
     {
       "idShort": "inspireId",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/inspireId",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralParcel/inspireId",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -11137,6 +11225,7 @@
                 "text": "inspireId"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class CadastralParcel",
             "definition": [
               {
                 "language": "en",
@@ -11151,7 +11240,7 @@
     },
     {
       "idShort": "label",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/label",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralParcel/label",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -11170,6 +11259,7 @@
                 "text": "label"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class CadastralParcel",
             "dataType": "STRING",
             "definition": [
               {
@@ -11185,7 +11275,7 @@
     },
     {
       "idShort": "nationalCadastralReference",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/nationalCadastralReference",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralParcel/nationalCadastralReference",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -11204,6 +11294,7 @@
                 "text": "nationalCadastralReference"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class CadastralParcel",
             "dataType": "STRING",
             "definition": [
               {
@@ -11219,7 +11310,7 @@
     },
     {
       "idShort": "referencePoint",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/referencePoint",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralParcel/referencePoint",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -11238,6 +11329,7 @@
                 "text": "referencePoint"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class CadastralParcel",
             "dataType": "FILE",
             "definition": [
               {
@@ -11253,7 +11345,7 @@
     },
     {
       "idShort": "validFrom",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/validFrom",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralParcel/validFrom",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -11272,6 +11364,7 @@
                 "text": "validFrom"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class CadastralParcel",
             "dataType": "TIMESTAMP",
             "definition": [
               {
@@ -11287,7 +11380,7 @@
     },
     {
       "idShort": "validTo",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/validTo",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralParcel/validTo",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -11306,6 +11399,7 @@
                 "text": "validTo"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class CadastralParcel",
             "dataType": "TIMESTAMP",
             "definition": [
               {
@@ -11321,7 +11415,7 @@
     },
     {
       "idShort": "administrativeUnit",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/administrativeUnit",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralParcel/administrativeUnit",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -11340,6 +11434,7 @@
                 "text": "administrativeUnit"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class CadastralParcel",
             "definition": [
               {
                 "language": "en",
@@ -11354,7 +11449,7 @@
     },
     {
       "idShort": "basicPropertyUnit",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/basicPropertyUnit",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralParcel/basicPropertyUnit",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -11373,6 +11468,7 @@
                 "text": "basicPropertyUnit"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class CadastralParcel",
             "definition": [
               {
                 "language": "en",
@@ -11387,7 +11483,7 @@
     },
     {
       "idShort": "zoning",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralParcel/zoning",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralParcel/zoning",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -11406,6 +11502,7 @@
                 "text": "zoning"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class CadastralParcel",
             "definition": [
               {
                 "language": "en",
@@ -11443,6 +11540,7 @@
                 "text": "Katasterbezirk"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Registry, version 20260826-0",
             "definition": [
               {
                 "language": "en",
@@ -11461,7 +11559,7 @@
     },
     {
       "idShort": "beginLifespanVersion",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralZoning/beginLifespanVersion",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralZoning/beginLifespanVersion",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -11480,6 +11578,7 @@
                 "text": "beginLifespanVersion"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class CadastralZoning",
             "dataType": "TIMESTAMP",
             "definition": [
               {
@@ -11495,7 +11594,7 @@
     },
     {
       "idShort": "endLifespanVersion",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralZoning/endLifespanVersion",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralZoning/endLifespanVersion",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -11514,6 +11613,7 @@
                 "text": "endLifespanVersion"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class CadastralZoning",
             "dataType": "TIMESTAMP",
             "definition": [
               {
@@ -11529,7 +11629,7 @@
     },
     {
       "idShort": "estimatedAccuracy",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralZoning/estimatedAccuracy",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralZoning/estimatedAccuracy",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -11548,6 +11648,7 @@
                 "text": "estimatedAccuracy"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class CadastralZoning",
             "definition": [
               {
                 "language": "en",
@@ -11562,7 +11663,7 @@
     },
     {
       "idShort": "geometry",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralZoning/geometry",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralZoning/geometry",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -11581,6 +11682,7 @@
                 "text": "geometry"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class CadastralZoning",
             "dataType": "FILE",
             "definition": [
               {
@@ -11596,7 +11698,7 @@
     },
     {
       "idShort": "inspireId",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralZoning/inspireId",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralZoning/inspireId",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -11615,6 +11717,7 @@
                 "text": "inspireId"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class CadastralZoning",
             "definition": [
               {
                 "language": "en",
@@ -11629,7 +11732,7 @@
     },
     {
       "idShort": "label",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralZoning/label",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralZoning/label",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -11648,6 +11751,7 @@
                 "text": "label"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class CadastralZoning",
             "dataType": "STRING",
             "definition": [
               {
@@ -11692,6 +11796,7 @@
                 "text": "Ebene des Katasterbezirks"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Registry, version 20260826-0",
             "dataType": "STRING",
             "definition": [
               {
@@ -11751,7 +11856,7 @@
     },
     {
       "idShort": "level",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralZoning/level",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralZoning/level",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -11770,6 +11875,7 @@
                 "text": "level"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class CadastralZoning",
             "dataType": "STRING",
             "definition": [
               {
@@ -11825,7 +11931,7 @@
     },
     {
       "idShort": "levelName",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralZoning/levelName",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralZoning/levelName",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -11844,6 +11950,7 @@
                 "text": "levelName"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class CadastralZoning",
             "dataType": "STRING_TRANSLATABLE",
             "definition": [
               {
@@ -11859,7 +11966,7 @@
     },
     {
       "idShort": "name",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralZoning/name",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralZoning/name",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -11878,6 +11985,7 @@
                 "text": "name"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class CadastralZoning",
             "definition": [
               {
                 "language": "en",
@@ -11892,7 +12000,7 @@
     },
     {
       "idShort": "nationalCadastalZoningReference",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralZoning/nationalCadastalZoningReference",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralZoning/nationalCadastalZoningReference",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -11911,6 +12019,7 @@
                 "text": "nationalCadastalZoningReference"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class CadastralZoning",
             "dataType": "STRING",
             "definition": [
               {
@@ -11926,7 +12035,7 @@
     },
     {
       "idShort": "originalMapScaleDenominator",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralZoning/originalMapScaleDenominator",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralZoning/originalMapScaleDenominator",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -11945,6 +12054,7 @@
                 "text": "originalMapScaleDenominator"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class CadastralZoning",
             "dataType": "INTEGER_COUNT",
             "definition": [
               {
@@ -11960,7 +12070,7 @@
     },
     {
       "idShort": "referencePoint",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralZoning/referencePoint",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralZoning/referencePoint",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -11979,6 +12089,7 @@
                 "text": "referencePoint"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class CadastralZoning",
             "dataType": "FILE",
             "definition": [
               {
@@ -11994,7 +12105,7 @@
     },
     {
       "idShort": "validFrom",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralZoning/validFrom",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralZoning/validFrom",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -12013,6 +12124,7 @@
                 "text": "validFrom"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class CadastralZoning",
             "dataType": "TIMESTAMP",
             "definition": [
               {
@@ -12028,7 +12140,7 @@
     },
     {
       "idShort": "validTo",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralZoning/validTo",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralZoning/validTo",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -12047,6 +12159,7 @@
                 "text": "validTo"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class CadastralZoning",
             "dataType": "TIMESTAMP",
             "definition": [
               {
@@ -12062,7 +12175,7 @@
     },
     {
       "idShort": "upperLevelUnit",
-      "id": "https://example.org/inspire-aas/cd/cp/4.0/CadastralZoning/upperLevelUnit",
+      "id": "https://w3id.org/inspire-aas/cd/cp/4.0/CadastralZoning/upperLevelUnit",
       "embeddedDataSpecifications": [
         {
           "dataSpecification": {
@@ -12081,6 +12194,7 @@
                 "text": "upperLevelUnit"
               }
             ],
+            "sourceOfDefinition": "INSPIRE Consolidated UML Model (INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1), application schema CadastralParcels 4.0, class CadastralZoning",
             "definition": [
               {
                 "language": "en",

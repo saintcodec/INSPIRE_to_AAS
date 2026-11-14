@@ -1,6 +1,6 @@
 # Build report: ecotwin_themes
 
-- date: 2026-10-27
+- date: 2026-11-14
 - schemas: Existing Land Use 4.0, Land Use Nomenclature 4.0, LandCoverVector 5.0, LandCoverNomenclature 4.0, Soil 4.0.2
 - INSPIRE UML: INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1.xml
 - INSPIRE Registry version: 20260826-0

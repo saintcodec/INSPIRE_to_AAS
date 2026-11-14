@@ -1,6 +1,6 @@
 # Build report: cp_au
 
-- date: 2026-10-27
+- date: 2026-11-14
 - schemas: CadastralParcels 4.0, AdministrativeUnits 5.0
 - INSPIRE UML: INSPIRE_Consolidated_UML_Model_ANNEX I-II-III-Only_IR_2025.1.xml
 - INSPIRE Registry version: 20260826-0

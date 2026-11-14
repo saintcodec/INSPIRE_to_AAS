@@ -1,11 +1,11 @@
 schema,smt,path,kind,detail
 Existing Land Use,ExistingLandUseDataSet,ExistingLandUseDataSet/extent,geometry-as-geojson,GM_MultiSurface -> File application/geo+json
 Existing Land Use,ExistingLandUseObject,ExistingLandUseObject/geometry,geometry-as-geojson,GM_MultiSurface -> File application/geo+json
-Existing Land Use,ExistingLandUseObject,ExistingLandUseObject/hilucsPresence/orderedList,definition-missing,https://example.org/inspire-aas/cd/lunom/4.0/HILUCSPresence/orderedList: no definition in the source; name used instead
-Existing Land Use,ExistingLandUseObject,ExistingLandUseObject/hilucsPresence/percentageList,definition-missing,https://example.org/inspire-aas/cd/lunom/4.0/HILUCSPresence/percentageList: no definition in the source; name used instead
+Existing Land Use,ExistingLandUseObject,ExistingLandUseObject/hilucsPresence/orderedList,definition-missing,https://w3id.org/inspire-aas/cd/lunom/4.0/HILUCSPresence/orderedList: no definition in the source; name used instead
+Existing Land Use,ExistingLandUseObject,ExistingLandUseObject/hilucsPresence/percentageList,definition-missing,https://w3id.org/inspire-aas/cd/lunom/4.0/HILUCSPresence/percentageList: no definition in the source; name used instead
 Existing Land Use,ExistingLandUseObject,ExistingLandUseObject/hilucsPresence,union-xor-not-enforced,HILUCSPresence: 'exactly one of' only as qualifier
-Existing Land Use,ExistingLandUseObject,ExistingLandUseObject/specificPresence/orderedList,definition-missing,https://example.org/inspire-aas/cd/lunom/4.0/SpecificPresence/orderedList: no definition in the source; name used instead
-Existing Land Use,ExistingLandUseObject,ExistingLandUseObject/specificPresence/percentageList,definition-missing,https://example.org/inspire-aas/cd/lunom/4.0/SpecificPresence/percentageList: no definition in the source; name used instead
+Existing Land Use,ExistingLandUseObject,ExistingLandUseObject/specificPresence/orderedList,definition-missing,https://w3id.org/inspire-aas/cd/lunom/4.0/SpecificPresence/orderedList: no definition in the source; name used instead
+Existing Land Use,ExistingLandUseObject,ExistingLandUseObject/specificPresence/percentageList,definition-missing,https://w3id.org/inspire-aas/cd/lunom/4.0/SpecificPresence/percentageList: no definition in the source; name used instead
 Existing Land Use,ExistingLandUseObject,ExistingLandUseObject/specificPresence,union-xor-not-enforced,SpecificPresence: 'exactly one of' only as qualifier
 LandCoverVector,LandCoverDataset,LandCoverDataset/extent,type-placeholder,EX_Extent: external type 'EX_Extent' (not an INSPIRE schema type) -> xs:string
 LandCoverVector,LandCoverDataset,LandCoverDataset/nomenclatureDocumentation/embeddedDescription,type-placeholder,LC_LandCoverClassificationSystem: external type 'LC_LandCoverClassificationSystem' (not an INSPIRE schema type) -> xs:string
