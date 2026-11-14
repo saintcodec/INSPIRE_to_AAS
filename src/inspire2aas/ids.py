@@ -24,12 +24,12 @@ def template_prefix(template_id: str) -> str:
 
 def submodel_id(prefix: str, template: str, namespace: str, local_id: str) -> str:
     """Id of the Submodel instance of `template` for one INSPIRE object."""
-    return f"{config.BASE_URI}sm/{prefix}/{template}/{object_key(namespace, local_id)}"
+    return f"{config.INSTANCE_BASE_URI}sm/{prefix}/{template}/{object_key(namespace, local_id)}"
 
 
 def aas_id(prefix: str, namespace: str, local_id: str) -> str:
-    return f"{config.BASE_URI}aas/{prefix}/{object_key(namespace, local_id)}"
+    return f"{config.INSTANCE_BASE_URI}aas/{prefix}/{object_key(namespace, local_id)}"
 
 
 def asset_id(prefix: str, namespace: str, local_id: str) -> str:
-    return f"{config.BASE_URI}asset/{prefix}/{object_key(namespace, local_id)}"
+    return f"{config.INSTANCE_BASE_URI}asset/{prefix}/{object_key(namespace, local_id)}"

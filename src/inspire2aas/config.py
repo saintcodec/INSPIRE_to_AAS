@@ -6,8 +6,12 @@ XMI_PATH = ROOT / "data/raw/approved/ea+xmi/EAXMI/INSPIRE_Consolidated_UML_Model
 REGISTRY_DIR = ROOT / "data/raw/INSPIRE Registry"
 OUTPUT_DIR = ROOT / "output"
 
-# Placeholder namespace for identifiers we have to mint ourselves (decision 2026-10-26).
-BASE_URI = "https://example.org/inspire-aas/"
+# Namespace of the identifiers this converter mints itself: Submodel Templates and
+# ConceptDescriptions. A persistent identifier (w3id.org), so it stays when the project moves.
+BASE_URI = "https://w3id.org/inspire-aas/"
+# Namespace of the instances built with the templates (shells, submodels, assets). They belong to
+# the project that builds them, which sets its own namespace here; the default is the converter's.
+INSTANCE_BASE_URI = BASE_URI
 
 INSPIRE = "http://inspire.ec.europa.eu/"
 

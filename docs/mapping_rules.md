@@ -9,7 +9,7 @@ Implemented in [src/inspire2aas/mapper.py](../src/inspire2aas/mapper.py) (templa
 | # | Decision |
 |---|---|
 | D1 | Codelists: when the UML and the Registry disagree, the **INSPIRE Registry is authoritative**, and every disagreement is recorded in the loss ledger. |
-| D2 | Identifiers we mint ourselves use the placeholder `https://example.org/inspire-aas/` (one setting: `config.BASE_URI`). |
+| D2 | Identifiers we mint ourselves (Submodel Templates, ConceptDescriptions) use the persistent namespace `https://w3id.org/inspire-aas/` (one setting: `config.BASE_URI`). Instances built with the templates belong to the project that builds them, which sets its own namespace (`config.INSTANCE_BASE_URI`; default: the converter's). The w3id.org redirect is not registered yet. |
 | D3 | Target: **AAS v3.1** (aas-core3.1 1.0.0; no Python library for v3.2 exists). idShorts are kept valid for v3.0 too (no hyphens). |
 | D4 | The geometry CRS policy is deferred. Geometry is stored as a GeoJSON file as given; the CRS is not checked. |
 
