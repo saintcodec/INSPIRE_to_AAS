@@ -3,6 +3,8 @@
 The identifiers are those of EcoTwin's test case (ATKIS object DENWAT011QW000Ed, BK50 unit L5106_>Q531).
 Namespaces, procedure URIs and national code URIs are test assumptions, as in the handover.
 """
+import json
+
 import pytest
 
 from inspire2aas import build, check_refs, config, ids
@@ -274,3 +276,16 @@ def test_r6_submodel_api_returns_cds(T):
     assert r.submodel["semanticId"]["keys"][0]["value"] in used
     assert "http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue" in used
     assert r.submodel["kind"] == "Instance"
+
+
+# ---------------------------------------------------------------- where a definition comes from
+def test_every_concept_names_the_source_of_its_definition(T):
+    path = config.OUTPUT_DIR / "templates/ecotwin_themes/ecotwin_themes_templates.json"
+    cds = {c["id"]: c["embeddedDataSpecifications"][0]["dataSpecificationContent"].get("sourceOfDefinition")
+           for c in json.loads(path.read_text(encoding="utf-8"))["conceptDescriptions"]}
+    attribute = cds[config.BASE_URI + "cd/elu/4.0/ExistingLandUseObject/beginLifespanVersion"]
+    assert "application schema Existing Land Use 4.0" in attribute and "class ExistingLandUseObject" in attribute
+    assert cds[config.INSPIRE + "featureconcept/ExistingLandUseObject"].startswith("INSPIRE Registry, version ")
+    own = [uri for uri, source in cds.items() if source == "INSPIRE_to_AAS converter"]
+    assert own and all(uri.startswith(config.BASE_URI) for uri in own)      # only what the converter had to define
+    assert not [uri for uri, source in cds.items() if not source and uri.startswith((config.BASE_URI, config.INSPIRE))]

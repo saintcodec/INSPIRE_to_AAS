@@ -23,6 +23,9 @@ from .registry import Registry
 from .xmi_reader import flatten
 
 IEC61360_SPEC = "https://admin-shell.io/DataSpecificationTemplates/DataSpecificationIec61360/3/0"
+# sourceOfDefinition of the few concepts the converter defines itself (the observation profile,
+# the reference of an association class): INSPIRE has no definition for them.
+CONVERTER = "INSPIRE_to_AAS converter"
 UML_TO_REG_EXT = {"none": "none", "narrower": "narrower", "any": "open", "open": "open"}  # E03 C1
 
 MAX_NAME, MAX_TEXT, MAX_PREF = 128, 1023, 255
@@ -80,8 +83,25 @@ class Builder:
         return s
 
     # ------------------------------------------------------------------ concept descriptions
+    def source_of(self, cd_id):
+        """Where the definition of a concept comes from, for IEC 61360 sourceOfDefinition.
+
+        A concept the converter names itself (BASE_URI) carries INSPIRE's own definition: the INSPIRE
+        Registry gives an identifier to feature types and code lists, not to attributes.
+        """
+        if cd_id.startswith(config.BASE_URI + "cd/"):
+            prefix, version, cls = (cd_id[len(config.BASE_URI) + 3:].split("/") + ["", ""])[:3]
+            schema = next((name for name, p in self.reg.schema_prefix.items() if p == prefix), None)
+            where = f"application schema {schema} {version}" if schema else "a type used by the application schemas"
+            return f"INSPIRE Consolidated UML Model ({config.XMI_PATH.stem}), {where}, class {cls}"
+        if cd_id.startswith(config.INSPIRE):
+            return f"INSPIRE Registry, version {self.reg.version}"
+        return None
+
     def cd(self, cd_id, pref_en, definition_en, path, data_type=None, pref_de="", def_de="",
-           value_list=None, note="", short=""):
+           value_list=None, note="", short="", source=None):
+        """source: where the definition comes from; by default INSPIRE, as source_of() words it. A
+        concept the converter had to define itself passes CONVERTER."""
         if cd_id in self.cds:
             return cd_id
         if not (definition_en or "").strip():   # AASc-3a-008: English definition is mandatory (R4)
@@ -100,6 +120,7 @@ class Builder:
         content = T.DataSpecificationIEC61360(
             preferred_name=pref, definition=definition,
             data_type=T.DataTypeIEC61360(data_type) if data_type else None,
+            source_of_definition=source or self.source_of(cd_id),
             value_list=value_list)
         self.cds[cd_id] = T.ConceptDescription(
             id=cd_id,
@@ -267,7 +288,7 @@ class Builder:
         fc = self.reg.featureconcepts.get(target.name) if target else None
         ref_cd = self.cd(f"{self.ns(acls)}/{ref_name}", ref_name,
                          f"Reference to the {target.name if target else 'target'} at the other end of the "
-                         f"association class {acls.name}.", path)
+                         f"association class {acls.name}.", path, source=CONVERTER)
         ref = T.ReferenceElement(
             id_short=self.id_short(ref_name, f"{path}/{ref_name}"), semantic_id=ext_ref(ref_cd),
             qualifiers=[self._card("One"),
@@ -285,7 +306,8 @@ class Builder:
         return T.Qualifier(config.Q_CARDINALITY, T.DataTypeDefXSD.STRING, kind=T.QualifierKind.TEMPLATE_QUALIFIER, value=value)
 
     def _leaf(self, sme, id_short, card, owner: Cls, pref, definition, path, data_type=None, quals=()):
-        cd_id = self.cd(f"{self.ns(owner)}/{id_short}", pref, definition, f"{path}/{id_short}", data_type)
+        cd_id = self.cd(f"{self.ns(owner)}/{id_short}", pref, definition, f"{path}/{id_short}", data_type,
+                        source=CONVERTER)
         sme.id_short, sme.semantic_id = id_short, ext_ref(cd_id)
         sme.qualifiers = [self._card(card)] + list(quals)
         return sme
@@ -360,10 +382,12 @@ class Builder:
             self._leaf(T.Property(value_type=S), "uom", "ZeroToOne", om, "parameter unit of measure",
                        "Unit of measure of the parameter value (UCUM code recommended).", f"{path}/parameter", "STRING")])
         nv_cd = self.cd(f"{self.ns(om)}/parameterItem", "named value",
-                        "A parameter of the observation, e.g. the reference depth (ISO 19156 NamedValue).", path)
+                        "A parameter of the observation, e.g. the reference depth (ISO 19156 NamedValue).", path,
+                        source=CONVERTER)
         nv.semantic_id = ext_ref(nv_cd)
         par_cd = self.cd(f"{self.ns(om)}/parameter", "parameter",
-                         "Parameters of the observation event, e.g. the depth a value refers to.", path)
+                         "Parameters of the observation event, e.g. the depth a value refers to.", path,
+                         source=CONVERTER)
         children.append(T.SubmodelElementList(
             type_value_list_element=T.AASSubmodelElements.SUBMODEL_ELEMENT_COLLECTION, id_short="parameter",
             semantic_id=ext_ref(par_cd), semantic_id_list_element=ext_ref(nv_cd), order_relevant=False,
