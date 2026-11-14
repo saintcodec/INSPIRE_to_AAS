@@ -45,3 +45,9 @@ Each experiment has its own folder with scripts, results and a log (question, me
 | [E04](experiments/e04_first_generator/) | First generator: CP + AU templates and a parcel AAS | done |
 | [E05](experiments/e05_ecotwin_requests/) | EcoTwin requests R1–R6: observations, association classes, national codes, ids | done |
 | [E06](experiments/e06_feature_collections/) | EcoTwin request R7: feature collections; AASX file naming and part name | done |
+
+## Licence
+
+The code and the documentation of this project are under the [MIT licence](LICENSE). The generated
+files carry INSPIRE content, which is not ours and keeps its own conditions: see
+[NOTICE.md](NOTICE.md).
